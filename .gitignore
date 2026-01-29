@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.claude/
+.vscode/
+.idea/
+
+# Data and images (large files)
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+llava/dataset/train_images/
+llava/dataset/test_images/
+
+# Configs with secrets
+data_labelling/config/
+
+# Logs and experiments
+wandb/
+llava/logs/
+*.log
+
+# Misc
+google_drive/
+misc/
+
+# OS files
+.DS_Store
+Thumbs.db

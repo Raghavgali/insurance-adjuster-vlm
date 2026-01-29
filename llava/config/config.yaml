@@ -1,0 +1,47 @@
+# ============================
+# TRAINING HYPERPARAMETERS
+# ============================
+training: 
+  batch_size: 8
+  max_epochs: 10
+  check_val_every_n_epoch: 1
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 8
+  lr: 1e-4
+  num_nodes: 1
+  warmup_steps: 50
+  verbose: True
+
+# =============================
+# MODEL CONFIGURATION
+# =============================
+model: 
+  model_id: "llava-hf/llava-v1.6-mistral-7b-hf"
+  repo_id: "Raghav77/Insurance_Adjuster"
+  max_length: 256
+  wand_project: "LlavaNeXT-Insurance"
+  wandb_name: "llava-next-Insurance"
+
+# ==============================
+# LORA CONFIGURATION
+# ==============================
+lora: 
+  USE_LORA: "True"
+
+
+# =============================
+# DATASET AND PATHS
+# =============================
+paths:
+  dataset_dir: "/Users/raghavg/Desktop/Datasets and Projects/Insurance/llava/dataset"
+  train_json: "/Users/raghavg/Desktop/Datasets and Projects/Insurance/llava/dataset/train.json"
+  test_json: "/Users/raghavg/Desktop/Datasets and Projects/Insurance/llava/dataset/test.json"
+  train_image_folder: "/Users/raghavg/Desktop/Datasets and Projects/Insurance/llava/dataset/images/train"
+  test_image_folder: "/Users/raghavg/Desktop/Datasets and Projects/Insurance/llava/dataset/images/test"
+
+
+# =============================
+# LOGGING AND TRACKING
+# =============================
+logging:
+  log_file: "/Users/raghavg/Desktop/Datasets and Projects/Insurance/llava/logs/training.log"

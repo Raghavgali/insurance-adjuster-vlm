@@ -1,23 +1,50 @@
 # Core Libraries
+accelerate>=0.18.0
 torch>=2.0.0
+# flash-attn
+lightning
 torchvision
 transformers>=4.51.3
-accelerate>=0.18.0
 
-# Quantization support 
-bitsandbytes>=0.39.0
+# Quantization support
+bitsandbytes
+peft
 
-# Qwen vision-language utilities
-qwen-vl-utils[decord]==0.0.8
+# Vision/LLM Tools
+openai
+ollama
+tiktoken
+# qwen-vl-utils[decord]==0.0.8
 
 # Image Processing
-Pillow 
+Pillow
 
-# For Data Pipelines or logging
-tqdm 
+# Data Processing
+nltk
+numpy
+pandas
 python-dotenv
+scikit-learn
 
-rclone 
+# Cloud/Remote Storage
 gdown
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+pydrive2
+rclone
 
+# Logging & Experiment Tracking
+psutil
+tqdm
+wandb
+
+# Template & Spreadsheet
 jinja2>=3.1.0
+openpyxl
+
+# Testing
+pytest
+
+# Miscellaneous
+pyyaml

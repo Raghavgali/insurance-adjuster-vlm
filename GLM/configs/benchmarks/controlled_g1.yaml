@@ -70,7 +70,7 @@ eval:
   predictions_file: "predictions.jsonl"
 
 profiling:
-  enabled: true
+  enabled: False
   steps: 50
   wait: 2
   warmup: 2

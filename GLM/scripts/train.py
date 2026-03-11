@@ -127,9 +127,6 @@ def parse_args() -> argparse.Namespace:
         parser.error("--num-workers must be >= 0")
     if args.lr is not None and args.lr <= 0:
         parser.error("--lr must be > 0")
-    if args.epochs is None and args.max_steps is None:
-        parser.error("Specify at least one training limit: --epochs or --max-steps")
-
     return args
 
 
@@ -1112,6 +1109,13 @@ def main() -> None:
             train_cfg["save_every"] = args.save_every
         if args.lr is not None:
             optim_cfg["lr"] = args.lr
+
+        resolved_epochs = train_cfg.get("epochs", train_cfg.get("max_epochs"))
+        resolved_max_steps = train_cfg.get("max_steps")
+        if resolved_epochs is None and resolved_max_steps is None:
+            raise ValueError(
+                "Specify at least one training limit in config or CLI: train.epochs or train.max_steps."
+            )
 
         config["output_dir"] = str(args.output_dir)
         config["profile"] = bool(config.get("profile", profile_cfg.get("enabled", False)) or args.profile)

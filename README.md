@@ -1,223 +1,283 @@
-# Insurance Damage Assessment AI
+# Insurance Damage Assessment with GLM-4.6V-Flash
 
-An end-to-end vision-language AI system that automatically generates professional damage assessment reports from vehicle images. The system fine-tunes LLaVA-NeXT using LoRA for efficient domain adaptation to the insurance industry.
+An end-to-end vision-language fine-tuning pipeline for generating insurance-style vehicle damage assessments from a single image. The current stack uses `zai-org/GLM-4.6V-Flash`, LoRA, low-bit loading, DDP training, structured evaluation, and Runpod-oriented deployment scripts.
 
-## Overview
+## What This Project Does
 
-Insurance adjusters manually assess vehicle damage from photos, which is time-consuming and inconsistent. This system takes a single image of a damaged vehicle and generates a detailed report including:
+Given one vehicle image, the model is fine-tuned to generate a professional assessment covering:
 
-- Damage type (dent, scratch, crack, etc.)
-- Damage location on the vehicle
-- Severity assessment
-- Estimated repair cost
+- visible damage type
+- approximate damage location
+- qualitative severity
+- estimated repair cost range
 
-## Architecture
+The deployment target is image-only inference. Metadata is not injected into prompts during training. Annotation-derived metadata is retained for evaluation and error analysis.
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     DATA LABELLING PIPELINE                      │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│   Raw Images + Metadata                                          │
-│          │                                                       │
-│          ▼                                                       │
-│   ┌──────────────┐    ┌──────────────┐                          │
-│   │   GPT-4o     │    │  Qwen2.5-VL  │   Auto-captioning        │
-│   └──────────────┘    └──────────────┘                          │
-│          │                   │                                   │
-│          └─────────┬─────────┘                                   │
-│                    ▼                                             │
-│          ┌──────────────────┐                                    │
-│          │   GPT-4o-mini    │   Quality evaluation               │
-│          └──────────────────┘                                    │
-│                    │                                             │
-│                    ▼                                             │
-│          High-Quality Captions                                   │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     TRAINING PIPELINE                            │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│   ┌──────────────────┐                                          │
-│   │ Dataset Cleanup  │   Remove metadata for image-only input   │
-│   └──────────────────┘                                          │
-│            │                                                     │
-│            ▼                                                     │
-│   ┌──────────────────┐                                          │
-│   │ Train/Test Split │   90/10 split                            │
-│   └──────────────────┘                                          │
-│            │                                                     │
-│            ▼                                                     │
-│   ┌──────────────────┐                                          │
-│   │  LLaVA Fine-tune │   LoRA + 4-bit quantization              │
-│   └──────────────────┘                                          │
-│            │                                                     │
-│            ▼                                                     │
-│   ┌──────────────────┐                                          │
-│   │  HuggingFace Hub │   Model deployment                       │
-│   └──────────────────┘                                          │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-```
+## Current Model Stack
 
-## Project Structure
+- Base model: `zai-org/GLM-4.6V-Flash`
+- Fine-tuning method: LoRA via PEFT
+- Quantization: 8-bit BitsAndBytes
+- Training runtime: PyTorch + DDP
+- Tracking: Weights & Biases
+- Dataset storage: Hugging Face dataset repo
+- Target infra: Runpod on 4x L40 GPUs
 
-```
+## Project Layout
+
+```text
 Insurance/
-├── data_labelling/
-│   ├── gpt_captioning/          # GPT-4o caption generation
-│   ├── qwen_captioning/         # Qwen2.5-VL caption generation
-│   └── evaluation_and_correction/  # Quality filtering with GPT-4o-mini
-│
-├── llava/
-│   ├── config/
-│   │   └── config.yaml          # Training hyperparameters
-│   ├── dataset/
-│   │   ├── train.json           # Training data
-│   │   └── test.json            # Test data
+├── GLM/
+│   ├── configs/
+│   │   ├── download_dataset.yaml
+│   │   └── runpod.yaml
+│   ├── data/
+│   │   ├── dataset.py
+│   │   ├── dataset_cleanup.py
+│   │   ├── download_dataset.py
+│   │   ├── sampler.py
+│   │   ├── train_test_split.py
+│   │   ├── upload_dataset.py
+│   │   └── validate_data.py
+│   ├── evaluation/
+│   │   ├── classification_metrics.py
+│   │   ├── generation_metrics.py
+│   │   ├── io.py
+│   │   ├── prediction_schema.py
+│   │   └── regression_metrics.py
 │   ├── scripts/
-│   │   ├── train.py             # Main training entry point
-│   │   ├── lightning_module.py  # PyTorch Lightning module
-│   │   ├── model_loader.py      # Model loading with quantization
-│   │   ├── prepare_data.py      # Dataset and data collator
-│   │   ├── train_test_split.py  # Data splitting utility
-│   │   └── dataset_cleanup.py   # Remove metadata from prompts
-│   └── tests/                   # Unit tests
-│
-└── google_drive/                # Data download utilities
+│   │   ├── collator.py
+│   │   ├── evaluate.py
+│   │   ├── inference.py
+│   │   ├── model_loader.py
+│   │   ├── train.py
+│   │   └── utils/
+│   │       ├── hf_utils.py
+│   │       ├── load_config.py
+│   │       ├── logging.py
+│   │       └── wandb.py
+│   ├── runpod_ddp.sh
+│   └── runpod_setup.sh
+├── data_labelling/
+│   └── data/
+│       └── metadata/
+├── dataset/
+│   ├── cleaned_dataset.json
+│   ├── train.json
+│   ├── test.json
+│   └── <images>
+├── README.md
+└── requirements.txt
 ```
 
-## Installation
+## Data Pipeline
 
-```bash
-# Clone the repository
-git clone <repository-url>
-cd Insurance
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## Usage
-
-### 1. Data Preprocessing
-
-Remove metadata from dataset for image-only training:
-
-```bash
-cd llava/scripts
-
-# Preview changes without saving
-python dataset_cleanup.py ../dataset/train.json ../dataset/train_cleaned.json --dry-run
-
-# Clean training data
-python dataset_cleanup.py ../dataset/train.json ../dataset/train_cleaned.json
-
-# Clean test data
-python dataset_cleanup.py ../dataset/test.json ../dataset/test_cleaned.json
-```
-
-### 2. Training
-
-```bash
-cd llava/scripts
-python train.py
-```
-
-Training configuration can be modified in `llava/config/config.yaml`:
-
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| model_id | llava-hf/llava-v1.6-mistral-7b-hf | Base model |
-| batch_size | 8 | Training batch size |
-| max_epochs | 10 | Maximum training epochs |
-| learning_rate | 1e-4 | Learning rate |
-| lora_r | 16 | LoRA rank |
-| lora_alpha | 32 | LoRA alpha |
-| use_4bit | true | Enable 4-bit quantization |
-
-### 3. Inference
-
-After training, the model is pushed to HuggingFace Hub at `Raghav77/Insurance_Adjuster`.
-
-## Technical Details
-
-### Model Architecture
-
-- **Base Model**: LLaVA-NeXT (llava-v1.6-mistral-7b-hf)
-- **Fine-tuning**: LoRA (Low-Rank Adaptation) for parameter-efficient training
-- **Quantization**: 4-bit BitsAndBytes for reduced memory footprint
-- **Parameters**: ~7B total, ~10M trainable with LoRA
-
-### Evaluation Metrics
-
-| Metric | Purpose |
-|--------|---------|
-| ROUGE-1 | Unigram overlap between generated and reference text |
-| ROUGE-L | Longest common subsequence similarity |
-| BertScore F1 | Semantic similarity using DeBERTa embeddings |
-
-### Data Format
-
-Input conversation format (after cleanup):
+The project uses a cleaned conversational dataset with this structure:
 
 ```json
 {
-  "id": "000775",
-  "image": "000775.jpg",
+  "id": "001516",
+  "image": "001516.jpg",
   "conversations": [
     {
       "role": "user",
-      "content": "You are an Insurance Adjuster. Evaluate the car damage shown in the image and provide a detailed report including damage type, location, severity, and estimated repair cost."
+      "content": "You are an Insurance Adjuster. Evaluate the car damage shown in the image."
     },
     {
       "role": "assistant",
-      "content": "The vehicle in the image shows a dent located on the side panel..."
+      "content": "The image shows a dent on the front left fender ... estimated repair cost is approximately $800 to $1,200."
     }
   ]
 }
 ```
 
-## Technologies Used
+### Why the dataset is cleaned
 
-| Category | Technologies |
-|----------|-------------|
-| Vision-Language Models | LLaVA-NeXT, Qwen2.5-VL, GPT-4o |
-| Training Framework | PyTorch Lightning, PEFT, Accelerate |
-| Quantization | BitsAndBytes |
-| Experiment Tracking | Weights & Biases |
-| Model Hosting | HuggingFace Hub |
-| Data Processing | Pandas, PIL, NLTK |
+The raw prompts and raw captions contained annotation-derived metadata such as:
 
-## Dataset Statistics
+- damage category
+- bbox coordinates
+- area
+- segmentation-style cues
 
-| Split | Samples |
-|-------|---------|
-| Train | 660 |
-| Test | 74 |
-| Total | 734 |
+Those fields create label leakage if the deployment target is image-only inference. The cleaning pass removes that metadata from the user prompt and strips the most direct annotation artifacts from the assistant target while keeping the task semantics intact.
 
-## Future Improvements
+## Dataset Preparation
 
-- Expand training dataset to 2,000-5,000 samples for better generalization
-- Add more damage categories (shattered glass, tire damage, etc.)
-- Integrate object detection model for precise damage localization
-- Implement confidence scores for cost estimates
-- Add support for multiple images per assessment
+### 1. Clean the raw dataset
 
-## License
+```bash
+python3 GLM/data/dataset_cleanup.py dataset/dataset.json dataset/ --dry-run
+python3 GLM/data/dataset_cleanup.py dataset/dataset.json dataset/
+```
 
-[Add your license here]
+This writes `dataset/cleaned_dataset.json`.
 
-## Acknowledgments
+### 2. Create train/test split
 
-- [LLaVA](https://github.com/haotian-liu/LLaVA) for the base vision-language model
-- [HuggingFace](https://huggingface.co/) for model hosting and transformers library
-- [PyTorch Lightning](https://lightning.ai/) for the training framework
+```bash
+python3 GLM/data/train_test_split.py dataset/cleaned_dataset.json dataset/ --dry-run
+python3 GLM/data/train_test_split.py dataset/cleaned_dataset.json dataset/
+```
+
+### 3. Validate dataset structure
+
+```bash
+python3 GLM/data/validate_data.py --input dataset/train.json
+python3 GLM/data/validate_data.py --input dataset/test.json
+```
+
+### 4. Upload dataset to Hugging Face
+
+```bash
+export HF_TOKEN="<your_token>"
+
+python3 GLM/data/upload_dataset.py \
+  --repo-id <your-username>/<your-dataset-repo> \
+  --dataset-dir dataset \
+  --revision main \
+  --private \
+  --commit-message "Upload cleaned insurance dataset"
+```
+
+## Local Setup
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+```
+
+Populate `.env` with the values you actually use.
+
+## Training Workflow
+
+### 1. Review the training config
+
+Main config: `GLM/configs/runpod.yaml`
+
+Key fields to verify before launch:
+
+- `model.model_id`
+- `data.train_annotation_path`
+- `data.test_annotation_path`
+- `data.image_root`
+- `wandb.*`
+
+The config is already set up for `GLM-4.6V-Flash` with:
+
+- chat-template based prompting
+- `transformers>=5.0.0rc0`
+- `lora.target_modules: "all-linear"`
+
+### 2. Smoke test locally or on one GPU
+
+```bash
+python3 GLM/scripts/train.py \
+  --config GLM/configs/runpod.yaml \
+  --output-dir outputs/smoke_test \
+  --epochs 1 \
+  --max-steps 5
+```
+
+### 3. Run on Runpod
+
+Bootstrap the environment:
+
+```bash
+bash GLM/runpod_setup.sh
+```
+
+If you want dataset auto-download during setup:
+
+```bash
+AUTO_DOWNLOAD_DATASET=1 bash GLM/runpod_setup.sh
+```
+
+Launch DDP training:
+
+```bash
+bash GLM/runpod_ddp.sh
+```
+
+## Evaluation
+
+```bash
+python3 GLM/scripts/evaluate.py \
+  --config GLM/configs/runpod.yaml \
+  --checkpoint outputs/run_name/last.pt \
+  --split test \
+  --output-dir outputs/eval
+```
+
+Implemented evaluation components:
+
+- loss and token accuracy
+- generation metrics: BLEU, ROUGE, METEOR, exact match
+- regression metrics when numeric cost extraction succeeds
+- classification metrics when predicted/reference labels are available
+- rank-wise prediction dumping and merged reporting
+
+## Inference
+
+```bash
+python3 GLM/scripts/inference.py \
+  --config GLM/configs/runpod.yaml \
+  --image path/to/car.jpg \
+  --checkpoint outputs/run_name/last.pt
+```
+
+Optional JSON output:
+
+```bash
+python3 GLM/scripts/inference.py \
+  --config GLM/configs/runpod.yaml \
+  --image path/to/car.jpg \
+  --checkpoint outputs/run_name/last.pt \
+  --output outputs/inference/result.json
+```
+
+## Runpod Notes
+
+This repository is structured so the `GLM/` directory can be cloned directly onto the GPU instance and used with minimal setup friction.
+
+Recommended operational flow:
+
+1. upload the cleaned dataset to a Hugging Face dataset repo
+2. clone the project on Runpod
+3. run `GLM/runpod_setup.sh`
+4. confirm paths/configs
+5. launch `GLM/runpod_ddp.sh`
+
+## Metrics and Analysis
+
+The evaluation stack is intentionally modular:
+
+- `GLM/evaluation/prediction_schema.py`: normalized record format
+- `GLM/evaluation/io.py`: rank-wise persistence and merging
+- `GLM/evaluation/generation_metrics.py`: text-generation metrics
+- `GLM/evaluation/regression_metrics.py`: cost-estimation metrics
+- `GLM/evaluation/classification_metrics.py`: label metrics when available
+
+This lets you keep training/eval orchestration thin while adding metrics without turning `evaluate.py` into a monolith.
+
+## Current Status
+
+The GLM pipeline now includes:
+
+- dataset cleanup and split utilities
+- Hugging Face dataset upload/download flow
+- model loading for `GLM-4.6V-Flash`
+- GLM chat-template based collator
+- DDP-capable training loop with optional profiling
+- evaluation and inference entrypoints
+- WandB integration
+- Runpod setup and launch scripts
+
+## Remaining Practical Work Before a Full Run
+
+- verify final dataset paths on the Runpod workspace
+- run a 1-GPU smoke test end-to-end
+- confirm memory behavior for your exact batch size / grad accumulation settings
+- inspect training outputs and eval predictions before committing to a long run

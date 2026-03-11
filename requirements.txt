@@ -1,50 +1,29 @@
-# Core Libraries
-accelerate>=0.18.0
-torch>=2.0.0
-# flash-attn
-lightning
-torchvision
-transformers>=4.51.3
+# Core training and inference
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+huggingface_hub>=0.24.0
+peft>=0.11.0
+Pillow>=10.0.0
+psutil>=5.9.0
+PyYAML>=6.0.1
+python-dotenv>=1.0.0
+torch>=2.1.0
+torchvision>=0.16.0
+tqdm>=4.66.0
+transformers>=5.0.0rc0
+wandb>=0.18.0
 
-# Quantization support
-bitsandbytes
-peft
+# Data processing and evaluation
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+nltk>=3.8.1
+evaluate>=0.4.3
 
-# Vision/LLM Tools
-openai
-ollama
-tiktoken
-# qwen-vl-utils[decord]==0.0.8
+# Optional research / data-labeling clients
+# openai>=1.0.0
+# ollama>=0.4.0
+# tiktoken>=0.7.0
 
-# Image Processing
-Pillow
-
-# Data Processing
-nltk
-numpy
-pandas
-python-dotenv
-scikit-learn
-
-# Cloud/Remote Storage
-gdown
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
-pydrive2
-rclone
-
-# Logging & Experiment Tracking
-psutil
-tqdm
-wandb
-
-# Template & Spreadsheet
-jinja2>=3.1.0
-openpyxl
-
-# Testing
-pytest
-
-# Miscellaneous
-pyyaml
+# Development
+pytest>=8.0.0

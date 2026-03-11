@@ -1,0 +1,94 @@
+# Shared Runpod config for train/eval/inference.
+# Required before first launch:
+# 1. Verify the model id and dataset paths for your Runpod workspace.
+# 2. Keep `lora.target_modules: "all-linear"` unless you have inspected the
+#    checkpoint internals and deliberately want a narrower adapter target.
+
+model:
+  model_id: "zai-org/GLM-4.6V-Flash"
+  trust_remote_code: true
+  attn_implementation: "sdpa"
+  device_map: "auto"
+
+precision:
+  torch_dtype: "bfloat16"
+  use_tf32: true
+
+quantization:
+  enabled: true
+  mode: "8bit"
+  compute_dtype: "bfloat16"
+  quant_type: "nf4"
+  double_quant: true
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  target_modules: "all-linear"
+
+data:
+  train_annotation_path: "/workspace/data/insurance_dataset/train.json"
+  test_annotation_path: "/workspace/data/insurance_dataset/test.json"
+  image_root: "/workspace/data/insurance_dataset"
+
+optimizer:
+  lr: 2.0e-4
+  weight_decay: 0.01
+
+train:
+  seed: 42
+  epochs: 10
+  max_steps: null
+  per_device_batch_size: 1
+  grad_accum_steps: 8
+  num_workers: 4
+  precision: "bf16"
+  warmup_steps: 50
+  lr_scheduler_type: "cosine"
+  drop_last: true
+  gradient_checkpointing: true
+  use_cache: false
+  max_grad_norm: 1.0
+  log_every: 10
+  save_every: 200
+
+eval:
+  split: "test"
+  per_device_batch_size: 1
+  num_workers: 2
+  precision: "bf16"
+  padding: "longest"
+  truncation: true
+  max_length: 2048
+  max_new_tokens: 256
+  num_beams: 1
+  do_sample: false
+  log_every: 25
+  save_predictions: true
+  predictions_file: "predictions.jsonl"
+
+inference:
+  precision: "bf16"
+  max_new_tokens: 256
+  num_beams: 1
+  do_sample: false
+  temperature: null
+  prompt: "You are an insurance adjuster. Analyze the vehicle damage shown in the image and write a concise professional assessment covering the damage type, location, severity, and estimated repair cost."
+
+wandb:
+  enabled: true
+  project: "insurance-glm"
+  entity: null
+  group: "runpod"
+  name: null
+  tags:
+    - "glm"
+    - "insurance"
+    - "runpod"
+  mode: "online"
+  log_checkpoints: false
+  log_metrics_artifact: true

@@ -1,0 +1,4 @@
+data:
+  repo_id: "Raghav77/cardd_insurance_dataset"
+  local_dir: "/workspace/data/insurance_dataset"
+  revision: "main"

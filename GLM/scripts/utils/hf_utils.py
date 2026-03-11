@@ -265,3 +265,87 @@ def upload_dataset_folder(
         ) from exc
 
     return str(commit_info)
+
+
+def upload_model_folder(
+        repo_id: str,
+        model_dir: str | Path,
+        *,
+        revision: str = "main",
+        private: bool | None = None,
+        allow_patterns: list[str] | None = None,
+        ignore_patterns: list[str] | None = None,
+        commit_message: str = "Upload model snapshot",
+        token: str | None = None,
+) -> str:
+    """
+    Upload a local model directory to a Hugging Face model repository.
+
+    Parameters
+    ----------
+    repo_id: str
+        Model repository identifier in the form `namespace/name`.
+    model_dir: str | Path
+        Local directory containing exported model weights and processor files.
+    revision: str, default="main"
+        Branch name to upload into.
+    private: bool | None, optional
+        Whether to create the model repo as private when it does not already exist.
+    allow_patterns: list[str] | None, optional
+        Optional file globs to include during upload.
+    ignore_patterns: list[str] | None, optional
+        Optional file globs to exclude during upload.
+    commit_message: str, default="Upload model snapshot"
+        Commit message attached to the upload operation.
+    token: str | None, optional
+        Hugging Face token used for authenticated uploads.
+
+    Returns
+    -------
+    str
+        The commit URL or upload reference returned by the Hugging Face Hub client.
+    """
+    repo_id = repo_id.strip()
+    if not re.fullmatch(r"^[^/]+/[^/]+$", repo_id):
+        raise ValueError("repo_id must be in 'namespace/name' format")
+    if not revision or not revision.strip():
+        raise ValueError("revision must be a non-empty string")
+    if not isinstance(commit_message, str) or not commit_message.strip():
+        raise ValueError("commit_message must be a non-empty string")
+
+    resolved_model_dir = Path(model_dir).expanduser().resolve()
+    if not resolved_model_dir.exists():
+        raise FileNotFoundError(f"model_dir does not exist: {resolved_model_dir}")
+    if not resolved_model_dir.is_dir():
+        raise NotADirectoryError(f"model_dir is not a directory: {resolved_model_dir}")
+
+    resolved_token = ensure_hf_login(token=token, required=True)
+    api = HfApi(token=resolved_token)
+
+    try:
+        api.create_repo(
+            repo_id=repo_id,
+            repo_type="model",
+            private=private,
+            exist_ok=True,
+        )
+    except Exception as exc:
+        raise RuntimeError(f"Failed to create or access model repo '{repo_id}'.") from exc
+
+    try:
+        commit_info = api.upload_folder(
+            repo_id=repo_id,
+            repo_type="model",
+            folder_path=str(resolved_model_dir),
+            path_in_repo=".",
+            revision=revision.strip(),
+            allow_patterns=allow_patterns,
+            ignore_patterns=ignore_patterns,
+            commit_message=commit_message.strip(),
+        )
+    except Exception as exc:
+        raise RuntimeError(
+            f"Failed to upload model folder '{resolved_model_dir}' to repo '{repo_id}'."
+        ) from exc
+
+    return str(commit_info)

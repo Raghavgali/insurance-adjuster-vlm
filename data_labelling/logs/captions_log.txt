@@ -1,0 +1,1779 @@
+[START] Evaluation started on 887 files
+[EVAL] 000283.jpg | Input: 417, Output: 133, Total: 550
+[PROGRESS] Completed 1/887 files
+[EVAL] 003913.jpg | Input: 409, Output: 135, Total: 544
+[PROGRESS] Completed 2/887 files
+[EVAL] 003010.jpg | Input: 507, Output: 147, Total: 654
+[PROGRESS] Completed 3/887 files
+[EVAL] 003440.jpg | Input: 646, Output: 124, Total: 770
+[PROGRESS] Completed 4/887 files
+[EVAL] 000846.jpg | Input: 453, Output: 132, Total: 585
+[PROGRESS] Completed 5/887 files
+[EVAL] 001754.jpg | Input: 423, Output: 101, Total: 524
+[PROGRESS] Completed 6/887 files
+[EVAL] 001304.jpg | Input: 426, Output: 112, Total: 538
+[PROGRESS] Completed 7/887 files
+[EVAL] 000903.jpg | Input: 480, Output: 137, Total: 617
+[PROGRESS] Completed 8/887 files
+[EVAL] 003786.jpg | Input: 431, Output: 122, Total: 553
+[PROGRESS] Completed 9/887 files
+[EVAL] 000450.jpg | Input: 418, Output: 127, Total: 545
+[PROGRESS] Completed 10/887 files
+[EVAL] 001996.jpg | Input: 523, Output: 124, Total: 647
+[PROGRESS] Completed 11/887 files
+[EVAL] 003552.jpg | Input: 398, Output: 151, Total: 549
+[PROGRESS] Completed 12/887 files
+[EVAL] 001095.jpg | Input: 498, Output: 116, Total: 614
+[PROGRESS] Completed 13/887 files
+[EVAL] 001580.jpg | Input: 360, Output: 147, Total: 507
+[PROGRESS] Completed 14/887 files
+[EVAL] 003047.jpg | Input: 463, Output: 114, Total: 577
+[PROGRESS] Completed 15/887 files
+[EVAL] 000391.jpg | Input: 520, Output: 139, Total: 659
+[PROGRESS] Completed 16/887 files
+[EVAL] 003944.jpg | Input: 492, Output: 149, Total: 641
+[PROGRESS] Completed 17/887 files
+[EVAL] 003694.jpg | Input: 659, Output: 159, Total: 818
+[PROGRESS] Completed 18/887 files
+[EVAL] 001353.jpg | Input: 493, Output: 126, Total: 619
+[PROGRESS] Completed 19/887 files
+[EVAL] 002085.jpg | Input: 371, Output: 133, Total: 504
+[PROGRESS] Completed 20/887 files
+[EVAL] 000112.jpg | Input: 485, Output: 138, Total: 623
+[PROGRESS] Completed 21/887 files
+[EVAL] 003114.jpg | Input: 487, Output: 109, Total: 596
+[PROGRESS] Completed 22/887 files
+[EVAL] 003544.jpg | Input: 435, Output: 144, Total: 579
+[PROGRESS] Completed 23/887 files
+[EVAL] 003817.jpg | Input: 519, Output: 113, Total: 632
+[PROGRESS] Completed 24/887 files
+[EVAL] 000368.jpg | Input: 440, Output: 125, Total: 565
+[PROGRESS] Completed 25/887 files
+[EVAL] 002640.jpg | Input: 363, Output: 130, Total: 493
+[PROGRESS] Completed 26/887 files
+[EVAL] 003401.jpg | Input: 324, Output: 116, Total: 440
+[PROGRESS] Completed 27/887 files
+[EVAL] 002569.jpg | Input: 456, Output: 145, Total: 601
+[PROGRESS] Completed 28/887 files
+[EVAL] 000942.jpg | Input: 491, Output: 151, Total: 642
+[PROGRESS] Completed 29/887 files
+[EVAL] 001200.jpg | Input: 473, Output: 120, Total: 593
+[PROGRESS] Completed 30/887 files
+[EVAL] 000411.jpg | Input: 663, Output: 142, Total: 805
+[PROGRESS] Completed 31/887 files
+[EVAL] 000295.jpg | Input: 555, Output: 136, Total: 691
+[PROGRESS] Completed 32/887 files
+[EVAL] 003513.jpg | Input: 404, Output: 140, Total: 544
+[PROGRESS] Completed 33/887 files
+[EVAL] 001892.jpg | Input: 473, Output: 136, Total: 609
+[PROGRESS] Completed 34/887 files
+[EVAL] 002617.jpg | Input: 455, Output: 137, Total: 592
+[PROGRESS] Completed 35/887 files
+[EVAL] 001742.jpg | Input: 424, Output: 114, Total: 538
+[PROGRESS] Completed 36/887 files
+[EVAL] 000503.jpg | Input: 548, Output: 153, Total: 701
+[PROGRESS] Completed 37/887 files
+[EVAL] 002494.jpg | Input: 460, Output: 128, Total: 588
+[PROGRESS] Completed 38/887 files
+[EVAL] 000153.jpg | Input: 514, Output: 130, Total: 644
+[PROGRESS] Completed 39/887 files
+[EVAL] 003790.jpg | Input: 388, Output: 110, Total: 498
+[PROGRESS] Completed 40/887 files
+[EVAL] 000201.jpg | Input: 393, Output: 109, Total: 502
+[PROGRESS] Completed 41/887 files
+[EVAL] 000651.jpg | Input: 439, Output: 108, Total: 547
+[PROGRESS] Completed 42/887 files
+[EVAL] 000714.jpg | Input: 463, Output: 114, Total: 577
+[PROGRESS] Completed 43/887 files
+[EVAL] 002050.jpg | Input: 399, Output: 134, Total: 533
+[PROGRESS] Completed 44/887 files
+[EVAL] 001739.jpg | Input: 485, Output: 133, Total: 618
+[PROGRESS] Completed 45/887 files
+[EVAL] 000606.jpg | Input: 528, Output: 112, Total: 640
+[PROGRESS] Completed 46/887 files
+[EVAL] 001447.jpg | Input: 403, Output: 145, Total: 548
+[PROGRESS] Completed 47/887 files
+[EVAL] 000743.jpg | Input: 489, Output: 119, Total: 608
+[PROGRESS] Completed 48/887 files
+[EVAL] 002512.jpg | Input: 520, Output: 143, Total: 663
+[PROGRESS] Completed 49/887 files
+[EVAL] 001294.jpg | Input: 345, Output: 126, Total: 471
+[PROGRESS] Completed 50/887 files
+[EVAL] 001451.jpg | Input: 603, Output: 151, Total: 754
+[PROGRESS] Completed 51/887 files
+[EVAL] 000305.jpg | Input: 453, Output: 101, Total: 554
+[PROGRESS] Completed 52/887 files
+[EVAL] 000755.jpg | Input: 456, Output: 126, Total: 582
+[PROGRESS] Completed 53/887 files
+[EVAL] 002292.jpg | Input: 418, Output: 125, Total: 543
+[PROGRESS] Completed 54/887 files
+[EVAL] 003529.jpg | Input: 495, Output: 158, Total: 653
+[PROGRESS] Completed 55/887 files
+[EVAL] 001514.jpg | Input: 517, Output: 138, Total: 655
+[PROGRESS] Completed 56/887 files
+[EVAL] 001144.jpg | Input: 503, Output: 150, Total: 653
+[PROGRESS] Completed 57/887 files
+[EVAL] 000885.jpg | Input: 447, Output: 129, Total: 576
+[PROGRESS] Completed 58/887 files
+[EVAL] 002912.jpg | Input: 550, Output: 123, Total: 673
+[PROGRESS] Completed 59/887 files
+[EVAL] 003600.jpg | Input: 451, Output: 103, Total: 554
+[PROGRESS] Completed 60/887 files
+[EVAL] 000647.jpg | Input: 395, Output: 120, Total: 515
+[PROGRESS] Completed 61/887 files
+[EVAL] 003968.jpg | Input: 421, Output: 106, Total: 527
+[PROGRESS] Completed 62/887 files
+[EVAL] 001056.jpg | Input: 482, Output: 122, Total: 604
+[PROGRESS] Completed 63/887 files
+[EVAL] 002945.jpg | Input: 378, Output: 127, Total: 505
+[PROGRESS] Completed 64/887 files
+[EVAL] 000581.jpg | Input: 504, Output: 137, Total: 641
+[PROGRESS] Completed 65/887 files
+[EVAL] 000094.jpg | Input: 354, Output: 127, Total: 481
+[PROGRESS] Completed 66/887 files
+[EVAL] 000997.jpg | Input: 439, Output: 107, Total: 546
+[PROGRESS] Completed 67/887 files
+[EVAL] 003335.jpg | Input: 523, Output: 167, Total: 690
+[PROGRESS] Completed 68/887 files
+[EVAL] 003765.jpg | Input: 492, Output: 107, Total: 599
+[PROGRESS] Completed 69/887 files
+[EVAL] 000519.jpg | Input: 409, Output: 118, Total: 527
+[PROGRESS] Completed 70/887 files
+[EVAL] 002524.jpg | Input: 368, Output: 134, Total: 502
+[PROGRESS] Completed 71/887 files
+[EVAL] 002174.jpg | Input: 351, Output: 139, Total: 490
+[PROGRESS] Completed 72/887 files
+[EVAL] 002031.jpg | Input: 431, Output: 107, Total: 538
+[PROGRESS] Completed 73/887 files
+[EVAL] 002932.jpg | Input: 420, Output: 142, Total: 562
+[PROGRESS] Completed 74/887 files
+[EVAL] 002748.jpg | Input: 370, Output: 112, Total: 482
+[PROGRESS] Completed 75/887 files
+[EVAL] 000775.jpg | Input: 430, Output: 129, Total: 559
+[PROGRESS] Completed 76/887 files
+[EVAL] 001534.jpg | Input: 431, Output: 125, Total: 556
+[PROGRESS] Completed 77/887 files
+[EVAL] 003509.jpg | Input: 425, Output: 136, Total: 561
+[PROGRESS] Completed 78/887 files
+[EVAL] 003159.jpg | Input: 450, Output: 120, Total: 570
+[PROGRESS] Completed 79/887 files
+[EVAL] 001021.jpg | Input: 413, Output: 116, Total: 529
+[PROGRESS] Completed 80/887 files
+[EVAL] 000630.jpg | Input: 586, Output: 106, Total: 692
+[PROGRESS] Completed 81/887 files
+[EVAL] 001922.jpg | Input: 401, Output: 139, Total: 540
+[PROGRESS] Completed 82/887 files
+[EVAL] 002123.jpg | Input: 370, Output: 140, Total: 510
+[PROGRESS] Completed 83/887 files
+[EVAL] 002965.jpg | Input: 451, Output: 117, Total: 568
+[PROGRESS] Completed 84/887 files
+[EVAL] 002436.jpg | Input: 406, Output: 139, Total: 545
+[PROGRESS] Completed 85/887 files
+[EVAL] 001133.jpg | Input: 384, Output: 125, Total: 509
+[PROGRESS] Completed 86/887 files
+[EVAL] 000688.jpg | Input: 411, Output: 113, Total: 524
+[PROGRESS] Completed 87/887 files
+[EVAL] 000372.jpg | Input: 377, Output: 144, Total: 521
+[PROGRESS] Completed 88/887 files
+[EVAL] 003724.jpg | Input: 450, Output: 124, Total: 574
+[PROGRESS] Completed 89/887 files
+[EVAL] 002565.jpg | Input: 411, Output: 139, Total: 550
+[PROGRESS] Completed 90/887 files
+[EVAL] 003231.jpg | Input: 495, Output: 104, Total: 599
+[PROGRESS] Completed 91/887 files
+[EVAL] 001826.jpg | Input: 396, Output: 148, Total: 544
+[PROGRESS] Completed 92/887 files
+[EVAL] 000734.jpg | Input: 528, Output: 126, Total: 654
+[PROGRESS] Completed 93/887 files
+[EVAL] 001125.jpg | Input: 534, Output: 141, Total: 675
+[PROGRESS] Completed 94/887 files
+[EVAL] 001430.jpg | Input: 494, Output: 110, Total: 604
+[PROGRESS] Completed 95/887 files
+[EVAL] 000221.jpg | Input: 461, Output: 103, Total: 564
+[PROGRESS] Completed 96/887 files
+[EVAL] 003773.jpg | Input: 518, Output: 121, Total: 639
+[PROGRESS] Completed 97/887 files
+[EVAL] 000919.jpg | Input: 542, Output: 146, Total: 688
+[PROGRESS] Completed 98/887 files
+[EVAL] 000276.jpg | Input: 450, Output: 147, Total: 597
+[PROGRESS] Completed 99/887 files
+[EVAL] 001037.jpg | Input: 381, Output: 114, Total: 495
+[PROGRESS] Completed 100/887 files
+[EVAL] 001467.jpg | Input: 337, Output: 126, Total: 463
+[PROGRESS] Completed 101/887 files
+[EVAL] 001220.jpg | Input: 477, Output: 121, Total: 598
+[PROGRESS] Completed 102/887 files
+[EVAL] 001735.jpg | Input: 440, Output: 135, Total: 575
+[PROGRESS] Completed 103/887 files
+[EVAL] 000827.jpg | Input: 480, Output: 121, Total: 601
+[PROGRESS] Completed 104/887 files
+[EVAL] 002725.jpg | Input: 428, Output: 119, Total: 547
+[PROGRESS] Completed 105/887 files
+[EVAL] 001332.jpg | Input: 441, Output: 144, Total: 585
+[PROGRESS] Completed 106/887 files
+[EVAL] 001298.jpg | Input: 427, Output: 106, Total: 533
+[PROGRESS] Completed 107/887 files
+[EVAL] 001762.jpg | Input: 365, Output: 94, Total: 459
+[PROGRESS] Completed 108/887 files
+[EVAL] 000173.jpg | Input: 376, Output: 106, Total: 482
+[PROGRESS] Completed 109/887 files
+[EVAL] 003476.jpg | Input: 454, Output: 133, Total: 587
+[PROGRESS] Completed 110/887 files
+[EVAL] 003026.jpg | Input: 406, Output: 126, Total: 532
+[PROGRESS] Completed 111/887 files
+[EVAL] 003860.jpg | Input: 413, Output: 145, Total: 558
+[PROGRESS] Completed 112/887 files
+[EVAL] 002772.jpg | Input: 452, Output: 135, Total: 587
+[PROGRESS] Completed 113/887 files
+[EVAL] 002288.jpg | Input: 527, Output: 138, Total: 665
+[PROGRESS] Completed 114/887 files
+[EVAL] 003163.jpg | Input: 537, Output: 120, Total: 657
+[PROGRESS] Completed 115/887 files
+[EVAL] 003499.jpg | Input: 373, Output: 163, Total: 536
+[PROGRESS] Completed 116/887 files
+[EVAL] 001261.jpg | Input: 414, Output: 130, Total: 544
+[PROGRESS] Completed 117/887 files
+[EVAL] 003899.jpg | Input: 418, Output: 123, Total: 541
+[PROGRESS] Completed 118/887 files
+[EVAL] 001148.jpg | Input: 584, Output: 148, Total: 732
+[PROGRESS] Completed 119/887 files
+[EVAL] 001723.jpg | Input: 498, Output: 135, Total: 633
+[PROGRESS] Completed 120/887 files
+[EVAL] 003067.jpg | Input: 463, Output: 136, Total: 599
+[PROGRESS] Completed 121/887 files
+[EVAL] 003122.jpg | Input: 426, Output: 102, Total: 528
+[PROGRESS] Completed 122/887 files
+[EVAL] 002227.jpg | Input: 481, Output: 123, Total: 604
+[PROGRESS] Completed 123/887 files
+[EVAL] 001958.jpg | Input: 396, Output: 119, Total: 515
+[PROGRESS] Completed 124/887 files
+[EVAL] 002732.jpg | Input: 398, Output: 143, Total: 541
+[PROGRESS] Completed 125/887 files
+[EVAL] 003820.jpg | Input: 556, Output: 117, Total: 673
+[PROGRESS] Completed 126/887 files
+[EVAL] 003123.jpg | Input: 398, Output: 105, Total: 503
+[PROGRESS] Completed 127/887 files
+[EVAL] 001667.jpg | Input: 442, Output: 126, Total: 568
+[PROGRESS] Completed 128/887 files
+[EVAL] 003174.jpg | Input: 455, Output: 113, Total: 568
+[PROGRESS] Completed 129/887 files
+[EVAL] 000758.jpg | Input: 534, Output: 136, Total: 670
+[PROGRESS] Completed 130/887 files
+[EVAL] 001630.jpg | Input: 446, Output: 119, Total: 565
+[PROGRESS] Completed 131/887 files
+[EVAL] 000164.jpg | Input: 479, Output: 123, Total: 602
+[PROGRESS] Completed 132/887 files
+[EVAL] 001775.jpg | Input: 582, Output: 139, Total: 721
+[PROGRESS] Completed 133/887 files
+[EVAL] 002289.jpg | Input: 385, Output: 142, Total: 527
+[PROGRESS] Completed 134/887 files
+[EVAL] 001299.jpg | Input: 334, Output: 133, Total: 467
+[PROGRESS] Completed 135/887 files
+[EVAL] 000172.jpg | Input: 447, Output: 117, Total: 564
+[PROGRESS] Completed 136/887 files
+[EVAL] 003973.jpg | Input: 346, Output: 127, Total: 473
+[PROGRESS] Completed 137/887 files
+[EVAL] 000719.jpg | Input: 351, Output: 118, Total: 469
+[PROGRESS] Completed 138/887 files
+[EVAL] 000349.jpg | Input: 457, Output: 118, Total: 575
+[PROGRESS] Completed 139/887 files
+[EVAL] 003709.jpg | Input: 402, Output: 141, Total: 543
+[PROGRESS] Completed 140/887 files
+[EVAL] 001364.jpg | Input: 417, Output: 123, Total: 540
+[PROGRESS] Completed 141/887 files
+[EVAL] 001523.jpg | Input: 406, Output: 118, Total: 524
+[PROGRESS] Completed 142/887 files
+[EVAL] 000298.jpg | Input: 522, Output: 130, Total: 652
+[PROGRESS] Completed 143/887 files
+[EVAL] 001466.jpg | Input: 451, Output: 109, Total: 560
+[PROGRESS] Completed 144/887 files
+[EVAL] 002860.jpg | Input: 392, Output: 124, Total: 516
+[PROGRESS] Completed 145/887 files
+[EVAL] 001827.jpg | Input: 472, Output: 142, Total: 614
+[PROGRESS] Completed 146/887 files
+[EVAL] 000735.jpg | Input: 456, Output: 117, Total: 573
+[PROGRESS] Completed 147/887 files
+[EVAL] 000220.jpg | Input: 411, Output: 112, Total: 523
+[PROGRESS] Completed 148/887 files
+[EVAL] 003375.jpg | Input: 366, Output: 114, Total: 480
+[PROGRESS] Completed 149/887 files
+[EVAL] 003725.jpg | Input: 497, Output: 108, Total: 605
+[PROGRESS] Completed 150/887 files
+[EVAL] 002071.jpg | Input: 489, Output: 150, Total: 639
+[PROGRESS] Completed 151/887 files
+[EVAL] 000689.jpg | Input: 428, Output: 114, Total: 542
+[PROGRESS] Completed 152/887 files
+[EVAL] 000666.jpg | Input: 431, Output: 111, Total: 542
+[PROGRESS] Completed 153/887 files
+[EVAL] 000236.jpg | Input: 507, Output: 139, Total: 646
+[PROGRESS] Completed 154/887 files
+[EVAL] 001077.jpg | Input: 453, Output: 125, Total: 578
+[PROGRESS] Completed 155/887 files
+[EVAL] 002122.jpg | Input: 387, Output: 140, Total: 527
+[PROGRESS] Completed 156/887 files
+[EVAL] 002821.jpg | Input: 389, Output: 139, Total: 528
+[PROGRESS] Completed 157/887 files
+[EVAL] 003733.jpg | Input: 555, Output: 132, Total: 687
+[PROGRESS] Completed 158/887 files
+[EVAL] 002319.jpg | Input: 380, Output: 133, Total: 513
+[PROGRESS] Completed 159/887 files
+[EVAL] 002749.jpg | Input: 392, Output: 136, Total: 528
+[PROGRESS] Completed 160/887 files
+[EVAL] 001866.jpg | Input: 462, Output: 117, Total: 579
+[PROGRESS] Completed 161/887 files
+[EVAL] 001309.jpg | Input: 589, Output: 133, Total: 722
+[PROGRESS] Completed 162/887 files
+[EVAL] 003334.jpg | Input: 492, Output: 134, Total: 626
+[PROGRESS] Completed 163/887 files
+[EVAL] 003764.jpg | Input: 577, Output: 151, Total: 728
+[PROGRESS] Completed 164/887 files
+[EVAL] 002525.jpg | Input: 355, Output: 134, Total: 489
+[PROGRESS] Completed 165/887 files
+[EVAL] 000518.jpg | Input: 488, Output: 112, Total: 600
+[PROGRESS] Completed 166/887 files
+[EVAL] 002175.jpg | Input: 430, Output: 123, Total: 553
+[PROGRESS] Completed 167/887 files
+[EVAL] 002030.jpg | Input: 398, Output: 128, Total: 526
+[PROGRESS] Completed 168/887 files
+[EVAL] 002944.jpg | Input: 489, Output: 146, Total: 635
+[PROGRESS] Completed 169/887 files
+[EVAL] 002417.jpg | Input: 349, Output: 137, Total: 486
+[PROGRESS] Completed 170/887 files
+[EVAL] 003343.jpg | Input: 501, Output: 107, Total: 608
+[PROGRESS] Completed 171/887 files
+[EVAL] 000646.jpg | Input: 469, Output: 138, Total: 607
+[PROGRESS] Completed 172/887 files
+[EVAL] 001283.jpg | Input: 438, Output: 123, Total: 561
+[PROGRESS] Completed 173/887 files
+[EVAL] 002856.jpg | Input: 439, Output: 151, Total: 590
+[PROGRESS] Completed 174/887 files
+[EVAL] 003197.jpg | Input: 403, Output: 98, Total: 501
+[PROGRESS] Completed 175/887 files
+[EVAL] 001903.jpg | Input: 452, Output: 112, Total: 564
+[PROGRESS] Completed 176/887 files
+[EVAL] 002769.jpg | Input: 383, Output: 126, Total: 509
+[PROGRESS] Completed 177/887 files
+[EVAL] 003528.jpg | Input: 408, Output: 173, Total: 581
+[PROGRESS] Completed 178/887 files
+[EVAL] 003178.jpg | Input: 384, Output: 125, Total: 509
+[PROGRESS] Completed 179/887 files
+[EVAL] 002905.jpg | Input: 663, Output: 125, Total: 788
+[PROGRESS] Completed 180/887 files
+[EVAL] 001780.jpg | Input: 506, Output: 157, Total: 663
+[PROGRESS] Completed 181/887 files
+[EVAL] 002456.jpg | Input: 340, Output: 111, Total: 451
+[PROGRESS] Completed 182/887 files
+[EVAL] 002840.jpg | Input: 392, Output: 134, Total: 526
+[PROGRESS] Completed 183/887 files
+[EVAL] 001295.jpg | Input: 500, Output: 151, Total: 651
+[PROGRESS] Completed 184/887 files
+[EVAL] 001915.jpg | Input: 547, Output: 122, Total: 669
+[PROGRESS] Completed 185/887 files
+[EVAL] 000257.jpg | Input: 400, Output: 146, Total: 546
+[PROGRESS] Completed 186/887 files
+[EVAL] 001446.jpg | Input: 514, Output: 175, Total: 689
+[PROGRESS] Completed 187/887 files
+[EVAL] 003181.jpg | Input: 470, Output: 122, Total: 592
+[PROGRESS] Completed 188/887 files
+[EVAL] 001153.jpg | Input: 480, Output: 126, Total: 606
+[PROGRESS] Completed 189/887 files
+[EVAL] 002051.jpg | Input: 440, Output: 112, Total: 552
+[PROGRESS] Completed 190/887 files
+[EVAL] 003640.jpg | Input: 393, Output: 136, Total: 529
+[PROGRESS] Completed 191/887 files
+[EVAL] 002952.jpg | Input: 554, Output: 125, Total: 679
+[PROGRESS] Completed 192/887 files
+[EVAL] 001387.jpg | Input: 316, Output: 118, Total: 434
+[PROGRESS] Completed 193/887 files
+[EVAL] 000345.jpg | Input: 531, Output: 121, Total: 652
+[PROGRESS] Completed 194/887 files
+[EVAL] 001807.jpg | Input: 439, Output: 129, Total: 568
+[PROGRESS] Completed 195/887 files
+[EVAL] 003569.jpg | Input: 396, Output: 101, Total: 497
+[PROGRESS] Completed 196/887 files
+[EVAL] 001554.jpg | Input: 415, Output: 128, Total: 543
+[PROGRESS] Completed 197/887 files
+[EVAL] 003093.jpg | Input: 500, Output: 120, Total: 620
+[PROGRESS] Completed 198/887 files
+[EVAL] 001313.jpg | Input: 464, Output: 106, Total: 570
+[PROGRESS] Completed 199/887 files
+[EVAL] 001743.jpg | Input: 377, Output: 151, Total: 528
+[PROGRESS] Completed 200/887 files
+[EVAL] 002180.jpg | Input: 366, Output: 129, Total: 495
+[PROGRESS] Completed 201/887 files
+[EVAL] 002303.jpg | Input: 386, Output: 129, Total: 515
+[PROGRESS] Completed 202/887 files
+[EVAL] 003841.jpg | Input: 513, Output: 139, Total: 652
+[PROGRESS] Completed 203/887 files
+[EVAL] 001485.jpg | Input: 538, Output: 138, Total: 676
+[PROGRESS] Completed 204/887 files
+[EVAL] 003007.jpg | Input: 471, Output: 147, Total: 618
+[PROGRESS] Completed 205/887 files
+[EVAL] 000781.jpg | Input: 553, Output: 132, Total: 685
+[PROGRESS] Completed 206/887 files
+[EVAL] 002246.jpg | Input: 397, Output: 130, Total: 527
+[PROGRESS] Completed 207/887 files
+[EVAL] 002616.jpg | Input: 462, Output: 144, Total: 606
+[PROGRESS] Completed 208/887 files
+[EVAL] 003729.jpg | Input: 520, Output: 122, Total: 642
+[PROGRESS] Completed 209/887 files
+[EVAL] 001344.jpg | Input: 382, Output: 146, Total: 528
+[PROGRESS] Completed 210/887 files
+[EVAL] 003396.jpg | Input: 407, Output: 121, Total: 528
+[PROGRESS] Completed 211/887 files
+[EVAL] 002587.jpg | Input: 415, Output: 124, Total: 539
+[PROGRESS] Completed 212/887 files
+[EVAL] 003545.jpg | Input: 550, Output: 113, Total: 663
+[PROGRESS] Completed 213/887 files
+[EVAL] 000739.jpg | Input: 494, Output: 137, Total: 631
+[PROGRESS] Completed 214/887 files
+[EVAL] 002354.jpg | Input: 369, Output: 131, Total: 500
+[PROGRESS] Completed 215/887 files
+[EVAL] 003953.jpg | Input: 502, Output: 116, Total: 618
+[PROGRESS] Completed 216/887 files
+[EVAL] 003400.jpg | Input: 337, Output: 119, Total: 456
+[PROGRESS] Completed 217/887 files
+[EVAL] 001352.jpg | Input: 504, Output: 142, Total: 646
+[PROGRESS] Completed 218/887 files
+[EVAL] 000113.jpg | Input: 483, Output: 121, Total: 604
+[PROGRESS] Completed 219/887 files
+[EVAL] 000406.jpg | Input: 538, Output: 156, Total: 694
+[PROGRESS] Completed 220/887 files
+[EVAL] 000955.jpg | Input: 539, Output: 129, Total: 668
+[PROGRESS] Completed 221/887 files
+[EVAL] 002968.jpg | Input: 433, Output: 147, Total: 580
+[PROGRESS] Completed 222/887 files
+[EVAL] 000685.jpg | Input: 481, Output: 122, Total: 603
+[PROGRESS] Completed 223/887 files
+[EVAL] 003416.jpg | Input: 467, Output: 105, Total: 572
+[PROGRESS] Completed 224/887 files
+[EVAL] 000390.jpg | Input: 503, Output: 122, Total: 625
+[PROGRESS] Completed 225/887 files
+[EVAL] 001978.jpg | Input: 405, Output: 161, Total: 566
+[PROGRESS] Completed 226/887 files
+[EVAL] 003945.jpg | Input: 455, Output: 131, Total: 586
+[PROGRESS] Completed 227/887 files
+[EVAL] 000144.jpg | Input: 377, Output: 128, Total: 505
+[PROGRESS] Completed 228/887 files
+[EVAL] 000847.jpg | Input: 359, Output: 136, Total: 495
+[PROGRESS] Completed 229/887 files
+[EVAL] 001755.jpg | Input: 498, Output: 125, Total: 623
+[PROGRESS] Completed 230/887 files
+[EVAL] 000001.jpg | Input: 471, Output: 126, Total: 597
+[PROGRESS] Completed 231/887 files
+[EVAL] 000282.jpg | Input: 536, Output: 114, Total: 650
+[PROGRESS] Completed 232/887 files
+[EVAL] 002871.jpg | Input: 372, Output: 108, Total: 480
+[PROGRESS] Completed 233/887 files
+[EVAL] 001861.jpg | Input: 374, Output: 133, Total: 507
+[PROGRESS] Completed 234/887 files
+[EVAL] 000266.jpg | Input: 452, Output: 120, Total: 572
+[PROGRESS] Completed 235/887 files
+[EVAL] 003919.jpg | Input: 436, Output: 119, Total: 555
+[PROGRESS] Completed 236/887 files
+[EVAL] 001027.jpg | Input: 477, Output: 149, Total: 626
+[PROGRESS] Completed 237/887 files
+[EVAL] 001359.jpg | Input: 451, Output: 127, Total: 578
+[PROGRESS] Completed 238/887 files
+[EVAL] 002963.jpg | Input: 431, Output: 139, Total: 570
+[PROGRESS] Completed 239/887 files
+[EVAL] 002719.jpg | Input: 407, Output: 119, Total: 526
+[PROGRESS] Completed 240/887 files
+[EVAL] 000374.jpg | Input: 603, Output: 132, Total: 735
+[PROGRESS] Completed 241/887 files
+[EVAL] 003108.jpg | Input: 414, Output: 143, Total: 557
+[PROGRESS] Completed 242/887 files
+[EVAL] 001565.jpg | Input: 380, Output: 120, Total: 500
+[PROGRESS] Completed 243/887 files
+[EVAL] 001070.jpg | Input: 472, Output: 114, Total: 586
+[PROGRESS] Completed 244/887 files
+[EVAL] 000231.jpg | Input: 434, Output: 112, Total: 546
+[PROGRESS] Completed 245/887 files
+[EVAL] 002563.jpg | Input: 452, Output: 123, Total: 575
+[PROGRESS] Completed 246/887 files
+[EVAL] 003688.jpg | Input: 376, Output: 139, Total: 515
+[PROGRESS] Completed 247/887 files
+[EVAL] 003237.jpg | Input: 634, Output: 167, Total: 801
+[PROGRESS] Completed 248/887 files
+[EVAL] 002975.jpg | Input: 392, Output: 127, Total: 519
+[PROGRESS] Completed 249/887 files
+[EVAL] 002426.jpg | Input: 465, Output: 102, Total: 567
+[PROGRESS] Completed 250/887 files
+[EVAL] 000362.jpg | Input: 419, Output: 131, Total: 550
+[PROGRESS] Completed 251/887 files
+[EVAL] 000227.jpg | Input: 456, Output: 109, Total: 565
+[PROGRESS] Completed 252/887 files
+[EVAL] 003958.jpg | Input: 396, Output: 116, Total: 512
+[PROGRESS] Completed 253/887 files
+[EVAL] 002021.jpg | Input: 357, Output: 120, Total: 477
+[PROGRESS] Completed 254/887 files
+[EVAL] 003630.jpg | Input: 392, Output: 121, Total: 513
+[PROGRESS] Completed 255/887 files
+[EVAL] 002888.jpg | Input: 488, Output: 141, Total: 629
+[PROGRESS] Completed 256/887 files
+[EVAL] 002758.jpg | Input: 446, Output: 143, Total: 589
+[PROGRESS] Completed 257/887 files
+[EVAL] 000765.jpg | Input: 482, Output: 119, Total: 601
+[PROGRESS] Completed 258/887 files
+[EVAL] 001461.jpg | Input: 424, Output: 130, Total: 554
+[PROGRESS] Completed 259/887 files
+[EVAL] 001676.jpg | Input: 557, Output: 133, Total: 690
+[PROGRESS] Completed 260/887 files
+[EVAL] 002959.jpg | Input: 411, Output: 133, Total: 544
+[PROGRESS] Completed 261/887 files
+[EVAL] 001226.jpg | Input: 408, Output: 138, Total: 546
+[PROGRESS] Completed 262/887 files
+[EVAL] 002236.jpg | Input: 481, Output: 138, Total: 619
+[PROGRESS] Completed 263/887 files
+[EVAL] 002723.jpg | Input: 485, Output: 143, Total: 628
+[PROGRESS] Completed 264/887 files
+[EVAL] 002373.jpg | Input: 445, Output: 126, Total: 571
+[PROGRESS] Completed 265/887 files
+[EVAL] 003098.jpg | Input: 474, Output: 118, Total: 592
+[PROGRESS] Completed 266/887 files
+[EVAL] 000525.jpg | Input: 526, Output: 155, Total: 681
+[PROGRESS] Completed 267/887 files
+[EVAL] 003759.jpg | Input: 403, Output: 108, Total: 511
+[PROGRESS] Completed 268/887 files
+[EVAL] 003923.jpg | Input: 444, Output: 117, Total: 561
+[PROGRESS] Completed 269/887 files
+[EVAL] 001158.jpg | Input: 397, Output: 111, Total: 508
+[PROGRESS] Completed 270/887 files
+[EVAL] 002774.jpg | Input: 422, Output: 143, Total: 565
+[PROGRESS] Completed 271/887 files
+[EVAL] 000163.jpg | Input: 511, Output: 136, Total: 647
+[PROGRESS] Completed 272/887 files
+[EVAL] 000533.jpg | Input: 389, Output: 161, Total: 550
+[PROGRESS] Completed 273/887 files
+[EVAL] 003466.jpg | Input: 452, Output: 141, Total: 593
+[PROGRESS] Completed 274/887 files
+[EVAL] 002277.jpg | Input: 529, Output: 130, Total: 659
+[PROGRESS] Completed 275/887 files
+[EVAL] 003870.jpg | Input: 383, Output: 138, Total: 521
+[PROGRESS] Completed 276/887 files
+[EVAL] 003489.jpg | Input: 370, Output: 105, Total: 475
+[PROGRESS] Completed 277/887 files
+[EVAL] 000071.jpg | Input: 582, Output: 129, Total: 711
+[PROGRESS] Completed 278/887 files
+[EVAL] 000564.jpg | Input: 375, Output: 145, Total: 520
+[PROGRESS] Completed 279/887 files
+[EVAL] 002220.jpg | Input: 466, Output: 149, Total: 615
+[PROGRESS] Completed 280/887 files
+[EVAL] 003061.jpg | Input: 489, Output: 118, Total: 607
+[PROGRESS] Completed 281/887 files
+[EVAL] 002742.jpg | Input: 372, Output: 140, Total: 512
+[PROGRESS] Completed 282/887 files
+[EVAL] 003850.jpg | Input: 428, Output: 111, Total: 539
+[PROGRESS] Completed 283/887 files
+[EVAL] 000840.jpg | Input: 394, Output: 132, Total: 526
+[PROGRESS] Completed 284/887 files
+[EVAL] 001302.jpg | Input: 379, Output: 142, Total: 521
+[PROGRESS] Completed 285/887 files
+[EVAL] 000006.jpg | Input: 423, Output: 145, Total: 568
+[PROGRESS] Completed 286/887 files
+[EVAL] 000456.jpg | Input: 619, Output: 139, Total: 758
+[PROGRESS] Completed 287/887 files
+[EVAL] 000682.jpg | Input: 452, Output: 127, Total: 579
+[PROGRESS] Completed 288/887 files
+[EVAL] 000728.jpg | Input: 460, Output: 120, Total: 580
+[PROGRESS] Completed 289/887 files
+[EVAL] 003942.jpg | Input: 664, Output: 129, Total: 793
+[PROGRESS] Completed 290/887 files
+[EVAL] 003411.jpg | Input: 549, Output: 124, Total: 673
+[PROGRESS] Completed 291/887 files
+[EVAL] 001586.jpg | Input: 567, Output: 151, Total: 718
+[PROGRESS] Completed 292/887 files
+[EVAL] 002980.jpg | Input: 386, Output: 139, Total: 525
+[PROGRESS] Completed 293/887 files
+[EVAL] 003692.jpg | Input: 509, Output: 120, Total: 629
+[PROGRESS] Completed 294/887 files
+[EVAL] 003738.jpg | Input: 466, Output: 116, Total: 582
+[PROGRESS] Completed 295/887 files
+[EVAL] 001640.jpg | Input: 396, Output: 125, Total: 521
+[PROGRESS] Completed 296/887 files
+[EVAL] 002596.jpg | Input: 647, Output: 142, Total: 789
+[PROGRESS] Completed 297/887 files
+[EVAL] 000694.jpg | Input: 538, Output: 127, Total: 665
+[PROGRESS] Completed 298/887 files
+[EVAL] 001590.jpg | Input: 450, Output: 110, Total: 560
+[PROGRESS] Completed 299/887 files
+[EVAL] 001713.jpg | Input: 402, Output: 160, Total: 562
+[PROGRESS] Completed 300/887 files
+[EVAL] 001482.jpg | Input: 451, Output: 118, Total: 569
+[PROGRESS] Completed 301/887 files
+[EVAL] 003145.jpg | Input: 512, Output: 131, Total: 643
+[PROGRESS] Completed 302/887 files
+[EVAL] 001178.jpg | Input: 528, Output: 118, Total: 646
+[PROGRESS] Completed 303/887 files
+[EVAL] 000339.jpg | Input: 432, Output: 113, Total: 545
+[PROGRESS] Completed 304/887 files
+[EVAL] 002611.jpg | Input: 571, Output: 141, Total: 712
+[PROGRESS] Completed 305/887 files
+[EVAL] 002538.jpg | Input: 427, Output: 127, Total: 554
+[PROGRESS] Completed 306/887 files
+[EVAL] 003779.jpg | Input: 483, Output: 120, Total: 603
+[PROGRESS] Completed 307/887 files
+[EVAL] 000440.jpg | Input: 367, Output: 129, Total: 496
+[PROGRESS] Completed 308/887 files
+[EVAL] 000010.jpg | Input: 515, Output: 125, Total: 640
+[PROGRESS] Completed 309/887 files
+[EVAL] 000207.jpg | Input: 458, Output: 115, Total: 573
+[PROGRESS] Completed 310/887 files
+[EVAL] 000657.jpg | Input: 362, Output: 127, Total: 489
+[PROGRESS] Completed 311/887 files
+[EVAL] 002390.jpg | Input: 395, Output: 137, Total: 532
+[PROGRESS] Completed 312/887 files
+[EVAL] 003581.jpg | Input: 579, Output: 108, Total: 687
+[PROGRESS] Completed 313/887 files
+[EVAL] 003094.jpg | Input: 567, Output: 111, Total: 678
+[PROGRESS] Completed 314/887 files
+[EVAL] 001380.jpg | Input: 380, Output: 130, Total: 510
+[PROGRESS] Completed 315/887 files
+[EVAL] 000987.jpg | Input: 414, Output: 108, Total: 522
+[PROGRESS] Completed 316/887 files
+[EVAL] 003885.jpg | Input: 483, Output: 118, Total: 601
+[PROGRESS] Completed 317/887 files
+[EVAL] 002282.jpg | Input: 378, Output: 139, Total: 517
+[PROGRESS] Completed 318/887 files
+[EVAL] 003169.jpg | Input: 453, Output: 118, Total: 571
+[PROGRESS] Completed 319/887 files
+[EVAL] 003610.jpg | Input: 663, Output: 131, Total: 794
+[PROGRESS] Completed 320/887 files
+[EVAL] 003240.jpg | Input: 507, Output: 127, Total: 634
+[PROGRESS] Completed 321/887 files
+[EVAL] 002144.jpg | Input: 447, Output: 137, Total: 584
+[PROGRESS] Completed 322/887 files
+[EVAL] 003893.jpg | Input: 392, Output: 101, Total: 493
+[PROGRESS] Completed 323/887 files
+[EVAL] 003939.jpg | Input: 575, Output: 141, Total: 716
+[PROGRESS] Completed 324/887 files
+[EVAL] 001142.jpg | Input: 358, Output: 110, Total: 468
+[PROGRESS] Completed 325/887 files
+[EVAL] 000303.jpg | Input: 549, Output: 152, Total: 701
+[PROGRESS] Completed 326/887 files
+[EVAL] 000753.jpg | Input: 552, Output: 137, Total: 689
+[PROGRESS] Completed 327/887 files
+[EVAL] 001791.jpg | Input: 427, Output: 138, Total: 565
+[PROGRESS] Completed 328/887 files
+[EVAL] 002386.jpg | Input: 520, Output: 126, Total: 646
+[PROGRESS] Completed 329/887 files
+[EVAL] 002943.jpg | Input: 416, Output: 104, Total: 520
+[PROGRESS] Completed 330/887 files
+[EVAL] 000991.jpg | Input: 457, Output: 141, Total: 598
+[PROGRESS] Completed 331/887 files
+[EVAL] 002555.jpg | Input: 493, Output: 107, Total: 600
+[PROGRESS] Completed 332/887 files
+[EVAL] 002041.jpg | Input: 351, Output: 130, Total: 481
+[PROGRESS] Completed 333/887 files
+[EVAL] 002942.jpg | Input: 457, Output: 133, Total: 590
+[PROGRESS] Completed 334/887 files
+[EVAL] 001952.jpg | Input: 391, Output: 115, Total: 506
+[PROGRESS] Completed 335/887 files
+[EVAL] 002738.jpg | Input: 371, Output: 136, Total: 507
+[PROGRESS] Completed 336/887 files
+[EVAL] 001817.jpg | Input: 325, Output: 125, Total: 450
+[PROGRESS] Completed 337/887 files
+[EVAL] 002368.jpg | Input: 506, Output: 114, Total: 620
+[PROGRESS] Completed 338/887 files
+[EVAL] 002692.jpg | Input: 409, Output: 150, Total: 559
+[PROGRESS] Completed 339/887 files
+[EVAL] 003980.jpg | Input: 387, Output: 142, Total: 529
+[PROGRESS] Completed 340/887 files
+[EVAL] 000882.jpg | Input: 519, Output: 142, Total: 661
+[PROGRESS] Completed 341/887 files
+[EVAL] 000181.jpg | Input: 523, Output: 107, Total: 630
+[PROGRESS] Completed 342/887 files
+[EVAL] 003312.jpg | Input: 388, Output: 115, Total: 503
+[PROGRESS] Completed 343/887 files
+[EVAL] 003191.jpg | Input: 433, Output: 119, Total: 552
+[PROGRESS] Completed 344/887 files
+[EVAL] 001513.jpg | Input: 441, Output: 143, Total: 584
+[PROGRESS] Completed 345/887 files
+[EVAL] 000752.jpg | Input: 358, Output: 144, Total: 502
+[PROGRESS] Completed 346/887 files
+[EVAL] 003241.jpg | Input: 416, Output: 125, Total: 541
+[PROGRESS] Completed 347/887 files
+[EVAL] 001786.jpg | Input: 458, Output: 124, Total: 582
+[PROGRESS] Completed 348/887 files
+[EVAL] 000894.jpg | Input: 456, Output: 114, Total: 570
+[PROGRESS] Completed 349/887 files
+[EVAL] 001293.jpg | Input: 455, Output: 105, Total: 560
+[PROGRESS] Completed 350/887 files
+[EVAL] 002846.jpg | Input: 363, Output: 114, Total: 477
+[PROGRESS] Completed 351/887 files
+[EVAL] 001010.jpg | Input: 486, Output: 109, Total: 595
+[PROGRESS] Completed 352/887 files
+[EVAL] 000601.jpg | Input: 444, Output: 128, Total: 572
+[PROGRESS] Completed 353/887 files
+[EVAL] 002796.jpg | Input: 398, Output: 132, Total: 530
+[PROGRESS] Completed 354/887 files
+[EVAL] 000251.jpg | Input: 485, Output: 102, Total: 587
+[PROGRESS] Completed 355/887 files
+[EVAL] 002329.jpg | Input: 445, Output: 134, Total: 579
+[PROGRESS] Completed 356/887 files
+[EVAL] 003538.jpg | Input: 438, Output: 112, Total: 550
+[PROGRESS] Completed 357/887 files
+[EVAL] 000590.jpg | Input: 504, Output: 146, Total: 650
+[PROGRESS] Completed 358/887 files
+[EVAL] 002542.jpg | Input: 372, Output: 112, Total: 484
+[PROGRESS] Completed 359/887 files
+[EVAL] 000085.jpg | Input: 463, Output: 125, Total: 588
+[PROGRESS] Completed 360/887 files
+[EVAL] 001417.jpg | Input: 444, Output: 117, Total: 561
+[PROGRESS] Completed 361/887 files
+[EVAL] 001102.jpg | Input: 402, Output: 122, Total: 524
+[PROGRESS] Completed 362/887 files
+[EVAL] 002684.jpg | Input: 484, Output: 158, Total: 642
+[PROGRESS] Completed 363/887 files
+[EVAL] 000504.jpg | Input: 419, Output: 106, Total: 525
+[PROGRESS] Completed 364/887 files
+[EVAL] 002539.jpg | Input: 437, Output: 138, Total: 575
+[PROGRESS] Completed 365/887 files
+[EVAL] 002493.jpg | Input: 361, Output: 123, Total: 484
+[PROGRESS] Completed 366/887 files
+[EVAL] 003282.jpg | Input: 438, Output: 108, Total: 546
+[PROGRESS] Completed 367/887 files
+[EVAL] 002885.jpg | Input: 396, Output: 108, Total: 504
+[PROGRESS] Completed 368/887 files
+[EVAL] 001600.jpg | Input: 402, Output: 136, Total: 538
+[PROGRESS] Completed 369/887 files
+[EVAL] 002186.jpg | Input: 389, Output: 139, Total: 528
+[PROGRESS] Completed 370/887 files
+[EVAL] 000292.jpg | Input: 444, Output: 135, Total: 579
+[PROGRESS] Completed 371/887 files
+[EVAL] 003847.jpg | Input: 492, Output: 147, Total: 639
+[PROGRESS] Completed 372/887 files
+[EVAL] 001712.jpg | Input: 389, Output: 123, Total: 512
+[PROGRESS] Completed 373/887 files
+[EVAL] 001207.jpg | Input: 377, Output: 126, Total: 503
+[PROGRESS] Completed 374/887 files
+[EVAL] 003810.jpg | Input: 355, Output: 115, Total: 470
+[PROGRESS] Completed 375/887 files
+[EVAL] 002702.jpg | Input: 425, Output: 102, Total: 527
+[PROGRESS] Completed 376/887 files
+[EVAL] 003113.jpg | Input: 341, Output: 103, Total: 444
+[PROGRESS] Completed 377/887 files
+[EVAL] 002578.jpg | Input: 358, Output: 113, Total: 471
+[PROGRESS] Completed 378/887 files
+[EVAL] 001211.jpg | Input: 480, Output: 151, Total: 631
+[PROGRESS] Completed 379/887 files
+[EVAL] 003105.jpg | Input: 454, Output: 139, Total: 593
+[PROGRESS] Completed 380/887 files
+[EVAL] 000379.jpg | Input: 393, Output: 141, Total: 534
+[PROGRESS] Completed 381/887 files
+[EVAL] 002651.jpg | Input: 469, Output: 120, Total: 589
+[PROGRESS] Completed 382/887 files
+[EVAL] 003943.jpg | Input: 448, Output: 122, Total: 570
+[PROGRESS] Completed 383/887 files
+[EVAL] 003040.jpg | Input: 439, Output: 129, Total: 568
+[PROGRESS] Completed 384/887 files
+[EVAL] 001753.jpg | Input: 541, Output: 121, Total: 662
+[PROGRESS] Completed 385/887 files
+[EVAL] 002485.jpg | Input: 506, Output: 116, Total: 622
+[PROGRESS] Completed 386/887 files
+[EVAL] 003502.jpg | Input: 430, Output: 111, Total: 541
+[PROGRESS] Completed 387/887 files
+[EVAL] 001929.jpg | Input: 550, Output: 142, Total: 692
+[PROGRESS] Completed 388/887 files
+[EVAL] 003060.jpg | Input: 417, Output: 124, Total: 541
+[PROGRESS] Completed 389/887 files
+[EVAL] 003575.jpg | Input: 471, Output: 139, Total: 610
+[PROGRESS] Completed 390/887 files
+[EVAL] 002364.jpg | Input: 443, Output: 135, Total: 578
+[PROGRESS] Completed 391/887 files
+[EVAL] 002734.jpg | Input: 424, Output: 118, Total: 542
+[PROGRESS] Completed 392/887 files
+[EVAL] 000709.jpg | Input: 412, Output: 100, Total: 512
+[PROGRESS] Completed 393/887 files
+[EVAL] 003826.jpg | Input: 436, Output: 148, Total: 584
+[PROGRESS] Completed 394/887 files
+[EVAL] 001231.jpg | Input: 499, Output: 155, Total: 654
+[PROGRESS] Completed 395/887 files
+[EVAL] 000973.jpg | Input: 372, Output: 108, Total: 480
+[PROGRESS] Completed 396/887 files
+[EVAL] 002558.jpg | Input: 397, Output: 115, Total: 512
+[PROGRESS] Completed 397/887 files
+[EVAL] 002108.jpg | Input: 338, Output: 113, Total: 451
+[PROGRESS] Completed 398/887 files
+[EVAL] 003349.jpg | Input: 371, Output: 134, Total: 505
+[PROGRESS] Completed 399/887 files
+[EVAL] 003037.jpg | Input: 386, Output: 107, Total: 493
+[PROGRESS] Completed 400/887 files
+[EVAL] 003871.jpg | Input: 466, Output: 123, Total: 589
+[PROGRESS] Completed 401/887 files
+[EVAL] 000477.jpg | Input: 406, Output: 138, Total: 544
+[PROGRESS] Completed 402/887 files
+[EVAL] 001636.jpg | Input: 633, Output: 126, Total: 759
+[PROGRESS] Completed 403/887 files
+[EVAL] 000861.jpg | Input: 367, Output: 120, Total: 487
+[PROGRESS] Completed 404/887 files
+[EVAL] 003922.jpg | Input: 501, Output: 131, Total: 632
+[PROGRESS] Completed 405/887 files
+[EVAL] 001509.jpg | Input: 646, Output: 162, Total: 808
+[PROGRESS] Completed 406/887 files
+[EVAL] 003867.jpg | Input: 557, Output: 103, Total: 660
+[PROGRESS] Completed 407/887 files
+[EVAL] 002519.jpg | Input: 428, Output: 155, Total: 583
+[PROGRESS] Completed 408/887 files
+[EVAL] 002149.jpg | Input: 380, Output: 145, Total: 525
+[PROGRESS] Completed 409/887 files
+[EVAL] 001335.jpg | Input: 400, Output: 130, Total: 530
+[PROGRESS] Completed 410/887 files
+[EVAL] 001765.jpg | Input: 335, Output: 113, Total: 448
+[PROGRESS] Completed 411/887 files
+[EVAL] 000877.jpg | Input: 512, Output: 125, Total: 637
+[PROGRESS] Completed 412/887 files
+[EVAL] 003076.jpg | Input: 456, Output: 114, Total: 570
+[PROGRESS] Completed 413/887 files
+[EVAL] 003975.jpg | Input: 512, Output: 124, Total: 636
+[PROGRESS] Completed 414/887 files
+[EVAL] 002372.jpg | Input: 403, Output: 120, Total: 523
+[PROGRESS] Completed 415/887 files
+[EVAL] 003563.jpg | Input: 453, Output: 116, Total: 569
+[PROGRESS] Completed 416/887 files
+[EVAL] 000066.jpg | Input: 435, Output: 111, Total: 546
+[PROGRESS] Completed 417/887 files
+[EVAL] 002958.jpg | Input: 479, Output: 127, Total: 606
+[PROGRESS] Completed 418/887 files
+[EVAL] 001227.jpg | Input: 406, Output: 112, Total: 518
+[PROGRESS] Completed 419/887 files
+[EVAL] 001732.jpg | Input: 416, Output: 122, Total: 538
+[PROGRESS] Completed 420/887 files
+[EVAL] 001362.jpg | Input: 427, Output: 130, Total: 557
+[PROGRESS] Completed 421/887 files
+[EVAL] 001030.jpg | Input: 667, Output: 143, Total: 810
+[PROGRESS] Completed 422/887 files
+[EVAL] 001460.jpg | Input: 460, Output: 113, Total: 573
+[PROGRESS] Completed 423/887 files
+[EVAL] 001319.jpg | Input: 416, Output: 140, Total: 556
+[PROGRESS] Completed 424/887 files
+[EVAL] 002165.jpg | Input: 493, Output: 103, Total: 596
+[PROGRESS] Completed 425/887 files
+[EVAL] 000158.jpg | Input: 516, Output: 142, Total: 658
+[PROGRESS] Completed 426/887 files
+[EVAL] 002535.jpg | Input: 493, Output: 106, Total: 599
+[PROGRESS] Completed 427/887 files
+[EVAL] 000363.jpg | Input: 460, Output: 106, Total: 566
+[PROGRESS] Completed 428/887 files
+[EVAL] 001821.jpg | Input: 584, Output: 114, Total: 698
+[PROGRESS] Completed 429/887 files
+[EVAL] 000676.jpg | Input: 586, Output: 132, Total: 718
+[PROGRESS] Completed 430/887 files
+[EVAL] 002831.jpg | Input: 410, Output: 126, Total: 536
+[PROGRESS] Completed 431/887 files
+[EVAL] 000949.jpg | Input: 451, Output: 117, Total: 568
+[PROGRESS] Completed 432/887 files
+[EVAL] 002718.jpg | Input: 450, Output: 128, Total: 578
+[PROGRESS] Completed 433/887 files
+[EVAL] 000725.jpg | Input: 420, Output: 139, Total: 559
+[PROGRESS] Completed 434/887 files
+[EVAL] 000375.jpg | Input: 408, Output: 116, Total: 524
+[PROGRESS] Completed 435/887 files
+[EVAL] 001708.jpg | Input: 512, Output: 139, Total: 651
+[PROGRESS] Completed 436/887 files
+[EVAL] 002124.jpg | Input: 391, Output: 165, Total: 556
+[PROGRESS] Completed 437/887 files
+[EVAL] 002061.jpg | Input: 347, Output: 106, Total: 453
+[PROGRESS] Completed 438/887 files
+[EVAL] 002431.jpg | Input: 483, Output: 141, Total: 624
+[PROGRESS] Completed 439/887 files
+[EVAL] 001860.jpg | Input: 571, Output: 156, Total: 727
+[PROGRESS] Completed 440/887 files
+[EVAL] 001476.jpg | Input: 442, Output: 108, Total: 550
+[PROGRESS] Completed 441/887 files
+[EVAL] 003762.jpg | Input: 418, Output: 102, Total: 520
+[PROGRESS] Completed 442/887 files
+[EVAL] 003277.jpg | Input: 528, Output: 109, Total: 637
+[PROGRESS] Completed 443/887 files
+[EVAL] 000908.jpg | Input: 444, Output: 113, Total: 557
+[PROGRESS] Completed 444/887 files
+[EVAL] 002935.jpg | Input: 384, Output: 125, Total: 509
+[PROGRESS] Completed 445/887 files
+[EVAL] 003126.jpg | Input: 497, Output: 118, Total: 615
+[PROGRESS] Completed 446/887 files
+[EVAL] 002222.jpg | Input: 439, Output: 125, Total: 564
+[PROGRESS] Completed 447/887 files
+[EVAL] 002388.jpg | Input: 573, Output: 134, Total: 707
+[PROGRESS] Completed 448/887 files
+[EVAL] 003171.jpg | Input: 499, Output: 118, Total: 617
+[PROGRESS] Completed 449/887 files
+[EVAL] 003937.jpg | Input: 515, Output: 151, Total: 666
+[PROGRESS] Completed 450/887 files
+[EVAL] 000248.jpg | Input: 416, Output: 128, Total: 544
+[PROGRESS] Completed 451/887 files
+[EVAL] 000161.jpg | Input: 478, Output: 108, Total: 586
+[PROGRESS] Completed 452/887 files
+[EVAL] 003608.jpg | Input: 432, Output: 107, Total: 539
+[PROGRESS] Completed 453/887 files
+[EVAL] 002019.jpg | Input: 326, Output: 113, Total: 439
+[PROGRESS] Completed 454/887 files
+[EVAL] 000474.jpg | Input: 456, Output: 120, Total: 576
+[PROGRESS] Completed 455/887 files
+[EVAL] 003188.jpg | Input: 545, Output: 136, Total: 681
+[PROGRESS] Completed 456/887 files
+[EVAL] 003022.jpg | Input: 490, Output: 113, Total: 603
+[PROGRESS] Completed 457/887 files
+[EVAL] 001336.jpg | Input: 389, Output: 121, Total: 510
+[PROGRESS] Completed 458/887 files
+[EVAL] 000874.jpg | Input: 517, Output: 116, Total: 633
+[PROGRESS] Completed 459/887 files
+[EVAL] 000527.jpg | Input: 491, Output: 130, Total: 621
+[PROGRESS] Completed 460/887 files
+[EVAL] 000198.jpg | Input: 484, Output: 114, Total: 598
+[PROGRESS] Completed 461/887 files
+[EVAL] 000032.jpg | Input: 352, Output: 130, Total: 482
+[PROGRESS] Completed 462/887 files
+[EVAL] 001789.jpg | Input: 404, Output: 116, Total: 520
+[PROGRESS] Completed 463/887 files
+[EVAL] 001623.jpg | Input: 414, Output: 117, Total: 531
+[PROGRESS] Completed 464/887 files
+[EVAL] 003560.jpg | Input: 413, Output: 132, Total: 545
+[PROGRESS] Completed 465/887 files
+[EVAL] 000209.jpg | Input: 576, Output: 136, Total: 712
+[PROGRESS] Completed 466/887 files
+[EVAL] 002234.jpg | Input: 359, Output: 107, Total: 466
+[PROGRESS] Completed 467/887 files
+[EVAL] 003075.jpg | Input: 369, Output: 128, Total: 497
+[PROGRESS] Completed 468/887 files
+[EVAL] 000120.jpg | Input: 448, Output: 136, Total: 584
+[PROGRESS] Completed 469/887 files
+[EVAL] 003219.jpg | Input: 359, Output: 128, Total: 487
+[PROGRESS] Completed 470/887 files
+[EVAL] 000065.jpg | Input: 443, Output: 144, Total: 587
+[PROGRESS] Completed 471/887 files
+[EVAL] 003848.jpg | Input: 456, Output: 153, Total: 609
+[PROGRESS] Completed 472/887 files
+[EVAL] 000337.jpg | Input: 593, Output: 112, Total: 705
+[PROGRESS] Completed 473/887 files
+[EVAL] 002920.jpg | Input: 367, Output: 114, Total: 481
+[PROGRESS] Completed 474/887 files
+[EVAL] 003262.jpg | Input: 489, Output: 103, Total: 592
+[PROGRESS] Completed 475/887 files
+[EVAL] 002023.jpg | Input: 490, Output: 115, Total: 605
+[PROGRESS] Completed 476/887 files
+[EVAL] 002166.jpg | Input: 419, Output: 132, Total: 551
+[PROGRESS] Completed 477/887 files
+[EVAL] 001434.jpg | Input: 503, Output: 120, Total: 623
+[PROGRESS] Completed 478/887 files
+[EVAL] 002424.jpg | Input: 498, Output: 117, Total: 615
+[PROGRESS] Completed 479/887 files
+[EVAL] 002074.jpg | Input: 603, Output: 140, Total: 743
+[PROGRESS] Completed 480/887 files
+[EVAL] 003665.jpg | Input: 350, Output: 135, Total: 485
+[PROGRESS] Completed 481/887 files
+[EVAL] 002998.jpg | Input: 426, Output: 135, Total: 561
+[PROGRESS] Completed 482/887 files
+[EVAL] 002131.jpg | Input: 496, Output: 138, Total: 634
+[PROGRESS] Completed 483/887 files
+[EVAL] 001072.jpg | Input: 353, Output: 115, Total: 468
+[PROGRESS] Completed 484/887 files
+[EVAL] 001137.jpg | Input: 551, Output: 118, Total: 669
+[PROGRESS] Completed 485/887 files
+[EVAL] 001567.jpg | Input: 414, Output: 142, Total: 556
+[PROGRESS] Completed 486/887 files
+[EVAL] 000726.jpg | Input: 496, Output: 101, Total: 597
+[PROGRESS] Completed 487/887 files
+[EVAL] 003389.jpg | Input: 416, Output: 176, Total: 592
+[PROGRESS] Completed 488/887 files
+[EVAL] 002432.jpg | Input: 425, Output: 143, Total: 568
+[PROGRESS] Completed 489/887 files
+[EVAL] 000819.jpg | Input: 519, Output: 124, Total: 643
+[PROGRESS] Completed 490/887 files
+[EVAL] 002259.jpg | Input: 468, Output: 166, Total: 634
+[PROGRESS] Completed 491/887 files
+[EVAL] 000264.jpg | Input: 403, Output: 113, Total: 516
+[PROGRESS] Completed 492/887 files
+[EVAL] 000634.jpg | Input: 518, Output: 117, Total: 635
+[PROGRESS] Completed 493/887 files
+[EVAL] 001160.jpg | Input: 475, Output: 143, Total: 618
+[PROGRESS] Completed 494/887 files
+[EVAL] 000458.jpg | Input: 435, Output: 146, Total: 581
+[PROGRESS] Completed 495/887 files
+[EVAL] 000008.jpg | Input: 407, Output: 107, Total: 514
+[PROGRESS] Completed 496/887 files
+[EVAL] 001249.jpg | Input: 468, Output: 122, Total: 590
+[PROGRESS] Completed 497/887 files
+[EVAL] 002873.jpg | Input: 536, Output: 106, Total: 642
+[PROGRESS] Completed 498/887 files
+[EVAL] 003716.jpg | Input: 480, Output: 104, Total: 584
+[PROGRESS] Completed 499/887 files
+[EVAL] 001681.jpg | Input: 439, Output: 120, Total: 559
+[PROGRESS] Completed 500/887 files
+[EVAL] 002941.jpg | Input: 393, Output: 116, Total: 509
+[PROGRESS] Completed 501/887 files
+[EVAL] 002042.jpg | Input: 367, Output: 142, Total: 509
+[PROGRESS] Completed 502/887 files
+[EVAL] 001814.jpg | Input: 506, Output: 131, Total: 637
+[PROGRESS] Completed 503/887 files
+[EVAL] 002384.jpg | Input: 483, Output: 138, Total: 621
+[PROGRESS] Completed 504/887 files
+[EVAL] 000643.jpg | Input: 391, Output: 113, Total: 504
+[PROGRESS] Completed 505/887 files
+[EVAL] 003595.jpg | Input: 396, Output: 135, Total: 531
+[PROGRESS] Completed 506/887 files
+[EVAL] 002500.jpg | Input: 430, Output: 123, Total: 553
+[PROGRESS] Completed 507/887 files
+[EVAL] 001793.jpg | Input: 449, Output: 122, Total: 571
+[PROGRESS] Completed 508/887 files
+[EVAL] 003468.jpg | Input: 470, Output: 133, Total: 603
+[PROGRESS] Completed 509/887 files
+[EVAL] 001455.jpg | Input: 394, Output: 145, Total: 539
+[PROGRESS] Completed 510/887 files
+[EVAL] 003891.jpg | Input: 559, Output: 152, Total: 711
+[PROGRESS] Completed 511/887 files
+[EVAL] 001290.jpg | Input: 498, Output: 124, Total: 622
+[PROGRESS] Completed 512/887 files
+[EVAL] 000194.jpg | Input: 490, Output: 140, Total: 630
+[PROGRESS] Completed 513/887 files
+[EVAL] 000252.jpg | Input: 473, Output: 111, Total: 584
+[PROGRESS] Completed 514/887 files
+[EVAL] 001443.jpg | Input: 484, Output: 109, Total: 593
+[PROGRESS] Completed 515/887 files
+[EVAL] 000985.jpg | Input: 429, Output: 113, Total: 542
+[PROGRESS] Completed 516/887 files
+[EVAL] 001697.jpg | Input: 385, Output: 112, Total: 497
+[PROGRESS] Completed 517/887 files
+[EVAL] 002812.jpg | Input: 381, Output: 114, Total: 495
+[PROGRESS] Completed 518/887 files
+[EVAL] 000069.jpg | Input: 473, Output: 118, Total: 591
+[PROGRESS] Completed 519/887 files
+[EVAL] 001382.jpg | Input: 443, Output: 108, Total: 551
+[PROGRESS] Completed 520/887 files
+[EVAL] 002957.jpg | Input: 444, Output: 140, Total: 584
+[PROGRESS] Completed 521/887 files
+[EVAL] 003645.jpg | Input: 397, Output: 149, Total: 546
+[PROGRESS] Completed 522/887 files
+[EVAL] 002687.jpg | Input: 474, Output: 141, Total: 615
+[PROGRESS] Completed 523/887 files
+[EVAL] 003096.jpg | Input: 435, Output: 129, Total: 564
+[PROGRESS] Completed 524/887 files
+[EVAL] 001414.jpg | Input: 386, Output: 101, Total: 487
+[PROGRESS] Completed 525/887 files
+[EVAL] 003429.jpg | Input: 543, Output: 107, Total: 650
+[PROGRESS] Completed 526/887 files
+[EVAL] 002668.jpg | Input: 356, Output: 144, Total: 500
+[PROGRESS] Completed 527/887 files
+[EVAL] 002185.jpg | Input: 417, Output: 137, Total: 554
+[PROGRESS] Completed 528/887 files
+[EVAL] 000442.jpg | Input: 499, Output: 167, Total: 666
+[PROGRESS] Completed 529/887 files
+[EVAL] 000854.jpg | Input: 439, Output: 108, Total: 547
+[PROGRESS] Completed 530/887 files
+[EVAL] 003452.jpg | Input: 447, Output: 139, Total: 586
+[PROGRESS] Completed 531/887 files
+[EVAL] 003901.jpg | Input: 372, Output: 101, Total: 473
+[PROGRESS] Completed 532/887 files
+[EVAL] 002306.jpg | Input: 442, Output: 144, Total: 586
+[PROGRESS] Completed 533/887 files
+[EVAL] 000291.jpg | Input: 417, Output: 130, Total: 547
+[PROGRESS] Completed 534/887 files
+[EVAL] 002756.jpg | Input: 373, Output: 148, Total: 521
+[PROGRESS] Completed 535/887 files
+[EVAL] 003517.jpg | Input: 477, Output: 122, Total: 599
+[PROGRESS] Completed 536/887 files
+[EVAL] 001480.jpg | Input: 436, Output: 126, Total: 562
+[PROGRESS] Completed 537/887 files
+[EVAL] 003147.jpg | Input: 446, Output: 101, Total: 547
+[PROGRESS] Completed 538/887 files
+[EVAL] 003669.jpg | Input: 475, Output: 107, Total: 582
+[PROGRESS] Completed 539/887 files
+[EVAL] 002582.jpg | Input: 571, Output: 120, Total: 691
+[PROGRESS] Completed 540/887 files
+[EVAL] 002428.jpg | Input: 651, Output: 118, Total: 769
+[PROGRESS] Completed 541/887 files
+[EVAL] 002644.jpg | Input: 361, Output: 129, Total: 490
+[PROGRESS] Completed 542/887 files
+[EVAL] 002214.jpg | Input: 541, Output: 150, Total: 691
+[PROGRESS] Completed 543/887 files
+[EVAL] 000229.jpg | Input: 415, Output: 105, Total: 520
+[PROGRESS] Completed 544/887 files
+[EVAL] 003540.jpg | Input: 512, Output: 131, Total: 643
+[PROGRESS] Completed 545/887 files
+[EVAL] 002594.jpg | Input: 508, Output: 122, Total: 630
+[PROGRESS] Completed 546/887 files
+[EVAL] 001707.jpg | Input: 550, Output: 108, Total: 658
+[PROGRESS] Completed 547/887 files
+[EVAL] 002081.jpg | Input: 386, Output: 118, Total: 504
+[PROGRESS] Completed 548/887 files
+[EVAL] 000116.jpg | Input: 656, Output: 117, Total: 773
+[PROGRESS] Completed 549/887 files
+[EVAL] 001584.jpg | Input: 583, Output: 129, Total: 712
+[PROGRESS] Completed 550/887 files
+[EVAL] 000680.jpg | Input: 459, Output: 129, Total: 588
+[PROGRESS] Completed 551/887 files
+[EVAL] 002347.jpg | Input: 378, Output: 142, Total: 520
+[PROGRESS] Completed 552/887 files
+[EVAL] 002039.jpg | Input: 497, Output: 139, Total: 636
+[PROGRESS] Completed 553/887 files
+[EVAL] 002469.jpg | Input: 448, Output: 134, Total: 582
+[PROGRESS] Completed 554/887 files
+[EVAL] 001300.jpg | Input: 386, Output: 96, Total: 482
+[PROGRESS] Completed 555/887 files
+[EVAL] 001029.jpg | Input: 481, Output: 119, Total: 600
+[PROGRESS] Completed 556/887 files
+[EVAL] 001183.jpg | Input: 433, Output: 115, Total: 548
+[PROGRESS] Completed 557/887 files
+[EVAL] 003151.jpg | Input: 426, Output: 100, Total: 526
+[PROGRESS] Completed 558/887 files
+[EVAL] 003852.jpg | Input: 410, Output: 117, Total: 527
+[PROGRESS] Completed 559/887 files
+[EVAL] 002740.jpg | Input: 395, Output: 129, Total: 524
+[PROGRESS] Completed 560/887 files
+[EVAL] 003916.jpg | Input: 490, Output: 144, Total: 634
+[PROGRESS] Completed 561/887 files
+[EVAL] 001881.jpg | Input: 388, Output: 148, Total: 536
+[PROGRESS] Completed 562/887 files
+[EVAL] 000793.jpg | Input: 479, Output: 113, Total: 592
+[PROGRESS] Completed 563/887 files
+[EVAL] 000269.jpg | Input: 417, Output: 108, Total: 525
+[PROGRESS] Completed 564/887 files
+[EVAL] 001478.jpg | Input: 493, Output: 133, Total: 626
+[PROGRESS] Completed 565/887 files
+[EVAL] 003853.jpg | Input: 428, Output: 121, Total: 549
+[PROGRESS] Completed 566/887 files
+[EVAL] 002038.jpg | Input: 475, Output: 116, Total: 591
+[PROGRESS] Completed 567/887 files
+[EVAL] 002487.jpg | Input: 429, Output: 136, Total: 565
+[PROGRESS] Completed 568/887 files
+[EVAL] 000140.jpg | Input: 371, Output: 122, Total: 493
+[PROGRESS] Completed 569/887 files
+[EVAL] 000510.jpg | Input: 410, Output: 130, Total: 540
+[PROGRESS] Completed 570/887 files
+[EVAL] 000843.jpg | Input: 435, Output: 146, Total: 581
+[PROGRESS] Completed 571/887 files
+[EVAL] 001301.jpg | Input: 396, Output: 103, Total: 499
+[PROGRESS] Completed 572/887 files
+[EVAL] 003412.jpg | Input: 485, Output: 159, Total: 644
+[PROGRESS] Completed 573/887 files
+[EVAL] 002653.jpg | Input: 380, Output: 110, Total: 490
+[PROGRESS] Completed 574/887 files
+[EVAL] 001839.jpg | Input: 444, Output: 135, Total: 579
+[PROGRESS] Completed 575/887 files
+[EVAL] 003557.jpg | Input: 467, Output: 119, Total: 586
+[PROGRESS] Completed 576/887 files
+[EVAL] 003107.jpg | Input: 403, Output: 144, Total: 547
+[PROGRESS] Completed 577/887 files
+[EVAL] 000402.jpg | Input: 524, Output: 145, Total: 669
+[PROGRESS] Completed 578/887 files
+[EVAL] 000052.jpg | Input: 488, Output: 126, Total: 614
+[PROGRESS] Completed 579/887 files
+[EVAL] 000382.jpg | Input: 571, Output: 135, Total: 706
+[PROGRESS] Completed 580/887 files
+[EVAL] 001069.jpg | Input: 573, Output: 138, Total: 711
+[PROGRESS] Completed 581/887 files
+[EVAL] 003404.jpg | Input: 384, Output: 131, Total: 515
+[PROGRESS] Completed 582/887 files
+[EVAL] 001086.jpg | Input: 444, Output: 117, Total: 561
+[PROGRESS] Completed 583/887 files
+[EVAL] 002350.jpg | Input: 530, Output: 142, Total: 672
+[PROGRESS] Completed 584/887 files
+[EVAL] 001985.jpg | Input: 413, Output: 118, Total: 531
+[PROGRESS] Completed 585/887 files
+[EVAL] 003238.jpg | Input: 515, Output: 127, Total: 642
+[PROGRESS] Completed 586/887 files
+[EVAL] 000414.jpg | Input: 434, Output: 150, Total: 584
+[PROGRESS] Completed 587/887 files
+[EVAL] 000101.jpg | Input: 486, Output: 133, Total: 619
+[PROGRESS] Completed 588/887 files
+[EVAL] 001710.jpg | Input: 350, Output: 104, Total: 454
+[PROGRESS] Completed 589/887 files
+[EVAL] 002995.jpg | Input: 488, Output: 152, Total: 640
+[PROGRESS] Completed 590/887 files
+[EVAL] 003453.jpg | Input: 493, Output: 110, Total: 603
+[PROGRESS] Completed 591/887 files
+[EVAL] 001194.jpg | Input: 401, Output: 111, Total: 512
+[PROGRESS] Completed 592/887 files
+[EVAL] 000443.jpg | Input: 403, Output: 120, Total: 523
+[PROGRESS] Completed 593/887 files
+[EVAL] 001252.jpg | Input: 390, Output: 142, Total: 532
+[PROGRESS] Completed 594/887 files
+[EVAL] 001602.jpg | Input: 480, Output: 144, Total: 624
+[PROGRESS] Completed 595/887 files
+[EVAL] 000855.jpg | Input: 446, Output: 122, Total: 568
+[PROGRESS] Completed 596/887 files
+[EVAL] 003280.jpg | Input: 519, Output: 154, Total: 673
+[PROGRESS] Completed 597/887 files
+[EVAL] 000506.jpg | Input: 534, Output: 119, Total: 653
+[PROGRESS] Completed 598/887 files
+[EVAL] 003351.jpg | Input: 527, Output: 129, Total: 656
+[PROGRESS] Completed 599/887 files
+[EVAL] 002813.jpg | Input: 395, Output: 113, Total: 508
+[PROGRESS] Completed 600/887 files
+[EVAL] 002540.jpg | Input: 389, Output: 110, Total: 499
+[PROGRESS] Completed 601/887 files
+[EVAL] 000087.jpg | Input: 382, Output: 128, Total: 510
+[PROGRESS] Completed 602/887 files
+[EVAL] 002110.jpg | Input: 371, Output: 159, Total: 530
+[PROGRESS] Completed 603/887 files
+[EVAL] 002405.jpg | Input: 377, Output: 113, Total: 490
+[PROGRESS] Completed 604/887 files
+[EVAL] 000438.jpg | Input: 461, Output: 136, Total: 597
+[PROGRESS] Completed 605/887 files
+[EVAL] 001679.jpg | Input: 383, Output: 111, Total: 494
+[PROGRESS] Completed 606/887 files
+[EVAL] 001157.jpg | Input: 549, Output: 155, Total: 704
+[PROGRESS] Completed 607/887 files
+[EVAL] 003490.jpg | Input: 454, Output: 135, Total: 589
+[PROGRESS] Completed 608/887 files
+[EVAL] 003869.jpg | Input: 425, Output: 133, Total: 558
+[PROGRESS] Completed 609/887 files
+[EVAL] 001854.jpg | Input: 346, Output: 152, Total: 498
+[PROGRESS] Completed 610/887 files
+[EVAL] 002794.jpg | Input: 438, Output: 118, Total: 556
+[PROGRESS] Completed 611/887 files
+[EVAL] 001012.jpg | Input: 588, Output: 124, Total: 712
+[PROGRESS] Completed 612/887 files
+[EVAL] 000879.jpg | Input: 364, Output: 111, Total: 475
+[PROGRESS] Completed 613/887 files
+[EVAL] 003306.jpg | Input: 436, Output: 104, Total: 540
+[PROGRESS] Completed 614/887 files
+[EVAL] 003243.jpg | Input: 437, Output: 100, Total: 537
+[PROGRESS] Completed 615/887 files
+[EVAL] 000896.jpg | Input: 533, Output: 128, Total: 661
+[PROGRESS] Completed 616/887 files
+[EVAL] 003469.jpg | Input: 402, Output: 131, Total: 533
+[PROGRESS] Completed 617/887 files
+[EVAL] 001004.jpg | Input: 392, Output: 127, Total: 519
+[PROGRESS] Completed 618/887 files
+[EVAL] 000245.jpg | Input: 428, Output: 109, Total: 537
+[PROGRESS] Completed 619/887 files
+[EVAL] 002782.jpg | Input: 461, Output: 140, Total: 601
+[PROGRESS] Completed 620/887 files
+[EVAL] 000496.jpg | Input: 422, Output: 117, Total: 539
+[PROGRESS] Completed 621/887 files
+[EVAL] 000479.jpg | Input: 466, Output: 132, Total: 598
+[PROGRESS] Completed 622/887 files
+[EVAL] 002444.jpg | Input: 438, Output: 121, Total: 559
+[PROGRESS] Completed 623/887 files
+[EVAL] 000880.jpg | Input: 498, Output: 111, Total: 609
+[PROGRESS] Completed 624/887 files
+[EVAL] 003605.jpg | Input: 421, Output: 136, Total: 557
+[PROGRESS] Completed 625/887 files
+[EVAL] 003081.jpg | Input: 419, Output: 108, Total: 527
+[PROGRESS] Completed 626/887 files
+[EVAL] 000642.jpg | Input: 428, Output: 117, Total: 545
+[PROGRESS] Completed 627/887 files
+[EVAL] 001053.jpg | Input: 374, Output: 122, Total: 496
+[PROGRESS] Completed 628/887 files
+[EVAL] 001403.jpg | Input: 543, Output: 144, Total: 687
+[PROGRESS] Completed 629/887 files
+[EVAL] 002556.jpg | Input: 451, Output: 138, Total: 589
+[PROGRESS] Completed 630/887 files
+[EVAL] 003652.jpg | Input: 485, Output: 111, Total: 596
+[PROGRESS] Completed 631/887 files
+[EVAL] 000584.jpg | Input: 354, Output: 122, Total: 476
+[PROGRESS] Completed 632/887 files
+[EVAL] 003388.jpg | Input: 422, Output: 162, Total: 584
+[PROGRESS] Completed 633/887 files
+[EVAL] 002433.jpg | Input: 516, Output: 147, Total: 663
+[PROGRESS] Completed 634/887 files
+[EVAL] 000818.jpg | Input: 416, Output: 120, Total: 536
+[PROGRESS] Completed 635/887 files
+[EVAL] 000662.jpg | Input: 365, Output: 114, Total: 479
+[PROGRESS] Completed 636/887 files
+[EVAL] 000232.jpg | Input: 470, Output: 104, Total: 574
+[PROGRESS] Completed 637/887 files
+[EVAL] 001209.jpg | Input: 444, Output: 120, Total: 564
+[PROGRESS] Completed 638/887 files
+[EVAL] 003664.jpg | Input: 393, Output: 131, Total: 524
+[PROGRESS] Completed 639/887 files
+[EVAL] 002999.jpg | Input: 380, Output: 133, Total: 513
+[PROGRESS] Completed 640/887 files
+[EVAL] 002219.jpg | Input: 401, Output: 99, Total: 500
+[PROGRESS] Completed 641/887 files
+[EVAL] 002649.jpg | Input: 399, Output: 118, Total: 517
+[PROGRESS] Completed 642/887 files
+[EVAL] 000674.jpg | Input: 414, Output: 153, Total: 567
+[PROGRESS] Completed 643/887 files
+[EVAL] 001966.jpg | Input: 588, Output: 146, Total: 734
+[PROGRESS] Completed 644/887 files
+[EVAL] 003633.jpg | Input: 398, Output: 119, Total: 517
+[PROGRESS] Completed 645/887 files
+[EVAL] 002472.jpg | Input: 404, Output: 114, Total: 518
+[PROGRESS] Completed 646/887 files
+[EVAL] 002864.jpg | Input: 422, Output: 111, Total: 533
+[PROGRESS] Completed 647/887 files
+[EVAL] 000623.jpg | Input: 551, Output: 131, Total: 682
+[PROGRESS] Completed 648/887 files
+[EVAL] 000273.jpg | Input: 460, Output: 114, Total: 574
+[PROGRESS] Completed 649/887 files
+[EVAL] 001032.jpg | Input: 667, Output: 127, Total: 794
+[PROGRESS] Completed 650/887 files
+[EVAL] 001527.jpg | Input: 652, Output: 130, Total: 782
+[PROGRESS] Completed 651/887 files
+[EVAL] 001730.jpg | Input: 428, Output: 142, Total: 570
+[PROGRESS] Completed 652/887 files
+[EVAL] 000967.jpg | Input: 488, Output: 121, Total: 609
+[PROGRESS] Completed 653/887 files
+[EVAL] 000064.jpg | Input: 417, Output: 149, Total: 566
+[PROGRESS] Completed 654/887 files
+[EVAL] 002370.jpg | Input: 392, Output: 132, Total: 524
+[PROGRESS] Completed 655/887 files
+[EVAL] 003998.jpg | Input: 406, Output: 123, Total: 529
+[PROGRESS] Completed 656/887 files
+[EVAL] 001419.jpg | Input: 325, Output: 125, Total: 450
+[PROGRESS] Completed 657/887 files
+[EVAL] 001337.jpg | Input: 435, Output: 111, Total: 546
+[PROGRESS] Completed 658/887 files
+[EVAL] 002848.jpg | Input: 417, Output: 139, Total: 556
+[PROGRESS] Completed 659/887 files
+[EVAL] 003536.jpg | Input: 418, Output: 128, Total: 546
+[PROGRESS] Completed 660/887 files
+[EVAL] 003920.jpg | Input: 445, Output: 107, Total: 552
+[PROGRESS] Completed 661/887 files
+[EVAL] 000160.jpg | Input: 550, Output: 148, Total: 698
+[PROGRESS] Completed 662/887 files
+[EVAL] 000530.jpg | Input: 612, Output: 113, Total: 725
+[PROGRESS] Completed 663/887 files
+[EVAL] 001321.jpg | Input: 310, Output: 144, Total: 454
+[PROGRESS] Completed 664/887 files
+[EVAL] 003170.jpg | Input: 463, Output: 108, Total: 571
+[PROGRESS] Completed 665/887 files
+[EVAL] 003520.jpg | Input: 423, Output: 150, Total: 573
+[PROGRESS] Completed 666/887 files
+[EVAL] 000249.jpg | Input: 497, Output: 109, Total: 606
+[PROGRESS] Completed 667/887 files
+[EVAL] 002274.jpg | Input: 349, Output: 127, Total: 476
+[PROGRESS] Completed 668/887 files
+[EVAL] 003035.jpg | Input: 459, Output: 118, Total: 577
+[PROGRESS] Completed 669/887 files
+[EVAL] 001458.jpg | Input: 438, Output: 128, Total: 566
+[PROGRESS] Completed 670/887 files
+[EVAL] 001376.jpg | Input: 519, Output: 117, Total: 636
+[PROGRESS] Completed 671/887 files
+[EVAL] 001726.jpg | Input: 372, Output: 124, Total: 496
+[PROGRESS] Completed 672/887 files
+[EVAL] 002366.jpg | Input: 363, Output: 137, Total: 500
+[PROGRESS] Completed 673/887 files
+[EVAL] 001819.jpg | Input: 385, Output: 123, Total: 508
+[PROGRESS] Completed 674/887 files
+[EVAL] 000429.jpg | Input: 375, Output: 149, Total: 524
+[PROGRESS] Completed 675/887 files
+[EVAL] 001111.jpg | Input: 509, Output: 128, Total: 637
+[PROGRESS] Completed 676/887 files
+[EVAL] 001054.jpg | Input: 444, Output: 152, Total: 596
+[PROGRESS] Completed 677/887 files
+[EVAL] 001957.jpg | Input: 417, Output: 133, Total: 550
+[PROGRESS] Completed 678/887 files
+[EVAL] 002506.jpg | Input: 480, Output: 143, Total: 623
+[PROGRESS] Completed 679/887 files
+[EVAL] 000868.jpg | Input: 613, Output: 151, Total: 764
+[PROGRESS] Completed 680/887 files
+[EVAL] 002855.jpg | Input: 380, Output: 113, Total: 493
+[PROGRESS] Completed 681/887 files
+[EVAL] 003252.jpg | Input: 593, Output: 113, Total: 706
+[PROGRESS] Completed 682/887 files
+[EVAL] 002910.jpg | Input: 418, Output: 117, Total: 535
+[PROGRESS] Completed 683/887 files
+[EVAL] 002443.jpg | Input: 327, Output: 128, Total: 455
+[PROGRESS] Completed 684/887 files
+[EVAL] 000184.jpg | Input: 450, Output: 105, Total: 555
+[PROGRESS] Completed 685/887 files
+[EVAL] 002013.jpg | Input: 354, Output: 124, Total: 478
+[PROGRESS] Completed 686/887 files
+[EVAL] 001516.jpg | Input: 379, Output: 149, Total: 528
+[PROGRESS] Completed 687/887 files
+[EVAL] 000757.jpg | Input: 415, Output: 110, Total: 525
+[PROGRESS] Completed 688/887 files
+[EVAL] 003751.jpg | Input: 590, Output: 98, Total: 688
+[PROGRESS] Completed 689/887 files
+[EVAL] 002510.jpg | Input: 366, Output: 106, Total: 472
+[PROGRESS] Completed 690/887 files
+[EVAL] 001150.jpg | Input: 367, Output: 145, Total: 512
+[PROGRESS] Completed 691/887 files
+[EVAL] 001916.jpg | Input: 503, Output: 123, Total: 626
+[PROGRESS] Completed 692/887 files
+[EVAL] 003881.jpg | Input: 449, Output: 111, Total: 560
+[PROGRESS] Completed 693/887 files
+[EVAL] 002117.jpg | Input: 428, Output: 147, Total: 575
+[PROGRESS] Completed 694/887 files
+[EVAL] 001691.jpg | Input: 349, Output: 119, Total: 468
+[PROGRESS] Completed 695/887 files
+[EVAL] 003356.jpg | Input: 360, Output: 109, Total: 469
+[PROGRESS] Completed 696/887 files
+[EVAL] 002951.jpg | Input: 579, Output: 117, Total: 696
+[PROGRESS] Completed 697/887 files
+[EVAL] 002052.jpg | Input: 350, Output: 149, Total: 499
+[PROGRESS] Completed 698/887 files
+[EVAL] 001804.jpg | Input: 455, Output: 154, Total: 609
+[PROGRESS] Completed 699/887 files
+[EVAL] 002394.jpg | Input: 495, Output: 144, Total: 639
+[PROGRESS] Completed 700/887 files
+[EVAL] 001255.jpg | Input: 403, Output: 131, Total: 534
+[PROGRESS] Completed 701/887 files
+[EVAL] 001605.jpg | Input: 526, Output: 140, Total: 666
+[PROGRESS] Completed 702/887 files
+[EVAL] 003638.jpg | Input: 473, Output: 118, Total: 591
+[PROGRESS] Completed 703/887 files
+[EVAL] 000014.jpg | Input: 660, Output: 116, Total: 776
+[PROGRESS] Completed 704/887 files
+[EVAL] 000151.jpg | Input: 521, Output: 156, Total: 677
+[PROGRESS] Completed 705/887 files
+[EVAL] 000628.jpg | Input: 464, Output: 111, Total: 575
+[PROGRESS] Completed 706/887 files
+[EVAL] 003511.jpg | Input: 451, Output: 119, Total: 570
+[PROGRESS] Completed 707/887 files
+[EVAL] 000043.jpg | Input: 502, Output: 140, Total: 642
+[PROGRESS] Completed 708/887 files
+[EVAL] 000413.jpg | Input: 509, Output: 168, Total: 677
+[PROGRESS] Completed 709/887 files
+[EVAL] 004000.jpg | Input: 414, Output: 136, Total: 550
+[PROGRESS] Completed 710/887 files
+[EVAL] 002838.jpg | Input: 396, Output: 122, Total: 518
+[PROGRESS] Completed 711/887 files
+[EVAL] 001717.jpg | Input: 364, Output: 125, Total: 489
+[PROGRESS] Completed 712/887 files
+[EVAL] 003403.jpg | Input: 389, Output: 129, Total: 518
+[PROGRESS] Completed 713/887 files
+[EVAL] 003950.jpg | Input: 405, Output: 136, Total: 541
+[PROGRESS] Completed 714/887 files
+[EVAL] 000956.jpg | Input: 539, Output: 104, Total: 643
+[PROGRESS] Completed 715/887 files
+[EVAL] 003383.jpg | Input: 452, Output: 135, Total: 587
+[PROGRESS] Completed 716/887 files
+[EVAL] 002438.jpg | Input: 420, Output: 147, Total: 567
+[PROGRESS] Completed 717/887 files
+[EVAL] 002068.jpg | Input: 453, Output: 124, Total: 577
+[PROGRESS] Completed 718/887 files
+[EVAL] 003415.jpg | Input: 374, Output: 143, Total: 517
+[PROGRESS] Completed 719/887 files
+[EVAL] 003045.jpg | Input: 463, Output: 107, Total: 570
+[PROGRESS] Completed 720/887 files
+[EVAL] 003012.jpg | Input: 371, Output: 140, Total: 511
+[PROGRESS] Completed 721/887 files
+[EVAL] 003911.jpg | Input: 520, Output: 124, Total: 644
+[PROGRESS] Completed 722/887 files
+[EVAL] 003507.jpg | Input: 457, Output: 116, Total: 573
+[PROGRESS] Completed 723/887 files
+[EVAL] 002731.jpg | Input: 447, Output: 143, Total: 590
+[PROGRESS] Completed 724/887 files
+[EVAL] 000219.jpg | Input: 565, Output: 125, Total: 690
+[PROGRESS] Completed 725/887 files
+[EVAL] 003065.jpg | Input: 423, Output: 106, Total: 529
+[PROGRESS] Completed 726/887 files
+[EVAL] 000560.jpg | Input: 405, Output: 134, Total: 539
+[PROGRESS] Completed 727/887 files
+[EVAL] 000999.jpg | Input: 362, Output: 118, Total: 480
+[PROGRESS] Completed 728/887 files
+[EVAL] 003209.jpg | Input: 483, Output: 99, Total: 582
+[PROGRESS] Completed 729/887 files
+[EVAL] 002418.jpg | Input: 440, Output: 124, Total: 564
+[PROGRESS] Completed 730/887 files
+[EVAL] 003032.jpg | Input: 390, Output: 115, Total: 505
+[PROGRESS] Completed 731/887 files
+[EVAL] 002273.jpg | Input: 374, Output: 139, Total: 513
+[PROGRESS] Completed 732/887 files
+[EVAL] 000022.jpg | Input: 436, Output: 136, Total: 572
+[PROGRESS] Completed 733/887 files
+[EVAL] 003531.jpg | Input: 418, Output: 101, Total: 519
+[PROGRESS] Completed 734/887 files
+[EVAL] 002635.jpg | Input: 353, Output: 128, Total: 481
+[PROGRESS] Completed 735/887 files
+[EVAL] 000171.jpg | Input: 393, Output: 100, Total: 493
+[PROGRESS] Completed 736/887 files
+[EVAL] 001760.jpg | Input: 411, Output: 151, Total: 562
+[PROGRESS] Completed 737/887 files
+[EVAL] 000464.jpg | Input: 378, Output: 113, Total: 491
+[PROGRESS] Completed 738/887 files
+[EVAL] 002727.jpg | Input: 431, Output: 152, Total: 583
+[PROGRESS] Completed 739/887 files
+[EVAL] 001808.jpg | Input: 555, Output: 136, Total: 691
+[PROGRESS] Completed 740/887 files
+[EVAL] 003835.jpg | Input: 410, Output: 115, Total: 525
+[PROGRESS] Completed 741/887 files
+[EVAL] 002377.jpg | Input: 555, Output: 122, Total: 677
+[PROGRESS] Completed 742/887 files
+[EVAL] 000599.jpg | Input: 364, Output: 126, Total: 490
+[PROGRESS] Completed 743/887 files
+[EVAL] 002619.jpg | Input: 513, Output: 113, Total: 626
+[PROGRESS] Completed 744/887 files
+[EVAL] 000761.jpg | Input: 438, Output: 133, Total: 571
+[PROGRESS] Completed 745/887 files
+[EVAL] 001873.jpg | Input: 410, Output: 152, Total: 562
+[PROGRESS] Completed 746/887 files
+[EVAL] 003264.jpg | Input: 564, Output: 113, Total: 677
+[PROGRESS] Completed 747/887 files
+[EVAL] 003771.jpg | Input: 458, Output: 119, Total: 577
+[PROGRESS] Completed 748/887 files
+[EVAL] 002160.jpg | Input: 524, Output: 132, Total: 656
+[PROGRESS] Completed 749/887 files
+[EVAL] 002530.jpg | Input: 397, Output: 122, Total: 519
+[PROGRESS] Completed 750/887 files
+[EVAL] 001961.jpg | Input: 489, Output: 146, Total: 635
+[PROGRESS] Completed 751/887 files
+[EVAL] 001127.jpg | Input: 510, Output: 133, Total: 643
+[PROGRESS] Completed 752/887 files
+[EVAL] 001824.jpg | Input: 383, Output: 112, Total: 495
+[PROGRESS] Completed 753/887 files
+[EVAL] 002588.jpg | Input: 475, Output: 140, Total: 615
+[PROGRESS] Completed 754/887 files
+[EVAL] 001074.jpg | Input: 375, Output: 117, Total: 492
+[PROGRESS] Completed 755/887 files
+[EVAL] 002658.jpg | Input: 437, Output: 121, Total: 558
+[PROGRESS] Completed 756/887 files
+[EVAL] 000370.jpg | Input: 440, Output: 98, Total: 538
+[PROGRESS] Completed 757/887 files
+[EVAL] 001648.jpg | Input: 397, Output: 127, Total: 524
+[PROGRESS] Completed 758/887 files
+[EVAL] 003675.jpg | Input: 441, Output: 124, Total: 565
+[PROGRESS] Completed 759/887 files
+[EVAL] 002121.jpg | Input: 553, Output: 111, Total: 664
+[PROGRESS] Completed 760/887 files
+[EVAL] 001920.jpg | Input: 420, Output: 103, Total: 523
+[PROGRESS] Completed 761/887 files
+[EVAL] 001189.jpg | Input: 452, Output: 148, Total: 600
+[PROGRESS] Completed 762/887 files
+[EVAL] 001023.jpg | Input: 523, Output: 99, Total: 622
+[PROGRESS] Completed 763/887 files
+[EVAL] 001865.jpg | Input: 488, Output: 128, Total: 616
+[PROGRESS] Completed 764/887 files
+[EVAL] 000777.jpg | Input: 572, Output: 119, Total: 691
+[PROGRESS] Completed 765/887 files
+[EVAL] 003272.jpg | Input: 508, Output: 115, Total: 623
+[PROGRESS] Completed 766/887 files
+[EVAL] 003623.jpg | Input: 386, Output: 118, Total: 504
+[PROGRESS] Completed 767/887 files
+[EVAL] 002032.jpg | Input: 486, Output: 147, Total: 633
+[PROGRESS] Completed 768/887 files
+[EVAL] 000263.jpg | Input: 447, Output: 111, Total: 558
+[PROGRESS] Completed 769/887 files
+[EVAL] 001921.jpg | Input: 394, Output: 137, Total: 531
+[PROGRESS] Completed 770/887 files
+[EVAL] 001022.jpg | Input: 372, Output: 115, Total: 487
+[PROGRESS] Completed 771/887 files
+[EVAL] 001167.jpg | Input: 373, Output: 140, Total: 513
+[PROGRESS] Completed 772/887 files
+[EVAL] 000776.jpg | Input: 413, Output: 118, Total: 531
+[PROGRESS] Completed 773/887 files
+[EVAL] 000408.jpg | Input: 546, Output: 150, Total: 696
+[PROGRESS] Completed 774/887 files
+[EVAL] 003224.jpg | Input: 446, Output: 152, Total: 598
+[PROGRESS] Completed 775/887 files
+[EVAL] 003731.jpg | Input: 363, Output: 117, Total: 480
+[PROGRESS] Completed 776/887 files
+[EVAL] 002823.jpg | Input: 375, Output: 149, Total: 524
+[PROGRESS] Completed 777/887 files
+[EVAL] 003361.jpg | Input: 331, Output: 124, Total: 455
+[PROGRESS] Completed 778/887 files
+[EVAL] 002570.jpg | Input: 371, Output: 118, Total: 489
+[PROGRESS] Completed 779/887 files
+[EVAL] 001075.jpg | Input: 485, Output: 116, Total: 601
+[PROGRESS] Completed 780/887 files
+[EVAL] 003048.jpg | Input: 380, Output: 124, Total: 504
+[PROGRESS] Completed 781/887 files
+[EVAL] 001425.jpg | Input: 340, Output: 122, Total: 462
+[PROGRESS] Completed 782/887 files
+[EVAL] 000664.jpg | Input: 502, Output: 108, Total: 610
+[PROGRESS] Completed 783/887 files
+[EVAL] 001833.jpg | Input: 448, Output: 149, Total: 597
+[PROGRESS] Completed 784/887 files
+[EVAL] 002970.jpg | Input: 381, Output: 145, Total: 526
+[PROGRESS] Completed 785/887 files
+[EVAL] 003662.jpg | Input: 424, Output: 108, Total: 532
+[PROGRESS] Completed 786/887 files
+[EVAL] 002566.jpg | Input: 474, Output: 138, Total: 612
+[PROGRESS] Completed 787/887 files
+[EVAL] 002136.jpg | Input: 395, Output: 135, Total: 530
+[PROGRESS] Completed 788/887 files
+[EVAL] 003377.jpg | Input: 374, Output: 119, Total: 493
+[PROGRESS] Completed 789/887 files
+[EVAL] 000808.jpg | Input: 556, Output: 153, Total: 709
+[PROGRESS] Completed 790/887 files
+[EVAL] 000388.jpg | Input: 498, Output: 118, Total: 616
+[PROGRESS] Completed 791/887 files
+[EVAL] 001960.jpg | Input: 575, Output: 115, Total: 690
+[PROGRESS] Completed 792/887 files
+[EVAL] 001433.jpg | Input: 394, Output: 111, Total: 505
+[PROGRESS] Completed 793/887 files
+[EVAL] 002474.jpg | Input: 478, Output: 126, Total: 604
+[PROGRESS] Completed 794/887 files
+[EVAL] 000449.jpg | Input: 341, Output: 126, Total: 467
+[PROGRESS] Completed 795/887 files
+[EVAL] 002927.jpg | Input: 353, Output: 109, Total: 462
+[PROGRESS] Completed 796/887 files
+[EVAL] 001608.jpg | Input: 409, Output: 90, Total: 499
+[PROGRESS] Completed 797/887 files
+[EVAL] 003265.jpg | Input: 431, Output: 107, Total: 538
+[PROGRESS] Completed 798/887 files
+[EVAL] 002862.jpg | Input: 469, Output: 134, Total: 603
+[PROGRESS] Completed 799/887 files
+[EVAL] 001034.jpg | Input: 430, Output: 107, Total: 537
+[PROGRESS] Completed 800/887 files
+[EVAL] 001464.jpg | Input: 395, Output: 140, Total: 535
+[PROGRESS] Completed 801/887 files
+[EVAL] 000275.jpg | Input: 488, Output: 126, Total: 614
+[PROGRESS] Completed 802/887 files
+[EVAL] 001736.jpg | Input: 450, Output: 136, Total: 586
+[PROGRESS] Completed 803/887 files
+[EVAL] 001366.jpg | Input: 431, Output: 144, Total: 575
+[PROGRESS] Completed 804/887 files
+[EVAL] 000127.jpg | Input: 549, Output: 133, Total: 682
+[PROGRESS] Completed 805/887 files
+[EVAL] 000062.jpg | Input: 454, Output: 114, Total: 568
+[PROGRESS] Completed 806/887 files
+[EVAL] 001389.jpg | Input: 406, Output: 125, Total: 531
+[PROGRESS] Completed 807/887 files
+[EVAL] 000961.jpg | Input: 508, Output: 113, Total: 621
+[PROGRESS] Completed 808/887 files
+[EVAL] 001223.jpg | Input: 424, Output: 137, Total: 561
+[PROGRESS] Completed 809/887 files
+[EVAL] 003072.jpg | Input: 554, Output: 106, Total: 660
+[PROGRESS] Completed 810/887 files
+[EVAL] 000873.jpg | Input: 386, Output: 142, Total: 528
+[PROGRESS] Completed 811/887 files
+[EVAL] 003249.jpg | Input: 412, Output: 110, Total: 522
+[PROGRESS] Completed 812/887 files
+[EVAL] 000936.jpg | Input: 379, Output: 121, Total: 500
+[PROGRESS] Completed 813/887 files
+[EVAL] 001624.jpg | Input: 413, Output: 128, Total: 541
+[PROGRESS] Completed 814/887 files
+[EVAL] 003619.jpg | Input: 377, Output: 139, Total: 516
+[PROGRESS] Completed 815/887 files
+[EVAL] 003160.jpg | Input: 498, Output: 117, Total: 615
+[PROGRESS] Completed 816/887 files
+[EVAL] 003863.jpg | Input: 420, Output: 121, Total: 541
+[PROGRESS] Completed 817/887 files
+[EVAL] 000536.jpg | Input: 540, Output: 171, Total: 711
+[PROGRESS] Completed 818/887 files
+[EVAL] 000189.jpg | Input: 417, Output: 107, Total: 524
+[PROGRESS] Completed 819/887 files
+[EVAL] 002788.jpg | Input: 384, Output: 142, Total: 526
+[PROGRESS] Completed 820/887 files
+[EVAL] 003208.jpg | Input: 453, Output: 123, Total: 576
+[PROGRESS] Completed 821/887 files
+[EVAL] 000977.jpg | Input: 416, Output: 146, Total: 562
+[PROGRESS] Completed 822/887 files
+[EVAL] 003822.jpg | Input: 450, Output: 133, Total: 583
+[PROGRESS] Completed 823/887 files
+[EVAL] 002225.jpg | Input: 455, Output: 120, Total: 575
+[PROGRESS] Completed 824/887 files
+[EVAL] 002675.jpg | Input: 464, Output: 137, Total: 601
+[PROGRESS] Completed 825/887 files
+[EVAL] 001059.jpg | Input: 359, Output: 148, Total: 507
+[PROGRESS] Completed 826/887 files
+[EVAL] 003443.jpg | Input: 362, Output: 125, Total: 487
+[PROGRESS] Completed 827/887 files
+[EVAL] 000795.jpg | Input: 350, Output: 106, Total: 456
+[PROGRESS] Completed 828/887 files
+[EVAL] 003855.jpg | Input: 466, Output: 100, Total: 566
+[PROGRESS] Completed 829/887 files
+[EVAL] 000003.jpg | Input: 461, Output: 125, Total: 586
+[PROGRESS] Completed 830/887 files
+[EVAL] 000900.jpg | Input: 443, Output: 138, Total: 581
+[PROGRESS] Completed 831/887 files
+[EVAL] 002897.jpg | Input: 543, Output: 145, Total: 688
+[PROGRESS] Completed 832/887 files
+[EVAL] 000845.jpg | Input: 420, Output: 137, Total: 557
+[PROGRESS] Completed 833/887 files
+[EVAL] 000392.jpg | Input: 594, Output: 159, Total: 753
+[PROGRESS] Completed 834/887 files
+[EVAL] 003551.jpg | Input: 392, Output: 123, Total: 515
+[PROGRESS] Completed 835/887 files
+[EVAL] 002710.jpg | Input: 388, Output: 110, Total: 498
+[PROGRESS] Completed 836/887 files
+[EVAL] 003678.jpg | Input: 463, Output: 125, Total: 588
+[PROGRESS] Completed 837/887 files
+[EVAL] 002069.jpg | Input: 581, Output: 164, Total: 745
+[PROGRESS] Completed 838/887 files
+[EVAL] 003697.jpg | Input: 496, Output: 117, Total: 613
+[PROGRESS] Completed 839/887 files
+[EVAL] 001700.jpg | Input: 435, Output: 122, Total: 557
+[PROGRESS] Completed 840/887 files
+[EVAL] 000384.jpg | Input: 401, Output: 129, Total: 530
+[PROGRESS] Completed 841/887 files
+[EVAL] 001829.jpg | Input: 526, Output: 146, Total: 672
+[PROGRESS] Completed 842/887 files
+[EVAL] 000691.jpg | Input: 405, Output: 134, Total: 539
+[PROGRESS] Completed 843/887 files
+[EVAL] 000804.jpg | Input: 383, Output: 130, Total: 513
+[PROGRESS] Completed 844/887 files
+[EVAL] 001346.jpg | Input: 395, Output: 158, Total: 553
+[PROGRESS] Completed 845/887 files
+[EVAL] 002993.jpg | Input: 527, Output: 153, Total: 680
+[PROGRESS] Completed 846/887 files
+[EVAL] 000279.jpg | Input: 583, Output: 128, Total: 711
+[PROGRESS] Completed 847/887 files
+[EVAL] 000629.jpg | Input: 418, Output: 124, Total: 542
+[PROGRESS] Completed 848/887 files
+[EVAL] 001468.jpg | Input: 386, Output: 151, Total: 537
+[PROGRESS] Completed 849/887 files
+[EVAL] 003455.jpg | Input: 472, Output: 132, Total: 604
+[PROGRESS] Completed 850/887 files
+[EVAL] 001487.jpg | Input: 411, Output: 128, Total: 539
+[PROGRESS] Completed 851/887 files
+[EVAL] 002751.jpg | Input: 369, Output: 123, Total: 492
+[PROGRESS] Completed 852/887 files
+[EVAL] 000916.jpg | Input: 433, Output: 124, Total: 557
+[PROGRESS] Completed 853/887 files
+[EVAL] 003639.jpg | Input: 392, Output: 114, Total: 506
+[PROGRESS] Completed 854/887 files
+[EVAL] 002478.jpg | Input: 477, Output: 128, Total: 605
+[PROGRESS] Completed 855/887 files
+[EVAL] 002028.jpg | Input: 461, Output: 120, Total: 581
+[PROGRESS] Completed 856/887 files
+[EVAL] 000500.jpg | Input: 474, Output: 115, Total: 589
+[PROGRESS] Completed 857/887 files
+[EVAL] 001106.jpg | Input: 394, Output: 130, Total: 524
+[PROGRESS] Completed 858/887 files
+[EVAL] 001413.jpg | Input: 443, Output: 130, Total: 573
+[PROGRESS] Completed 859/887 files
+[EVAL] 000081.jpg | Input: 419, Output: 143, Total: 562
+[PROGRESS] Completed 860/887 files
+[EVAL] 000982.jpg | Input: 438, Output: 133, Total: 571
+[PROGRESS] Completed 861/887 files
+[EVAL] 001385.jpg | Input: 332, Output: 158, Total: 490
+[PROGRESS] Completed 862/887 files
+[EVAL] 001501.jpg | Input: 397, Output: 148, Total: 545
+[PROGRESS] Completed 863/887 files
+[EVAL] 001444.jpg | Input: 472, Output: 135, Total: 607
+[PROGRESS] Completed 864/887 files
+[EVAL] 002638.jpg | Input: 535, Output: 115, Total: 650
+[PROGRESS] Completed 865/887 files
+[EVAL] 002792.jpg | Input: 328, Output: 112, Total: 440
+[PROGRESS] Completed 866/887 files
+[EVAL] 001297.jpg | Input: 394, Output: 150, Total: 544
+[PROGRESS] Completed 867/887 files
+[EVAL] 003300.jpg | Input: 413, Output: 115, Total: 528
+[PROGRESS] Completed 868/887 files
+[EVAL] 002511.jpg | Input: 447, Output: 120, Total: 567
+[PROGRESS] Completed 869/887 files
+[EVAL] 002004.jpg | Input: 450, Output: 145, Total: 595
+[PROGRESS] Completed 870/887 files
+[EVAL] 002907.jpg | Input: 468, Output: 137, Total: 605
+[PROGRESS] Completed 871/887 files
+[EVAL] 003615.jpg | Input: 453, Output: 149, Total: 602
+[PROGRESS] Completed 872/887 files
+[EVAL] 001278.jpg | Input: 409, Output: 132, Total: 541
+[PROGRESS] Completed 873/887 files
+[EVAL] 001147.jpg | Input: 458, Output: 117, Total: 575
+[PROGRESS] Completed 874/887 files
+[EVAL] 002784.jpg | Input: 476, Output: 157, Total: 633
+[PROGRESS] Completed 875/887 files
+[EVAL] 003195.jpg | Input: 373, Output: 107, Total: 480
+[PROGRESS] Completed 876/887 files
+[EVAL] 001452.jpg | Input: 399, Output: 128, Total: 527
+[PROGRESS] Completed 877/887 files
+[EVAL] 000490.jpg | Input: 566, Output: 115, Total: 681
+[PROGRESS] Completed 878/887 files
+[EVAL] 002157.jpg | Input: 334, Output: 134, Total: 468
+[PROGRESS] Completed 879/887 files
+[EVAL] 003603.jpg | Input: 430, Output: 135, Total: 565
+[PROGRESS] Completed 880/887 files
+[EVAL] 002911.jpg | Input: 521, Output: 135, Total: 656
+[PROGRESS] Completed 881/887 files
+[EVAL] 001110.jpg | Input: 512, Output: 122, Total: 634
+[PROGRESS] Completed 882/887 files
+[EVAL] 002679.jpg | Input: 411, Output: 119, Total: 530
+[PROGRESS] Completed 883/887 files
+[EVAL] 002100.jpg | Input: 538, Output: 132, Total: 670
+[PROGRESS] Completed 884/887 files
+[EVAL] 002415.jpg | Input: 406, Output: 135, Total: 541
+[PROGRESS] Completed 885/887 files
+[EVAL] 000428.jpg | Input: 563, Output: 130, Total: 693
+[PROGRESS] Completed 886/887 files
+[EVAL] 003654.jpg | Input: 466, Output: 111, Total: 577
+[PROGRESS] Completed 887/887 files
+
+Total Tokens: 511465
+Estimated Cost: $0.2557
+Total Time: 62880.20 sec

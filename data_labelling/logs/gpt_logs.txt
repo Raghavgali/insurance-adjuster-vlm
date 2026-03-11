@@ -1,0 +1,2663 @@
+[START] Captioning started on 887
+[INTERMEDIATE] Captioning done on 1/887
+[DEBUG] Sending image: 001516.jpg, metadata length: 385, base64 size: 961096
+[SUCCESS] 001516.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 2/887
+[DEBUG] Sending image: 000634.jpg, metadata length: 384, base64 size: 1742160
+[SUCCESS] 000634.jpg | input: 886, output: 128, total_tokens: 1014
+[INTERMEDIATE] Captioning done on 3/887
+[DEBUG] Sending image: 002023.jpg, metadata length: 386, base64 size: 852072
+[SUCCESS] 002023.jpg | input: 886, output: 132, total_tokens: 1018
+[INTERMEDIATE] Captioning done on 4/887
+[DEBUG] Sending image: 002751.jpg, metadata length: 380, base64 size: 891820
+[SUCCESS] 002751.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 5/887
+[DEBUG] Sending image: 002792.jpg, metadata length: 386, base64 size: 612216
+[SUCCESS] 002792.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 6/887
+[DEBUG] Sending image: 003665.jpg, metadata length: 381, base64 size: 1711620
+[SUCCESS] 003665.jpg | input: 885, output: 116, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 7/887
+[DEBUG] Sending image: 001072.jpg, metadata length: 386, base64 size: 1039464
+[SUCCESS] 001072.jpg | input: 886, output: 131, total_tokens: 1017
+[INTERMEDIATE] Captioning done on 8/887
+[DEBUG] Sending image: 001700.jpg, metadata length: 389, base64 size: 855276
+[SUCCESS] 001700.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 9/887
+[DEBUG] Sending image: 003881.jpg, metadata length: 382, base64 size: 1344064
+[SUCCESS] 003881.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 10/887
+[DEBUG] Sending image: 001106.jpg, metadata length: 390, base64 size: 1167316
+[SUCCESS] 001106.jpg | input: 886, output: 96, total_tokens: 982
+[INTERMEDIATE] Captioning done on 11/887
+[DEBUG] Sending image: 002433.jpg, metadata length: 389, base64 size: 661676
+[SUCCESS] 002433.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 12/887
+[DEBUG] Sending image: 001648.jpg, metadata length: 385, base64 size: 932308
+[SUCCESS] 001648.jpg | input: 886, output: 136, total_tokens: 1022
+[INTERMEDIATE] Captioning done on 13/887
+[DEBUG] Sending image: 000581.jpg, metadata length: 384, base64 size: 969360
+[SUCCESS] 000581.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 14/887
+[DEBUG] Sending image: 003922.jpg, metadata length: 387, base64 size: 982212
+[SUCCESS] 003922.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 15/887
+[DEBUG] Sending image: 001304.jpg, metadata length: 384, base64 size: 608336
+[SUCCESS] 001304.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 16/887
+[DEBUG] Sending image: 003513.jpg, metadata length: 389, base64 size: 653600
+[SUCCESS] 003513.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 17/887
+[DEBUG] Sending image: 003507.jpg, metadata length: 388, base64 size: 1150984
+[SUCCESS] 003507.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 18/887
+[DEBUG] Sending image: 002619.jpg, metadata length: 394, base64 size: 960960
+[SUCCESS] 002619.jpg | input: 888, output: 113, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 19/887
+[DEBUG] Sending image: 001476.jpg, metadata length: 383, base64 size: 611880
+[SUCCESS] 001476.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 20/887
+[DEBUG] Sending image: 002157.jpg, metadata length: 387, base64 size: 1272524
+[SUCCESS] 002157.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 21/887
+[DEBUG] Sending image: 003249.jpg, metadata length: 388, base64 size: 960876
+[SUCCESS] 003249.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 22/887
+[DEBUG] Sending image: 000032.jpg, metadata length: 386, base64 size: 1228244
+[SUCCESS] 000032.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 23/887
+[DEBUG] Sending image: 000967.jpg, metadata length: 384, base64 size: 1019324
+[SUCCESS] 000967.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 24/887
+[DEBUG] Sending image: 000973.jpg, metadata length: 391, base64 size: 1329428
+[SUCCESS] 000973.jpg | input: 888, output: 114, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 25/887
+[DEBUG] Sending image: 002180.jpg, metadata length: 388, base64 size: 722412
+[SUCCESS] 002180.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 26/887
+[DEBUG] Sending image: 000755.jpg, metadata length: 387, base64 size: 1317408
+[SUCCESS] 000755.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 27/887
+[DEBUG] Sending image: 000999.jpg, metadata length: 388, base64 size: 1537852
+[SUCCESS] 000999.jpg | input: 886, output: 92, total_tokens: 978
+[INTERMEDIATE] Captioning done on 28/887
+[DEBUG] Sending image: 003923.jpg, metadata length: 387, base64 size: 1196896
+[SUCCESS] 003923.jpg | input: 886, output: 3, total_tokens: 889
+[INTERMEDIATE] Captioning done on 29/887
+[DEBUG] Sending image: 003937.jpg, metadata length: 385, base64 size: 1137576
+[SUCCESS] 003937.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 30/887
+[DEBUG] Sending image: 000231.jpg, metadata length: 383, base64 size: 952068
+[SUCCESS] 000231.jpg | input: 886, output: 133, total_tokens: 1019
+[INTERMEDIATE] Captioning done on 31/887
+[DEBUG] Sending image: 003738.jpg, metadata length: 389, base64 size: 787860
+[SUCCESS] 003738.jpg | input: 887, output: 102, total_tokens: 989
+[INTERMEDIATE] Captioning done on 32/887
+[DEBUG] Sending image: 002426.jpg, metadata length: 389, base64 size: 1090152
+[SUCCESS] 002426.jpg | input: 886, output: 85, total_tokens: 971
+[INTERMEDIATE] Captioning done on 33/887
+[DEBUG] Sending image: 002432.jpg, metadata length: 387, base64 size: 890188
+[SUCCESS] 002432.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 34/887
+[DEBUG] Sending image: 002354.jpg, metadata length: 388, base64 size: 1103964
+[SUCCESS] 002354.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 35/887
+[DEBUG] Sending image: 000219.jpg, metadata length: 386, base64 size: 1717800
+[SUCCESS] 000219.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 36/887
+[DEBUG] Sending image: 002368.jpg, metadata length: 389, base64 size: 841528
+[SUCCESS] 002368.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 37/887
+[DEBUG] Sending image: 003076.jpg, metadata length: 389, base64 size: 1638628
+[SUCCESS] 003076.jpg | input: 886, output: 149, total_tokens: 1035
+[INTERMEDIATE] Captioning done on 38/887
+[DEBUG] Sending image: 000392.jpg, metadata length: 379, base64 size: 646256
+[SUCCESS] 000392.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 39/887
+[DEBUG] Sending image: 002234.jpg, metadata length: 386, base64 size: 771264
+[SUCCESS] 002234.jpg | input: 885, output: 96, total_tokens: 981
+[INTERMEDIATE] Captioning done on 40/887
+[DEBUG] Sending image: 000345.jpg, metadata length: 387, base64 size: 1420788
+[SUCCESS] 000345.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 41/887
+[DEBUG] Sending image: 002220.jpg, metadata length: 385, base64 size: 1095040
+[SUCCESS] 002220.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 42/887
+[DEBUG] Sending image: 000379.jpg, metadata length: 388, base64 size: 827820
+[SUCCESS] 000379.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 43/887
+[DEBUG] Sending image: 003664.jpg, metadata length: 383, base64 size: 1460708
+[SUCCESS] 003664.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 44/887
+[DEBUG] Sending image: 000184.jpg, metadata length: 384, base64 size: 593024
+[SUCCESS] 000184.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 45/887
+[DEBUG] Sending image: 003499.jpg, metadata length: 383, base64 size: 648800
+[SUCCESS] 003499.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 46/887
+[DEBUG] Sending image: 002963.jpg, metadata length: 382, base64 size: 992128
+[SUCCESS] 002963.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 47/887
+[DEBUG] Sending image: 000153.jpg, metadata length: 384, base64 size: 908832
+[SUCCESS] 000153.jpg | input: 885, output: 114, total_tokens: 999
+[INTERMEDIATE] Captioning done on 48/887
+[DEBUG] Sending image: 003300.jpg, metadata length: 382, base64 size: 1206892
+[SUCCESS] 003300.jpg | input: 885, output: 101, total_tokens: 986
+[INTERMEDIATE] Captioning done on 49/887
+[DEBUG] Sending image: 003466.jpg, metadata length: 382, base64 size: 995532
+[SUCCESS] 003466.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 50/887
+[DEBUG] Sending image: 001501.jpg, metadata length: 388, base64 size: 1268848
+[SUCCESS] 001501.jpg | input: 886, output: 95, total_tokens: 981
+[INTERMEDIATE] Captioning done on 51/887
+[DEBUG] Sending image: 000623.jpg, metadata length: 386, base64 size: 1307176
+[SUCCESS] 000623.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 52/887
+[DEBUG] Sending image: 000151.jpg, metadata length: 382, base64 size: 1110840
+[SUCCESS] 000151.jpg | input: 885, output: 113, total_tokens: 998
+[INTERMEDIATE] Captioning done on 53/887
+[DEBUG] Sending image: 000804.jpg, metadata length: 386, base64 size: 1354180
+[SUCCESS] 000804.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 54/887
+[DEBUG] Sending image: 002975.jpg, metadata length: 387, base64 size: 834028
+[SUCCESS] 002975.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 55/887
+[DEBUG] Sending image: 001298.jpg, metadata length: 384, base64 size: 879748
+[SUCCESS] 001298.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 56/887
+[DEBUG] Sending image: 003114.jpg, metadata length: 388, base64 size: 1493072
+[SUCCESS] 003114.jpg | input: 886, output: 131, total_tokens: 1017
+[INTERMEDIATE] Captioning done on 57/887
+[DEBUG] Sending image: 001717.jpg, metadata length: 383, base64 size: 496928
+[SUCCESS] 001717.jpg | input: 885, output: 111, total_tokens: 996
+[INTERMEDIATE] Captioning done on 58/887
+[DEBUG] Sending image: 002578.jpg, metadata length: 387, base64 size: 934276
+[SUCCESS] 002578.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 59/887
+[DEBUG] Sending image: 001059.jpg, metadata length: 384, base64 size: 1084628
+[SUCCESS] 001059.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 60/887
+[DEBUG] Sending image: 002236.jpg, metadata length: 389, base64 size: 1045024
+[SUCCESS] 002236.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 61/887
+[DEBUG] Sending image: 002222.jpg, metadata length: 392, base64 size: 603976
+[SUCCESS] 002222.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 62/887
+[DEBUG] Sending image: 003869.jpg, metadata length: 394, base64 size: 1443992
+[SUCCESS] 003869.jpg | input: 888, output: 113, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 63/887
+[DEBUG] Sending image: 000384.jpg, metadata length: 390, base64 size: 1205996
+[SUCCESS] 000384.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 64/887
+[DEBUG] Sending image: 003855.jpg, metadata length: 387, base64 size: 1317252
+[SUCCESS] 003855.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 65/887
+[DEBUG] Sending image: 003841.jpg, metadata length: 386, base64 size: 712620
+[SUCCESS] 003841.jpg | input: 886, output: 95, total_tokens: 981
+[INTERMEDIATE] Captioning done on 66/887
+[DEBUG] Sending image: 002587.jpg, metadata length: 386, base64 size: 1534972
+[SUCCESS] 002587.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 67/887
+[DEBUG] Sending image: 000390.jpg, metadata length: 390, base64 size: 1348596
+[SUCCESS] 000390.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 68/887
+[DEBUG] Sending image: 001111.jpg, metadata length: 390, base64 size: 1097400
+[SUCCESS] 001111.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 69/887
+[DEBUG] Sending image: 002418.jpg, metadata length: 381, base64 size: 774868
+[SUCCESS] 002418.jpg | input: 886, output: 130, total_tokens: 1016
+[INTERMEDIATE] Captioning done on 70/887
+[DEBUG] Sending image: 003060.jpg, metadata length: 389, base64 size: 1016876
+[SUCCESS] 003060.jpg | input: 886, output: 90, total_tokens: 976
+[INTERMEDIATE] Captioning done on 71/887
+[DEBUG] Sending image: 002424.jpg, metadata length: 389, base64 size: 1370344
+[SUCCESS] 002424.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 72/887
+[DEBUG] Sending image: 003048.jpg, metadata length: 387, base64 size: 1144800
+[SUCCESS] 003048.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 73/887
+[DEBUG] Sending image: 000227.jpg, metadata length: 388, base64 size: 1211708
+[SUCCESS] 000227.jpg | input: 886, output: 136, total_tokens: 1022
+[INTERMEDIATE] Captioning done on 74/887
+[DEBUG] Sending image: 003262.jpg, metadata length: 384, base64 size: 1324156
+[SUCCESS] 003262.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 75/887
+[DEBUG] Sending image: 001313.jpg, metadata length: 383, base64 size: 952900
+[SUCCESS] 001313.jpg | input: 886, output: 133, total_tokens: 1019
+[INTERMEDIATE] Captioning done on 76/887
+[DEBUG] Sending image: 001461.jpg, metadata length: 386, base64 size: 721048
+[SUCCESS] 001461.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 77/887
+[DEBUG] Sending image: 000757.jpg, metadata length: 387, base64 size: 853804
+[SUCCESS] 000757.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 78/887
+[DEBUG] Sending image: 003538.jpg, metadata length: 384, base64 size: 710128
+[SUCCESS] 003538.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 79/887
+[DEBUG] Sending image: 000743.jpg, metadata length: 386, base64 size: 1248144
+[SUCCESS] 000743.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 80/887
+[DEBUG] Sending image: 000781.jpg, metadata length: 390, base64 size: 1218776
+[SUCCESS] 000781.jpg | input: 886, output: 155, total_tokens: 1041
+[INTERMEDIATE] Captioning done on 81/887
+[DEBUG] Sending image: 000795.jpg, metadata length: 382, base64 size: 979444
+[SUCCESS] 000795.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 82/887
+[DEBUG] Sending image: 003511.jpg, metadata length: 385, base64 size: 932540
+[SUCCESS] 003511.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 83/887
+[DEBUG] Sending image: 001460.jpg, metadata length: 388, base64 size: 1018972
+[SUCCESS] 001460.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 84/887
+[DEBUG] Sending image: 003277.jpg, metadata length: 384, base64 size: 1179396
+[SUCCESS] 003277.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 85/887
+[DEBUG] Sending image: 002394.jpg, metadata length: 387, base64 size: 694608
+[SUCCESS] 002394.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 86/887
+[DEBUG] Sending image: 003920.jpg, metadata length: 388, base64 size: 1085272
+[SUCCESS] 003920.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 87/887
+[DEBUG] Sending image: 002431.jpg, metadata length: 386, base64 size: 796588
+[SUCCESS] 002431.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 88/887
+[DEBUG] Sending image: 000232.jpg, metadata length: 386, base64 size: 820688
+[SUCCESS] 000232.jpg | input: 887, output: 97, total_tokens: 984
+[INTERMEDIATE] Captioning done on 89/887
+[DEBUG] Sending image: 001892.jpg, metadata length: 384, base64 size: 943680
+[SUCCESS] 001892.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 90/887
+[DEBUG] Sending image: 003075.jpg, metadata length: 385, base64 size: 1407192
+[SUCCESS] 003075.jpg | input: 885, output: 121, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 91/887
+[DEBUG] Sending image: 001110.jpg, metadata length: 382, base64 size: 1237496
+[SUCCESS] 001110.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 92/887
+[DEBUG] Sending image: 001676.jpg, metadata length: 394, base64 size: 1354440
+[SUCCESS] 001676.jpg | input: 888, output: 99, total_tokens: 987
+[INTERMEDIATE] Captioning done on 93/887
+[DEBUG] Sending image: 003061.jpg, metadata length: 388, base64 size: 1176348
+[SUCCESS] 003061.jpg | input: 886, output: 81, total_tokens: 967
+[INTERMEDIATE] Captioning done on 94/887
+[DEBUG] Sending image: 000391.jpg, metadata length: 385, base64 size: 992132
+[SUCCESS] 000391.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 95/887
+[DEBUG] Sending image: 000408.jpg, metadata length: 383, base64 size: 1177532
+[SUCCESS] 000408.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 96/887
+[DEBUG] Sending image: 001070.jpg, metadata length: 384, base64 size: 1097552
+[SUCCESS] 001070.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 97/887
+[DEBUG] Sending image: 002784.jpg, metadata length: 379, base64 size: 1007500
+[SUCCESS] 002784.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 98/887
+[DEBUG] Sending image: 001299.jpg, metadata length: 385, base64 size: 565532
+[SUCCESS] 001299.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 99/887
+[DEBUG] Sending image: 002021.jpg, metadata length: 385, base64 size: 1078648
+[SUCCESS] 002021.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 100/887
+[DEBUG] Sending image: 000144.jpg, metadata length: 388, base64 size: 1002680
+[SUCCESS] 000144.jpg | input: 546, output: 108, total_tokens: 654
+[INTERMEDIATE] Captioning done on 101/887
+[DEBUG] Sending image: 001514.jpg, metadata length: 389, base64 size: 874436
+[SUCCESS] 001514.jpg | input: 886, output: 125, total_tokens: 1011
+[INTERMEDIATE] Captioning done on 102/887
+[DEBUG] Sending image: 000140.jpg, metadata length: 384, base64 size: 769504
+[SUCCESS] 000140.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 103/887
+[DEBUG] Sending image: 002031.jpg, metadata length: 387, base64 size: 846116
+[SUCCESS] 002031.jpg | input: 886, output: 133, total_tokens: 1019
+[INTERMEDIATE] Captioning done on 104/887
+[DEBUG] Sending image: 002019.jpg, metadata length: 382, base64 size: 1473772
+[SUCCESS] 002019.jpg | input: 885, output: 108, total_tokens: 993
+[INTERMEDIATE] Captioning done on 105/887
+[DEBUG] Sending image: 002794.jpg, metadata length: 386, base64 size: 815288
+[SUCCESS] 002794.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 106/887
+[DEBUG] Sending image: 002958.jpg, metadata length: 387, base64 size: 1104792
+[SUCCESS] 002958.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 107/887
+[DEBUG] Sending image: 002970.jpg, metadata length: 386, base64 size: 1002216
+[SUCCESS] 002970.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 108/887
+[DEBUG] Sending image: 002555.jpg, metadata length: 387, base64 size: 1083548
+[SUCCESS] 002555.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 109/887
+[DEBUG] Sending image: 003893.jpg, metadata length: 388, base64 size: 939664
+[SUCCESS] 003893.jpg | input: 886, output: 95, total_tokens: 981
+[INTERMEDIATE] Captioning done on 110/887
+[DEBUG] Sending image: 002227.jpg, metadata length: 384, base64 size: 1029996
+[SUCCESS] 002227.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 111/887
+[DEBUG] Sending image: 002569.jpg, metadata length: 388, base64 size: 1151000
+[SUCCESS] 002569.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 112/887
+[DEBUG] Sending image: 001074.jpg, metadata length: 387, base64 size: 1167224
+[SUCCESS] 001074.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 113/887
+[DEBUG] Sending image: 001712.jpg, metadata length: 387, base64 size: 973124
+[SUCCESS] 001712.jpg | input: 886, output: 134, total_tokens: 1020
+[INTERMEDIATE] Captioning done on 114/887
+[DEBUG] Sending image: 003105.jpg, metadata length: 381, base64 size: 896788
+[SUCCESS] 003105.jpg | input: 886, output: 80, total_tokens: 966
+[INTERMEDIATE] Captioning done on 115/887
+[DEBUG] Sending image: 001921.jpg, metadata length: 390, base64 size: 1206552
+[SUCCESS] 001921.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 116/887
+[DEBUG] Sending image: 002596.jpg, metadata length: 387, base64 size: 647016
+[SUCCESS] 002596.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 117/887
+[DEBUG] Sending image: 003850.jpg, metadata length: 385, base64 size: 817280
+[SUCCESS] 003850.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 118/887
+[DEBUG] Sending image: 003688.jpg, metadata length: 391, base64 size: 1072328
+[SUCCESS] 003688.jpg | input: 886, output: 133, total_tokens: 1019
+[INTERMEDIATE] Captioning done on 119/887
+[DEBUG] Sending image: 002582.jpg, metadata length: 389, base64 size: 609020
+[SUCCESS] 002582.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 120/887
+[DEBUG] Sending image: 002347.jpg, metadata length: 387, base64 size: 866296
+[SUCCESS] 002347.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 121/887
+[DEBUG] Sending image: 000236.jpg, metadata length: 386, base64 size: 840988
+[SUCCESS] 000236.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 122/887
+[DEBUG] Sending image: 003065.jpg, metadata length: 385, base64 size: 949100
+[SUCCESS] 003065.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 123/887
+[DEBUG] Sending image: 002384.jpg, metadata length: 387, base64 size: 881364
+[SUCCESS] 002384.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 124/887
+[DEBUG] Sending image: 002390.jpg, metadata length: 387, base64 size: 953484
+[SUCCESS] 002390.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 125/887
+[DEBUG] Sending image: 000752.jpg, metadata length: 385, base64 size: 1287844
+[SUCCESS] 000752.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 126/887
+[DEBUG] Sending image: 001458.jpg, metadata length: 386, base64 size: 2225072
+[SUCCESS] 001458.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 127/887
+[DEBUG] Sending image: 003529.jpg, metadata length: 388, base64 size: 576808
+[SUCCESS] 003529.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 128/887
+[DEBUG] Sending image: 000008.jpg, metadata length: 389, base64 size: 1193136
+[SUCCESS] 000008.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 129/887
+[DEBUG] Sending image: 001464.jpg, metadata length: 386, base64 size: 670256
+[SUCCESS] 001464.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 130/887
+[DEBUG] Sending image: 001302.jpg, metadata length: 387, base64 size: 849180
+[SUCCESS] 001302.jpg | input: 886, output: 90, total_tokens: 976
+[INTERMEDIATE] Captioning done on 131/887
+[DEBUG] Sending image: 002838.jpg, metadata length: 385, base64 size: 1255248
+[SUCCESS] 002838.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 132/887
+[DEBUG] Sending image: 000949.jpg, metadata length: 383, base64 size: 1139204
+[SUCCESS] 000949.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 133/887
+[DEBUG] Sending image: 002186.jpg, metadata length: 394, base64 size: 900788
+[SUCCESS] 002186.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 134/887
+[DEBUG] Sending image: 000961.jpg, metadata length: 388, base64 size: 1010656
+[SUCCESS] 000961.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 135/887
+[DEBUG] Sending image: 003272.jpg, metadata length: 384, base64 size: 950252
+[SUCCESS] 003272.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 136/887
+[DEBUG] Sending image: 003528.jpg, metadata length: 389, base64 size: 665860
+[SUCCESS] 003528.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 137/887
+[DEBUG] Sending image: 000753.jpg, metadata length: 387, base64 size: 1227032
+[SUCCESS] 000753.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 138/887
+[DEBUG] Sending image: 002144.jpg, metadata length: 390, base64 size: 1088224
+[SUCCESS] 002144.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 139/887
+[DEBUG] Sending image: 003919.jpg, metadata length: 389, base64 size: 756552
+[SUCCESS] 003919.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 140/887
+[DEBUG] Sending image: 001854.jpg, metadata length: 380, base64 size: 838020
+[SUCCESS] 001854.jpg | input: 885, output: 100, total_tokens: 985
+[INTERMEDIATE] Captioning done on 141/887
+[DEBUG] Sending image: 003716.jpg, metadata length: 384, base64 size: 1058616
+[SUCCESS] 003716.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 142/887
+[DEBUG] Sending image: 001667.jpg, metadata length: 387, base64 size: 875356
+[SUCCESS] 001667.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 143/887
+[DEBUG] Sending image: 001920.jpg, metadata length: 389, base64 size: 943768
+[SUCCESS] 001920.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 144/887
+[DEBUG] Sending image: 001075.jpg, metadata length: 385, base64 size: 1130740
+[SUCCESS] 001075.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 145/887
+[DEBUG] Sending image: 003662.jpg, metadata length: 383, base64 size: 985972
+[SUCCESS] 003662.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 146/887
+[DEBUG] Sending image: 001713.jpg, metadata length: 384, base64 size: 864404
+[SUCCESS] 001713.jpg | input: 885, output: 101, total_tokens: 986
+[INTERMEDIATE] Captioning done on 147/887
+[DEBUG] Sending image: 001707.jpg, metadata length: 384, base64 size: 930792
+[SUCCESS] 001707.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 148/887
+[DEBUG] Sending image: 002540.jpg, metadata length: 387, base64 size: 960752
+[SUCCESS] 002540.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 149/887
+[DEBUG] Sending image: 002965.jpg, metadata length: 383, base64 size: 602592
+[SUCCESS] 002965.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 150/887
+[DEBUG] Sending image: 002959.jpg, metadata length: 382, base64 size: 891336
+[SUCCESS] 002959.jpg | input: 886, output: 128, total_tokens: 1014
+[INTERMEDIATE] Captioning done on 151/887
+[DEBUG] Sending image: 003306.jpg, metadata length: 389, base64 size: 1473524
+[SUCCESS] 003306.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 152/887
+[DEBUG] Sending image: 003312.jpg, metadata length: 386, base64 size: 1585280
+[SUCCESS] 003312.jpg | input: 886, output: 3, total_tokens: 889
+[INTERMEDIATE] Captioning done on 153/887
+[DEBUG] Sending image: 002742.jpg, metadata length: 387, base64 size: 954580
+[SUCCESS] 002742.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 154/887
+[DEBUG] Sending image: 002756.jpg, metadata length: 385, base64 size: 880796
+[SUCCESS] 002756.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 155/887
+[DEBUG] Sending image: 002030.jpg, metadata length: 388, base64 size: 912488
+[SUCCESS] 002030.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 156/887
+[DEBUG] Sending image: 002740.jpg, metadata length: 387, base64 size: 1237092
+[SUCCESS] 002740.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 157/887
+[DEBUG] Sending image: 002998.jpg, metadata length: 382, base64 size: 948560
+[SUCCESS] 002998.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 158/887
+[DEBUG] Sending image: 001249.jpg, metadata length: 383, base64 size: 1188768
+[SUCCESS] 001249.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 159/887
+[DEBUG] Sending image: 002032.jpg, metadata length: 381, base64 size: 904576
+[SUCCESS] 002032.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 160/887
+[DEBUG] Sending image: 001513.jpg, metadata length: 380, base64 size: 886316
+[SUCCESS] 001513.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 161/887
+[DEBUG] Sending image: 003476.jpg, metadata length: 381, base64 size: 1011704
+[SUCCESS] 003476.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 162/887
+[DEBUG] Sending image: 001261.jpg, metadata length: 386, base64 size: 1062116
+[SUCCESS] 001261.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 163/887
+[DEBUG] Sending image: 000194.jpg, metadata length: 388, base64 size: 925620
+[SUCCESS] 000194.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 164/887
+[DEBUG] Sending image: 003489.jpg, metadata length: 381, base64 size: 703572
+[SUCCESS] 003489.jpg | input: 885, output: 102, total_tokens: 987
+[INTERMEDIATE] Captioning done on 165/887
+[DEBUG] Sending image: 002542.jpg, metadata length: 386, base64 size: 1104060
+[SUCCESS] 002542.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 166/887
+[DEBUG] Sending image: 002556.jpg, metadata length: 385, base64 size: 824524
+[SUCCESS] 002556.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 167/887
+[DEBUG] Sending image: 001739.jpg, metadata length: 390, base64 size: 924916
+[SUCCESS] 001739.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 168/887
+[DEBUG] Sending image: 001077.jpg, metadata length: 381, base64 size: 870264
+[SUCCESS] 001077.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 169/887
+[DEBUG] Sending image: 003847.jpg, metadata length: 390, base64 size: 467992
+[SUCCESS] 003847.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 170/887
+[DEBUG] Sending image: 000382.jpg, metadata length: 384, base64 size: 1083412
+[SUCCESS] 000382.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 171/887
+[DEBUG] Sending image: 003853.jpg, metadata length: 390, base64 size: 1078020
+[SUCCESS] 003853.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 172/887
+[DEBUG] Sending image: 001922.jpg, metadata length: 389, base64 size: 917696
+[SUCCESS] 001922.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 173/887
+[DEBUG] Sending image: 002350.jpg, metadata length: 387, base64 size: 906964
+[SUCCESS] 002350.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 174/887
+[DEBUG] Sending image: 001881.jpg, metadata length: 383, base64 size: 563672
+[SUCCESS] 001881.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 175/887
+[DEBUG] Sending image: 000221.jpg, metadata length: 385, base64 size: 826024
+[SUCCESS] 000221.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 176/887
+[DEBUG] Sending image: 002436.jpg, metadata length: 381, base64 size: 998392
+[SUCCESS] 002436.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 177/887
+[DEBUG] Sending image: 003072.jpg, metadata length: 385, base64 size: 1256552
+[SUCCESS] 003072.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 178/887
+[DEBUG] Sending image: 000209.jpg, metadata length: 386, base64 size: 1270804
+[SUCCESS] 000209.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 179/887
+[DEBUG] Sending image: 000584.jpg, metadata length: 388, base64 size: 557384
+[SUCCESS] 000584.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 180/887
+[DEBUG] Sending image: 000590.jpg, metadata length: 386, base64 size: 1164368
+[SUCCESS] 000590.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 181/887
+[DEBUG] Sending image: 001301.jpg, metadata length: 385, base64 size: 517244
+[SUCCESS] 001301.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 182/887
+[DEBUG] Sending image: 001467.jpg, metadata length: 386, base64 size: 1089188
+[SUCCESS] 001467.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 183/887
+[DEBUG] Sending image: 003264.jpg, metadata length: 387, base64 size: 1335276
+[SUCCESS] 003264.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 184/887
+[DEBUG] Sending image: 003502.jpg, metadata length: 382, base64 size: 1257560
+[SUCCESS] 003502.jpg | input: 885, output: 114, total_tokens: 999
+[INTERMEDIATE] Captioning done on 185/887
+[DEBUG] Sending image: 002185.jpg, metadata length: 388, base64 size: 1182440
+[SUCCESS] 002185.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 186/887
+[DEBUG] Sending image: 002813.jpg, metadata length: 387, base64 size: 1006728
+[SUCCESS] 002813.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 187/887
+[DEBUG] Sending image: 000977.jpg, metadata length: 388, base64 size: 816748
+[SUCCESS] 000977.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 188/887
+[DEBUG] Sending image: 002812.jpg, metadata length: 385, base64 size: 630276
+[SUCCESS] 002812.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 189/887
+[DEBUG] Sending image: 000793.jpg, metadata length: 386, base64 size: 1095876
+[SUCCESS] 000793.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 190/887
+[DEBUG] Sending image: 003265.jpg, metadata length: 386, base64 size: 730612
+[SUCCESS] 003265.jpg | input: 886, output: 148, total_tokens: 1034
+[INTERMEDIATE] Captioning done on 191/887
+[DEBUG] Sending image: 003517.jpg, metadata length: 381, base64 size: 780004
+[SUCCESS] 003517.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 192/887
+[DEBUG] Sending image: 001300.jpg, metadata length: 388, base64 size: 835416
+[SUCCESS] 001300.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 193/887
+[DEBUG] Sending image: 001466.jpg, metadata length: 390, base64 size: 1132900
+[SUCCESS] 001466.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 194/887
+[DEBUG] Sending image: 000022.jpg, metadata length: 387, base64 size: 779016
+[SUCCESS] 000022.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 195/887
+[DEBUG] Sending image: 002635.jpg, metadata length: 384, base64 size: 676620
+[SUCCESS] 002635.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 196/887
+[DEBUG] Sending image: 003098.jpg, metadata length: 386, base64 size: 1021924
+[SUCCESS] 003098.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 197/887
+[DEBUG] Sending image: 002386.jpg, metadata length: 382, base64 size: 1483748
+[SUCCESS] 002386.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 198/887
+[DEBUG] Sending image: 003067.jpg, metadata length: 387, base64 size: 1236484
+[SUCCESS] 003067.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 199/887
+[DEBUG] Sending image: 001102.jpg, metadata length: 391, base64 size: 842552
+[SUCCESS] 001102.jpg | input: 886, output: 125, total_tokens: 1011
+[INTERMEDIATE] Captioning done on 200/887
+[DEBUG] Sending image: 003729.jpg, metadata length: 387, base64 size: 1321860
+[SUCCESS] 003729.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 201/887
+[DEBUG] Sending image: 000220.jpg, metadata length: 385, base64 size: 701072
+[SUCCESS] 000220.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 202/887
+[DEBUG] Sending image: 003852.jpg, metadata length: 387, base64 size: 1106616
+[SUCCESS] 003852.jpg | input: 886, output: 141, total_tokens: 1027
+[INTERMEDIATE] Captioning done on 203/887
+[DEBUG] Sending image: 002594.jpg, metadata length: 387, base64 size: 1055832
+[SUCCESS] 002594.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 204/887
+[DEBUG] Sending image: 003675.jpg, metadata length: 380, base64 size: 843656
+[SUCCESS] 003675.jpg | input: 885, output: 116, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 205/887
+[DEBUG] Sending image: 003113.jpg, metadata length: 387, base64 size: 1262080
+[SUCCESS] 003113.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 206/887
+[DEBUG] Sending image: 003107.jpg, metadata length: 386, base64 size: 549484
+[SUCCESS] 003107.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 207/887
+[DEBUG] Sending image: 002219.jpg, metadata length: 387, base64 size: 806172
+[SUCCESS] 002219.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 208/887
+[DEBUG] Sending image: 001710.jpg, metadata length: 389, base64 size: 848592
+[SUCCESS] 001710.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 209/887
+[DEBUG] Sending image: 000368.jpg, metadata length: 383, base64 size: 806576
+[SUCCESS] 000368.jpg | input: 885, output: 107, total_tokens: 992
+[INTERMEDIATE] Captioning done on 210/887
+[DEBUG] Sending image: 003891.jpg, metadata length: 388, base64 size: 989752
+[SUCCESS] 003891.jpg | input: 886, output: 131, total_tokens: 1017
+[INTERMEDIATE] Captioning done on 211/887
+[DEBUG] Sending image: 002225.jpg, metadata length: 387, base64 size: 979724
+[SUCCESS] 002225.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 212/887
+[DEBUG] Sending image: 003885.jpg, metadata length: 385, base64 size: 1842188
+[SUCCESS] 003885.jpg | input: 886, output: 85, total_tokens: 971
+[INTERMEDIATE] Captioning done on 213/887
+[DEBUG] Sending image: 000181.jpg, metadata length: 388, base64 size: 1595700
+[SUCCESS] 000181.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 214/887
+[DEBUG] Sending image: 002796.jpg, metadata length: 383, base64 size: 1078916
+[SUCCESS] 002796.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 215/887
+[DEBUG] Sending image: 002782.jpg, metadata length: 384, base64 size: 1610872
+[SUCCESS] 002782.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 216/887
+[DEBUG] Sending image: 002769.jpg, metadata length: 387, base64 size: 1087928
+[SUCCESS] 002769.jpg | input: 886, output: 128, total_tokens: 1014
+[INTERMEDIATE] Captioning done on 217/887
+[DEBUG] Sending image: 002999.jpg, metadata length: 383, base64 size: 951776
+[SUCCESS] 002999.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 218/887
+[DEBUG] Sending image: 000630.jpg, metadata length: 387, base64 size: 769784
+[SUCCESS] 000630.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 219/887
+[DEBUG] Sending image: 003404.jpg, metadata length: 382, base64 size: 911084
+[SUCCESS] 003404.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 220/887
+[DEBUG] Sending image: 002068.jpg, metadata length: 391, base64 size: 977292
+[SUCCESS] 002068.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 221/887
+[DEBUG] Sending image: 001207.jpg, metadata length: 386, base64 size: 1075780
+[SUCCESS] 001207.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 222/887
+[DEBUG] Sending image: 000657.jpg, metadata length: 387, base64 size: 832080
+[SUCCESS] 000657.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 223/887
+[DEBUG] Sending image: 000643.jpg, metadata length: 385, base64 size: 919072
+[SUCCESS] 000643.jpg | input: 887, output: 102, total_tokens: 989
+[INTERMEDIATE] Captioning done on 224/887
+[DEBUG] Sending image: 002732.jpg, metadata length: 382, base64 size: 1065872
+[SUCCESS] 002732.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 225/887
+[DEBUG] Sending image: 000694.jpg, metadata length: 383, base64 size: 622012
+[SUCCESS] 000694.jpg | input: 886, output: 87, total_tokens: 973
+[INTERMEDIATE] Captioning done on 226/887
+[DEBUG] Sending image: 003389.jpg, metadata length: 384, base64 size: 774116
+[SUCCESS] 003389.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 227/887
+[DEBUG] Sending image: 000680.jpg, metadata length: 390, base64 size: 738216
+[SUCCESS] 000680.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 228/887
+[DEBUG] Sending image: 003160.jpg, metadata length: 386, base64 size: 1283236
+[SUCCESS] 003160.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 229/887
+[DEBUG] Sending image: 003174.jpg, metadata length: 388, base64 size: 976248
+[SUCCESS] 003174.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 230/887
+[DEBUG] Sending image: 002524.jpg, metadata length: 386, base64 size: 1155788
+[SUCCESS] 002524.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 231/887
+[DEBUG] Sending image: 002530.jpg, metadata length: 387, base64 size: 740888
+[SUCCESS] 002530.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 232/887
+[DEBUG] Sending image: 001978.jpg, metadata length: 394, base64 size: 954772
+[SUCCESS] 001978.jpg | input: 888, output: 104, total_tokens: 992
+[INTERMEDIATE] Captioning done on 233/887
+[DEBUG] Sending image: 000496.jpg, metadata length: 384, base64 size: 530952
+[SUCCESS] 000496.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 234/887
+[DEBUG] Sending image: 003835.jpg, metadata length: 390, base64 size: 750400
+[SUCCESS] 003835.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 235/887
+[DEBUG] Sending image: 002478.jpg, metadata length: 384, base64 size: 785140
+[SUCCESS] 002478.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 236/887
+[DEBUG] Sending image: 002444.jpg, metadata length: 387, base64 size: 1262692
+[SUCCESS] 002444.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 237/887
+[DEBUG] Sending image: 001824.jpg, metadata length: 387, base64 size: 1072756
+[SUCCESS] 001824.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 238/887
+[DEBUG] Sending image: 002493.jpg, metadata length: 385, base64 size: 713580
+[SUCCESS] 002493.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 239/887
+[DEBUG] Sending image: 002487.jpg, metadata length: 386, base64 size: 765476
+[SUCCESS] 002487.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 240/887
+[DEBUG] Sending image: 002108.jpg, metadata length: 385, base64 size: 666304
+[SUCCESS] 002108.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 241/887
+[DEBUG] Sending image: 002684.jpg, metadata length: 390, base64 size: 1075908
+[SUCCESS] 002684.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 242/887
+[DEBUG] Sending image: 000087.jpg, metadata length: 385, base64 size: 730120
+[SUCCESS] 000087.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 243/887
+[DEBUG] Sending image: 002848.jpg, metadata length: 385, base64 size: 1161976
+[SUCCESS] 002848.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 244/887
+[DEBUG] Sending image: 002860.jpg, metadata length: 381, base64 size: 919608
+[SUCCESS] 002860.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 245/887
+[DEBUG] Sending image: 002121.jpg, metadata length: 388, base64 size: 1070012
+[SUCCESS] 002121.jpg | input: 886, output: 132, total_tokens: 1018
+[INTERMEDIATE] Captioning done on 246/887
+[DEBUG] Sending image: 002653.jpg, metadata length: 384, base64 size: 881360
+[SUCCESS] 002653.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 247/887
+[DEBUG] Sending image: 001414.jpg, metadata length: 380, base64 size: 1150784
+[SUCCESS] 001414.jpg | input: 885, output: 121, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 248/887
+[DEBUG] Sending image: 001366.jpg, metadata length: 387, base64 size: 992856
+[SUCCESS] 001366.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 249/887
+[DEBUG] Sending image: 000291.jpg, metadata length: 386, base64 size: 1632640
+[SUCCESS] 000291.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 250/887
+[DEBUG] Sending image: 001819.jpg, metadata length: 386, base64 size: 1055180
+[SUCCESS] 001819.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 251/887
+[DEBUG] Sending image: 003968.jpg, metadata length: 391, base64 size: 1001944
+[SUCCESS] 003968.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 252/887
+[DEBUG] Sending image: 000252.jpg, metadata length: 383, base64 size: 1349764
+[SUCCESS] 000252.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 253/887
+[DEBUG] Sending image: 001158.jpg, metadata length: 387, base64 size: 1132416
+[SUCCESS] 001158.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 254/887
+[DEBUG] Sending image: 001602.jpg, metadata length: 384, base64 size: 1077916
+[SUCCESS] 001602.jpg | input: 886, output: 84, total_tokens: 970
+[INTERMEDIATE] Captioning done on 255/887
+[DEBUG] Sending image: 003773.jpg, metadata length: 389, base64 size: 1516840
+[SUCCESS] 003773.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 256/887
+[DEBUG] Sending image: 001789.jpg, metadata length: 384, base64 size: 1145012
+[SUCCESS] 001789.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 257/887
+[DEBUG] Sending image: 003820.jpg, metadata length: 389, base64 size: 1156832
+[SUCCESS] 003820.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 258/887
+[DEBUG] Sending image: 000440.jpg, metadata length: 391, base64 size: 1075032
+[SUCCESS] 000440.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 259/887
+[DEBUG] Sending image: 002525.jpg, metadata length: 387, base64 size: 800992
+[SUCCESS] 002525.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 260/887
+[DEBUG] Sending image: 001004.jpg, metadata length: 385, base64 size: 1214428
+[SUCCESS] 001004.jpg | input: 886, output: 131, total_tokens: 1017
+[INTERMEDIATE] Captioning done on 261/887
+[DEBUG] Sending image: 001762.jpg, metadata length: 387, base64 size: 543092
+[SUCCESS] 001762.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 262/887
+[DEBUG] Sending image: 002519.jpg, metadata length: 386, base64 size: 642448
+[SUCCESS] 002519.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 263/887
+[DEBUG] Sending image: 001010.jpg, metadata length: 386, base64 size: 1476776
+[SUCCESS] 001010.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 264/887
+[DEBUG] Sending image: 003388.jpg, metadata length: 385, base64 size: 862204
+[SUCCESS] 003388.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 265/887
+[DEBUG] Sending image: 000642.jpg, metadata length: 388, base64 size: 1070396
+[SUCCESS] 000642.jpg | input: 886, output: 93, total_tokens: 979
+[INTERMEDIATE] Captioning done on 266/887
+[DEBUG] Sending image: 002727.jpg, metadata length: 382, base64 size: 929088
+[SUCCESS] 002727.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 267/887
+[DEBUG] Sending image: 002041.jpg, metadata length: 386, base64 size: 734668
+[SUCCESS] 002041.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 268/887
+[DEBUG] Sending image: 002069.jpg, metadata length: 386, base64 size: 717060
+[SUCCESS] 002069.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 269/887
+[DEBUG] Sending image: 003377.jpg, metadata length: 385, base64 size: 1253628
+[SUCCESS] 003377.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 270/887
+[DEBUG] Sending image: 003411.jpg, metadata length: 391, base64 size: 1133504
+[SUCCESS] 003411.jpg | input: 887, output: 98, total_tokens: 985
+[INTERMEDIATE] Captioning done on 271/887
+[DEBUG] Sending image: 003375.jpg, metadata length: 387, base64 size: 1359336
+[SUCCESS] 003375.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 272/887
+[DEBUG] Sending image: 003361.jpg, metadata length: 381, base64 size: 1179072
+[SUCCESS] 003361.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 273/887
+[DEBUG] Sending image: 002719.jpg, metadata length: 391, base64 size: 802420
+[SUCCESS] 002719.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 274/887
+[DEBUG] Sending image: 002731.jpg, metadata length: 384, base64 size: 1071092
+[SUCCESS] 002731.jpg | input: 886, output: 96, total_tokens: 982
+[INTERMEDIATE] Captioning done on 275/887
+[DEBUG] Sending image: 003349.jpg, metadata length: 387, base64 size: 732956
+[SUCCESS] 003349.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 276/887
+[DEBUG] Sending image: 002725.jpg, metadata length: 381, base64 size: 1043920
+[SUCCESS] 002725.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 277/887
+[DEBUG] Sending image: 000873.jpg, metadata length: 382, base64 size: 764044
+[SUCCESS] 000873.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 278/887
+[DEBUG] Sending image: 001760.jpg, metadata length: 388, base64 size: 845976
+[SUCCESS] 001760.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 279/887
+[DEBUG] Sending image: 001012.jpg, metadata length: 388, base64 size: 1327048
+[SUCCESS] 001012.jpg | input: 886, output: 3, total_tokens: 889
+[INTERMEDIATE] Captioning done on 280/887
+[DEBUG] Sending image: 003605.jpg, metadata length: 382, base64 size: 1022028
+[SUCCESS] 003605.jpg | input: 886, output: 130, total_tokens: 1016
+[INTERMEDIATE] Captioning done on 281/887
+[DEBUG] Sending image: 003163.jpg, metadata length: 387, base64 size: 958372
+[SUCCESS] 003163.jpg | input: 546, output: 127, total_tokens: 673
+[INTERMEDIATE] Captioning done on 282/887
+[DEBUG] Sending image: 000442.jpg, metadata length: 386, base64 size: 636528
+[SUCCESS] 000442.jpg | input: 886, output: 128, total_tokens: 1014
+[INTERMEDIATE] Captioning done on 283/887
+[DEBUG] Sending image: 003639.jpg, metadata length: 383, base64 size: 1285412
+[SUCCESS] 003639.jpg | input: 886, output: 136, total_tokens: 1022
+[INTERMEDIATE] Captioning done on 284/887
+[DEBUG] Sending image: 000456.jpg, metadata length: 390, base64 size: 928076
+[SUCCESS] 000456.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 285/887
+[DEBUG] Sending image: 003188.jpg, metadata length: 385, base64 size: 836068
+[SUCCESS] 003188.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 286/887
+[DEBUG] Sending image: 003822.jpg, metadata length: 390, base64 size: 1050436
+[SUCCESS] 003822.jpg | input: 886, output: 125, total_tokens: 1011
+[INTERMEDIATE] Captioning done on 287/887
+[DEBUG] Sending image: 002282.jpg, metadata length: 381, base64 size: 986352
+[SUCCESS] 002282.jpg | input: 885, output: 104, total_tokens: 989
+[INTERMEDIATE] Captioning done on 288/887
+[DEBUG] Sending image: 003765.jpg, metadata length: 384, base64 size: 1173252
+[SUCCESS] 003765.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 289/887
+[DEBUG] Sending image: 003771.jpg, metadata length: 390, base64 size: 1353736
+[SUCCESS] 003771.jpg | input: 886, output: 138, total_tokens: 1024
+[INTERMEDIATE] Captioning done on 290/887
+[DEBUG] Sending image: 001600.jpg, metadata length: 388, base64 size: 978432
+[SUCCESS] 001600.jpg | input: 886, output: 83, total_tokens: 969
+[INTERMEDIATE] Captioning done on 291/887
+[DEBUG] Sending image: 000536.jpg, metadata length: 389, base64 size: 1019104
+[SUCCESS] 000536.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 292/887
+[DEBUG] Sending image: 003759.jpg, metadata length: 384, base64 size: 1004960
+[SUCCESS] 003759.jpg | input: 886, output: 133, total_tokens: 1019
+[INTERMEDIATE] Captioning done on 293/887
+[DEBUG] Sending image: 001833.jpg, metadata length: 385, base64 size: 824556
+[SUCCESS] 001833.jpg | input: 886, output: 143, total_tokens: 1029
+[INTERMEDIATE] Captioning done on 294/887
+[DEBUG] Sending image: 003942.jpg, metadata length: 390, base64 size: 970324
+[SUCCESS] 003942.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 295/887
+[DEBUG] Sending image: 001827.jpg, metadata length: 385, base64 size: 1070272
+[SUCCESS] 001827.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 296/887
+[DEBUG] Sending image: 002679.jpg, metadata length: 389, base64 size: 868160
+[SUCCESS] 002679.jpg | input: 886, output: 95, total_tokens: 981
+[INTERMEDIATE] Captioning done on 297/887
+[DEBUG] Sending image: 001364.jpg, metadata length: 390, base64 size: 1079844
+[SUCCESS] 001364.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 298/887
+[DEBUG] Sending image: 000052.jpg, metadata length: 390, base64 size: 1189008
+[SUCCESS] 000052.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 299/887
+[DEBUG] Sending image: 000734.jpg, metadata length: 386, base64 size: 1273524
+[SUCCESS] 000734.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 300/887
+[DEBUG] Sending image: 002123.jpg, metadata length: 388, base64 size: 1043576
+[SUCCESS] 002123.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 301/887
+[DEBUG] Sending image: 002651.jpg, metadata length: 390, base64 size: 1322400
+[SUCCESS] 002651.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 302/887
+[DEBUG] Sending image: 002862.jpg, metadata length: 387, base64 size: 794552
+[SUCCESS] 002862.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 303/887
+[DEBUG] Sending image: 002692.jpg, metadata length: 384, base64 size: 790852
+[SUCCESS] 002692.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 304/887
+[DEBUG] Sending image: 000085.jpg, metadata length: 388, base64 size: 1308268
+[SUCCESS] 000085.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 305/887
+[DEBUG] Sending image: 002687.jpg, metadata length: 388, base64 size: 986520
+[SUCCESS] 002687.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 306/887
+[DEBUG] Sending image: 002136.jpg, metadata length: 383, base64 size: 978620
+[SUCCESS] 002136.jpg | input: 886, output: 135, total_tokens: 1021
+[INTERMEDIATE] Captioning done on 307/887
+[DEBUG] Sending image: 002888.jpg, metadata length: 387, base64 size: 1128544
+[SUCCESS] 002888.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 308/887
+[DEBUG] Sending image: 001359.jpg, metadata length: 384, base64 size: 908108
+[SUCCESS] 001359.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 309/887
+[DEBUG] Sending image: 002644.jpg, metadata length: 384, base64 size: 1113204
+[SUCCESS] 002644.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 310/887
+[DEBUG] Sending image: 002122.jpg, metadata length: 388, base64 size: 1012384
+[SUCCESS] 002122.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 311/887
+[DEBUG] Sending image: 000735.jpg, metadata length: 386, base64 size: 1351968
+[SUCCESS] 000735.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 312/887
+[DEBUG] Sending image: 001403.jpg, metadata length: 383, base64 size: 1325468
+[SUCCESS] 001403.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 313/887
+[DEBUG] Sending image: 001417.jpg, metadata length: 388, base64 size: 1234368
+[SUCCESS] 001417.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 314/887
+[DEBUG] Sending image: 000709.jpg, metadata length: 385, base64 size: 1119776
+[SUCCESS] 000709.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 315/887
+[DEBUG] Sending image: 001826.jpg, metadata length: 388, base64 size: 859036
+[SUCCESS] 001826.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 316/887
+[DEBUG] Sending image: 000292.jpg, metadata length: 388, base64 size: 1312572
+[SUCCESS] 000292.jpg | input: 886, output: 92, total_tokens: 978
+[INTERMEDIATE] Captioning done on 317/887
+[DEBUG] Sending image: 003943.jpg, metadata length: 386, base64 size: 542692
+[SUCCESS] 003943.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 318/887
+[DEBUG] Sending image: 002485.jpg, metadata length: 388, base64 size: 411764
+[SUCCESS] 002485.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 319/887
+[DEBUG] Sending image: 000245.jpg, metadata length: 384, base64 size: 1269332
+[SUCCESS] 000245.jpg | input: 886, output: 137, total_tokens: 1023
+[INTERMEDIATE] Captioning done on 320/887
+[DEBUG] Sending image: 003980.jpg, metadata length: 382, base64 size: 865708
+[SUCCESS] 003980.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 321/887
+[DEBUG] Sending image: 000251.jpg, metadata length: 386, base64 size: 1106384
+[SUCCESS] 000251.jpg | input: 886, output: 93, total_tokens: 979
+[INTERMEDIATE] Captioning done on 322/887
+[DEBUG] Sending image: 001167.jpg, metadata length: 386, base64 size: 971356
+[SUCCESS] 001167.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 323/887
+[DEBUG] Sending image: 000279.jpg, metadata length: 385, base64 size: 1271512
+[SUCCESS] 000279.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 324/887
+[DEBUG] Sending image: 003764.jpg, metadata length: 385, base64 size: 1098492
+[SUCCESS] 003764.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 325/887
+[DEBUG] Sending image: 001952.jpg, metadata length: 392, base64 size: 1242020
+[SUCCESS] 001952.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 326/887
+[DEBUG] Sending image: 003638.jpg, metadata length: 384, base64 size: 1012088
+[SUCCESS] 003638.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 327/887
+[DEBUG] Sending image: 001985.jpg, metadata length: 387, base64 size: 1052452
+[SUCCESS] 001985.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 328/887
+[DEBUG] Sending image: 000443.jpg, metadata length: 389, base64 size: 1022208
+[SUCCESS] 000443.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 329/887
+[DEBUG] Sending image: 001775.jpg, metadata length: 388, base64 size: 973308
+[SUCCESS] 001775.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 330/887
+[DEBUG] Sending image: 003610.jpg, metadata length: 389, base64 size: 770192
+[SUCCESS] 003610.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 331/887
+[DEBUG] Sending image: 002081.jpg, metadata length: 385, base64 size: 822608
+[SUCCESS] 002081.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 332/887
+[DEBUG] Sending image: 000682.jpg, metadata length: 386, base64 size: 969996
+[SUCCESS] 000682.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 333/887
+[DEBUG] Sending image: 002042.jpg, metadata length: 385, base64 size: 468916
+[SUCCESS] 002042.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 334/887
+[DEBUG] Sending image: 000127.jpg, metadata length: 387, base64 size: 1093568
+[SUCCESS] 000127.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 335/887
+[DEBUG] Sending image: 001211.jpg, metadata length: 382, base64 size: 1068804
+[SUCCESS] 001211.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 336/887
+[DEBUG] Sending image: 002718.jpg, metadata length: 386, base64 size: 1347620
+[SUCCESS] 002718.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 337/887
+[DEBUG] Sending image: 003412.jpg, metadata length: 389, base64 size: 1137724
+[SUCCESS] 003412.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 338/887
+[DEBUG] Sending image: 002052.jpg, metadata length: 385, base64 size: 914408
+[SUCCESS] 002052.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 339/887
+[DEBUG] Sending image: 002734.jpg, metadata length: 383, base64 size: 1201688
+[SUCCESS] 002734.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 340/887
+[DEBUG] Sending image: 000651.jpg, metadata length: 387, base64 size: 706776
+[SUCCESS] 000651.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 341/887
+[DEBUG] Sending image: 001567.jpg, metadata length: 394, base64 size: 1214108
+[SUCCESS] 001567.jpg | input: 888, output: 108, total_tokens: 996
+[INTERMEDIATE] Captioning done on 342/887
+[DEBUG] Sending image: 003416.jpg, metadata length: 386, base64 size: 637720
+[SUCCESS] 003416.jpg | input: 886, output: 93, total_tokens: 979
+[INTERMEDIATE] Captioning done on 343/887
+[DEBUG] Sending image: 002085.jpg, metadata length: 390, base64 size: 994388
+[SUCCESS] 002085.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 344/887
+[DEBUG] Sending image: 002907.jpg, metadata length: 386, base64 size: 852232
+[SUCCESS] 002907.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 345/887
+[DEBUG] Sending image: 001765.jpg, metadata length: 387, base64 size: 919840
+[SUCCESS] 001765.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 346/887
+[DEBUG] Sending image: 003600.jpg, metadata length: 381, base64 size: 727556
+[SUCCESS] 003600.jpg | input: 885, output: 113, total_tokens: 998
+[INTERMEDIATE] Captioning done on 347/887
+[DEBUG] Sending image: 000490.jpg, metadata length: 386, base64 size: 677220
+[SUCCESS] 000490.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 348/887
+[DEBUG] Sending image: 000533.jpg, metadata length: 385, base64 size: 881216
+[SUCCESS] 000533.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 349/887
+[DEBUG] Sending image: 000527.jpg, metadata length: 387, base64 size: 1114964
+[SUCCESS] 000527.jpg | input: 886, output: 130, total_tokens: 1016
+[INTERMEDIATE] Captioning done on 350/887
+[DEBUG] Sending image: 002456.jpg, metadata length: 384, base64 size: 709044
+[SUCCESS] 002456.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 351/887
+[DEBUG] Sending image: 000269.jpg, metadata length: 388, base64 size: 1119144
+[SUCCESS] 000269.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 352/887
+[DEBUG] Sending image: 003012.jpg, metadata length: 383, base64 size: 455256
+[SUCCESS] 003012.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 353/887
+[DEBUG] Sending image: 001605.jpg, metadata length: 381, base64 size: 941160
+[SUCCESS] 001605.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 354/887
+[DEBUG] Sending image: 000282.jpg, metadata length: 383, base64 size: 1006304
+[SUCCESS] 000282.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 355/887
+[DEBUG] Sending image: 003953.jpg, metadata length: 388, base64 size: 1458652
+[SUCCESS] 003953.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 356/887
+[DEBUG] Sending image: 003238.jpg, metadata length: 388, base64 size: 917284
+[SUCCESS] 003238.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 357/887
+[DEBUG] Sending image: 002640.jpg, metadata length: 383, base64 size: 952648
+[SUCCESS] 002640.jpg | input: 885, output: 120, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 358/887
+[DEBUG] Sending image: 000043.jpg, metadata length: 389, base64 size: 1039920
+[SUCCESS] 000043.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 359/887
+[DEBUG] Sending image: 000725.jpg, metadata length: 388, base64 size: 993204
+[SUCCESS] 000725.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 360/887
+[DEBUG] Sending image: 001413.jpg, metadata length: 389, base64 size: 1115528
+[SUCCESS] 001413.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 361/887
+[DEBUG] Sending image: 002668.jpg, metadata length: 382, base64 size: 1336504
+[SUCCESS] 002668.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 362/887
+[DEBUG] Sending image: 000719.jpg, metadata length: 387, base64 size: 1138452
+[SUCCESS] 000719.jpg | input: 886, output: 155, total_tokens: 1041
+[INTERMEDIATE] Captioning done on 363/887
+[DEBUG] Sending image: 000094.jpg, metadata length: 390, base64 size: 1279944
+[SUCCESS] 000094.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 364/887
+[DEBUG] Sending image: 000916.jpg, metadata length: 387, base64 size: 504908
+[SUCCESS] 000916.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 365/887
+[DEBUG] Sending image: 002873.jpg, metadata length: 388, base64 size: 761104
+[SUCCESS] 002873.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 366/887
+[DEBUG] Sending image: 000903.jpg, metadata length: 390, base64 size: 986152
+[SUCCESS] 000903.jpg | input: 886, output: 138, total_tokens: 1024
+[INTERMEDIATE] Captioning done on 367/887
+[DEBUG] Sending image: 000081.jpg, metadata length: 386, base64 size: 900684
+[SUCCESS] 000081.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 368/887
+[DEBUG] Sending image: 003563.jpg, metadata length: 386, base64 size: 982228
+[SUCCESS] 003563.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 369/887
+[DEBUG] Sending image: 002494.jpg, metadata length: 385, base64 size: 908436
+[SUCCESS] 002494.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 370/887
+[DEBUG] Sending image: 000283.jpg, metadata length: 381, base64 size: 1022584
+[SUCCESS] 000283.jpg | input: 887, output: 100, total_tokens: 987
+[INTERMEDIATE] Captioning done on 371/887
+[DEBUG] Sending image: 001189.jpg, metadata length: 382, base64 size: 993660
+[SUCCESS] 001189.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 372/887
+[DEBUG] Sending image: 002319.jpg, metadata length: 385, base64 size: 1222272
+[SUCCESS] 002319.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 373/887
+[DEBUG] Sending image: 003007.jpg, metadata length: 390, base64 size: 904004
+[SUCCESS] 003007.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 374/887
+[DEBUG] Sending image: 002443.jpg, metadata length: 385, base64 size: 1068788
+[SUCCESS] 002443.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 375/887
+[DEBUG] Sending image: 001957.jpg, metadata length: 384, base64 size: 1014048
+[SUCCESS] 001957.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 376/887
+[DEBUG] Sending image: 003826.jpg, metadata length: 384, base64 size: 716136
+[SUCCESS] 003826.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 377/887
+[DEBUG] Sending image: 002292.jpg, metadata length: 383, base64 size: 777036
+[SUCCESS] 002292.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 378/887
+[DEBUG] Sending image: 003615.jpg, metadata length: 385, base64 size: 1118000
+[SUCCESS] 003615.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 379/887
+[DEBUG] Sending image: 000877.jpg, metadata length: 388, base64 size: 994520
+[SUCCESS] 000877.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 380/887
+[DEBUG] Sending image: 002912.jpg, metadata length: 387, base64 size: 706460
+[SUCCESS] 002912.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 381/887
+[DEBUG] Sending image: 003403.jpg, metadata length: 388, base64 size: 1417736
+[SUCCESS] 003403.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 382/887
+[DEBUG] Sending image: 001200.jpg, metadata length: 382, base64 size: 1028724
+[SUCCESS] 001200.jpg | input: 886, output: 141, total_tokens: 1027
+[INTERMEDIATE] Captioning done on 383/887
+[DEBUG] Sending image: 002723.jpg, metadata length: 387, base64 size: 1051920
+[SUCCESS] 002723.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 384/887
+[DEBUG] Sending image: 003429.jpg, metadata length: 387, base64 size: 1093716
+[SUCCESS] 003429.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 385/887
+[DEBUG] Sending image: 000120.jpg, metadata length: 390, base64 size: 873912
+[SUCCESS] 000120.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 386/887
+[DEBUG] Sending image: 000646.jpg, metadata length: 388, base64 size: 1093804
+[SUCCESS] 000646.jpg | input: 886, output: 92, total_tokens: 978
+[INTERMEDIATE] Captioning done on 387/887
+[DEBUG] Sending image: 002051.jpg, metadata length: 386, base64 size: 526960
+[SUCCESS] 002051.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 388/887
+[DEBUG] Sending image: 003401.jpg, metadata length: 387, base64 size: 781772
+[SUCCESS] 003401.jpg | input: 886, output: 96, total_tokens: 982
+[INTERMEDIATE] Captioning done on 389/887
+[DEBUG] Sending image: 003415.jpg, metadata length: 383, base64 size: 704612
+[SUCCESS] 003415.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 390/887
+[DEBUG] Sending image: 000691.jpg, metadata length: 382, base64 size: 776024
+[SUCCESS] 000691.jpg | input: 885, output: 117, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 391/887
+[DEBUG] Sending image: 000685.jpg, metadata length: 390, base64 size: 948076
+[SUCCESS] 000685.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 392/887
+[DEBUG] Sending image: 002910.jpg, metadata length: 387, base64 size: 795852
+[SUCCESS] 002910.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 393/887
+[DEBUG] Sending image: 000861.jpg, metadata length: 386, base64 size: 845716
+[SUCCESS] 000861.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 394/887
+[DEBUG] Sending image: 001996.jpg, metadata length: 397, base64 size: 1116800
+[SUCCESS] 001996.jpg | input: 888, output: 117, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 395/887
+[DEBUG] Sending image: 000450.jpg, metadata length: 385, base64 size: 560956
+[SUCCESS] 000450.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 396/887
+[DEBUG] Sending image: 003159.jpg, metadata length: 389, base64 size: 1541716
+[SUCCESS] 003159.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 397/887
+[DEBUG] Sending image: 002535.jpg, metadata length: 381, base64 size: 1027112
+[SUCCESS] 002535.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 398/887
+[DEBUG] Sending image: 003603.jpg, metadata length: 384, base64 size: 1197596
+[SUCCESS] 003603.jpg | input: 886, output: 141, total_tokens: 1027
+[INTERMEDIATE] Captioning done on 399/887
+[DEBUG] Sending image: 003171.jpg, metadata length: 384, base64 size: 1492288
+[SUCCESS] 003171.jpg | input: 886, output: 125, total_tokens: 1011
+[INTERMEDIATE] Captioning done on 400/887
+[DEBUG] Sending image: 000530.jpg, metadata length: 390, base64 size: 1029692
+[SUCCESS] 000530.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 401/887
+[DEBUG] Sending image: 001148.jpg, metadata length: 388, base64 size: 940452
+[SUCCESS] 001148.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 402/887
+[DEBUG] Sending image: 001160.jpg, metadata length: 389, base64 size: 687004
+[SUCCESS] 001160.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 403/887
+[DEBUG] Sending image: 002469.jpg, metadata length: 385, base64 size: 1216000
+[SUCCESS] 002469.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 404/887
+[DEBUG] Sending image: 000518.jpg, metadata length: 390, base64 size: 1073212
+[SUCCESS] 000518.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 405/887
+[DEBUG] Sending image: 003950.jpg, metadata length: 386, base64 size: 976660
+[SUCCESS] 003950.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 406/887
+[DEBUG] Sending image: 001821.jpg, metadata length: 390, base64 size: 1130652
+[SUCCESS] 001821.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 407/887
+[DEBUG] Sending image: 003944.jpg, metadata length: 389, base64 size: 1225328
+[SUCCESS] 003944.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 408/887
+[DEBUG] Sending image: 000295.jpg, metadata length: 384, base64 size: 921928
+[SUCCESS] 000295.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 409/887
+[DEBUG] Sending image: 002131.jpg, metadata length: 386, base64 size: 911456
+[SUCCESS] 002131.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 410/887
+[DEBUG] Sending image: 000726.jpg, metadata length: 386, base64 size: 1095536
+[SUCCESS] 000726.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 411/887
+[DEBUG] Sending image: 003575.jpg, metadata length: 390, base64 size: 700344
+[SUCCESS] 003575.jpg | input: 886, output: 131, total_tokens: 1017
+[INTERMEDIATE] Captioning done on 412/887
+[DEBUG] Sending image: 001362.jpg, metadata length: 389, base64 size: 1084736
+[SUCCESS] 001362.jpg | input: 886, output: 87, total_tokens: 973
+[INTERMEDIATE] Captioning done on 413/887
+[DEBUG] Sending image: 001376.jpg, metadata length: 386, base64 size: 989040
+[SUCCESS] 001376.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 414/887
+[DEBUG] Sending image: 001389.jpg, metadata length: 389, base64 size: 859456
+[SUCCESS] 001389.jpg | input: 886, output: 95, total_tokens: 981
+[INTERMEDIATE] Captioning done on 415/887
+[DEBUG] Sending image: 002864.jpg, metadata length: 381, base64 size: 854760
+[SUCCESS] 002864.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 416/887
+[DEBUG] Sending image: 000900.jpg, metadata length: 382, base64 size: 1025376
+[SUCCESS] 000900.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 417/887
+[DEBUG] Sending image: 002871.jpg, metadata length: 382, base64 size: 541652
+[SUCCESS] 002871.jpg | input: 885, output: 109, total_tokens: 994
+[INTERMEDIATE] Captioning done on 418/887
+[DEBUG] Sending image: 003560.jpg, metadata length: 383, base64 size: 755668
+[SUCCESS] 003560.jpg | input: 886, output: 125, total_tokens: 1011
+[INTERMEDIATE] Captioning done on 419/887
+[DEBUG] Sending image: 000069.jpg, metadata length: 388, base64 size: 1058292
+[SUCCESS] 000069.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 420/887
+[DEBUG] Sending image: 002124.jpg, metadata length: 387, base64 size: 886108
+[SUCCESS] 002124.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 421/887
+[DEBUG] Sending image: 001808.jpg, metadata length: 392, base64 size: 1066892
+[SUCCESS] 001808.jpg | input: 888, output: 113, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 422/887
+[DEBUG] Sending image: 003945.jpg, metadata length: 387, base64 size: 1100372
+[SUCCESS] 003945.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 423/887
+[DEBUG] Sending image: 003762.jpg, metadata length: 381, base64 size: 1534264
+[SUCCESS] 003762.jpg | input: 885, output: 117, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 424/887
+[DEBUG] Sending image: 000519.jpg, metadata length: 390, base64 size: 1176168
+[SUCCESS] 000519.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 425/887
+[DEBUG] Sending image: 003010.jpg, metadata length: 382, base64 size: 731812
+[SUCCESS] 003010.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 426/887
+[DEBUG] Sending image: 000257.jpg, metadata length: 388, base64 size: 1169372
+[SUCCESS] 000257.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 427/887
+[DEBUG] Sending image: 000525.jpg, metadata length: 385, base64 size: 1007332
+[SUCCESS] 000525.jpg | input: 886, output: 139, total_tokens: 1025
+[INTERMEDIATE] Captioning done on 428/887
+[DEBUG] Sending image: 003170.jpg, metadata length: 386, base64 size: 1283244
+[SUCCESS] 003170.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 429/887
+[DEBUG] Sending image: 000479.jpg, metadata length: 386, base64 size: 791780
+[SUCCESS] 000479.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 430/887
+[DEBUG] Sending image: 000337.jpg, metadata length: 387, base64 size: 1396648
+[SUCCESS] 000337.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 431/887
+[DEBUG] Sending image: 001029.jpg, metadata length: 389, base64 size: 764876
+[SUCCESS] 001029.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 432/887
+[DEBUG] Sending image: 002246.jpg, metadata length: 388, base64 size: 1265484
+[SUCCESS] 002246.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 433/887
+[DEBUG] Sending image: 002911.jpg, metadata length: 385, base64 size: 746520
+[SUCCESS] 002911.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 434/887
+[DEBUG] Sending image: 000874.jpg, metadata length: 388, base64 size: 829700
+[SUCCESS] 000874.jpg | input: 886, output: 134, total_tokens: 1020
+[INTERMEDIATE] Captioning done on 435/887
+[DEBUG] Sending image: 002905.jpg, metadata length: 389, base64 size: 945476
+[SUCCESS] 002905.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 436/887
+[DEBUG] Sending image: 001565.jpg, metadata length: 385, base64 size: 1036084
+[SUCCESS] 001565.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 437/887
+[DEBUG] Sending image: 003400.jpg, metadata length: 383, base64 size: 811212
+[SUCCESS] 003400.jpg | input: 885, output: 112, total_tokens: 997
+[INTERMEDIATE] Captioning done on 438/887
+[DEBUG] Sending image: 002050.jpg, metadata length: 384, base64 size: 947876
+[SUCCESS] 002050.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 439/887
+[DEBUG] Sending image: 000647.jpg, metadata length: 390, base64 size: 886172
+[SUCCESS] 000647.jpg | input: 886, output: 130, total_tokens: 1016
+[INTERMEDIATE] Captioning done on 440/887
+[DEBUG] Sending image: 003343.jpg, metadata length: 385, base64 size: 1175568
+[SUCCESS] 003343.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 441/887
+[DEBUG] Sending image: 001554.jpg, metadata length: 381, base64 size: 714856
+[SUCCESS] 001554.jpg | input: 887, output: 96, total_tokens: 983
+[INTERMEDIATE] Captioning done on 442/887
+[DEBUG] Sending image: 001226.jpg, metadata length: 390, base64 size: 862768
+[SUCCESS] 001226.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 443/887
+[DEBUG] Sending image: 000676.jpg, metadata length: 383, base64 size: 1232920
+[SUCCESS] 000676.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 444/887
+[DEBUG] Sending image: 002061.jpg, metadata length: 386, base64 size: 779800
+[SUCCESS] 002061.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 445/887
+[DEBUG] Sending image: 000662.jpg, metadata length: 388, base64 size: 1258328
+[SUCCESS] 000662.jpg | input: 886, output: 125, total_tokens: 1011
+[INTERMEDIATE] Captioning done on 446/887
+[DEBUG] Sending image: 002920.jpg, metadata length: 387, base64 size: 622532
+[SUCCESS] 002920.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 447/887
+[DEBUG] Sending image: 000689.jpg, metadata length: 391, base64 size: 683816
+[SUCCESS] 000689.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 448/887
+[DEBUG] Sending image: 000845.jpg, metadata length: 383, base64 size: 1224356
+[SUCCESS] 000845.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 449/887
+[DEBUG] Sending image: 000879.jpg, metadata length: 384, base64 size: 800168
+[SUCCESS] 000879.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 450/887
+[DEBUG] Sending image: 002539.jpg, metadata length: 384, base64 size: 720748
+[SUCCESS] 002539.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 451/887
+[DEBUG] Sending image: 001030.jpg, metadata length: 389, base64 size: 1169436
+[SUCCESS] 001030.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 452/887
+[DEBUG] Sending image: 003633.jpg, metadata length: 384, base64 size: 828208
+[SUCCESS] 003633.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 453/887
+[DEBUG] Sending image: 001742.jpg, metadata length: 385, base64 size: 620488
+[SUCCESS] 001742.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 454/887
+[DEBUG] Sending image: 000474.jpg, metadata length: 383, base64 size: 1112204
+[SUCCESS] 000474.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 455/887
+[DEBUG] Sending image: 002511.jpg, metadata length: 388, base64 size: 1428008
+[SUCCESS] 002511.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 456/887
+[DEBUG] Sending image: 002277.jpg, metadata length: 388, base64 size: 875440
+[SUCCESS] 002277.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 457/887
+[DEBUG] Sending image: 003169.jpg, metadata length: 388, base64 size: 1736116
+[SUCCESS] 003169.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 458/887
+[DEBUG] Sending image: 002288.jpg, metadata length: 389, base64 size: 1169160
+[SUCCESS] 002288.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 459/887
+[DEBUG] Sending image: 003035.jpg, metadata length: 385, base64 size: 1092356
+[SUCCESS] 003035.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 460/887
+[DEBUG] Sending image: 001144.jpg, metadata length: 385, base64 size: 1029640
+[SUCCESS] 001144.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 461/887
+[DEBUG] Sending image: 001150.jpg, metadata length: 384, base64 size: 1040068
+[SUCCESS] 001150.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 462/887
+[DEBUG] Sending image: 001636.jpg, metadata length: 389, base64 size: 1043196
+[SUCCESS] 001636.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 463/887
+[DEBUG] Sending image: 000500.jpg, metadata length: 390, base64 size: 1124752
+[SUCCESS] 000500.jpg | input: 886, output: 137, total_tokens: 1023
+[INTERMEDIATE] Captioning done on 464/887
+[DEBUG] Sending image: 000266.jpg, metadata length: 381, base64 size: 1503172
+[SUCCESS] 000266.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 465/887
+[DEBUG] Sending image: 001178.jpg, metadata length: 388, base64 size: 1359216
+[SUCCESS] 001178.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 466/887
+[DEBUG] Sending image: 004000.jpg, metadata length: 386, base64 size: 1295572
+[SUCCESS] 004000.jpg | input: 885, output: 99, total_tokens: 984
+[INTERMEDIATE] Captioning done on 467/887
+[DEBUG] Sending image: 002303.jpg, metadata length: 391, base64 size: 965544
+[SUCCESS] 002303.jpg | input: 888, output: 101, total_tokens: 989
+[INTERMEDIATE] Captioning done on 468/887
+[DEBUG] Sending image: 001839.jpg, metadata length: 381, base64 size: 649236
+[SUCCESS] 001839.jpg | input: 885, output: 136, total_tokens: 1021
+[INTERMEDIATE] Captioning done on 469/887
+[DEBUG] Sending image: 003790.jpg, metadata length: 390, base64 size: 940124
+[SUCCESS] 003790.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 470/887
+[DEBUG] Sending image: 001346.jpg, metadata length: 385, base64 size: 676600
+[SUCCESS] 001346.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 471/887
+[DEBUG] Sending image: 003551.jpg, metadata length: 380, base64 size: 783928
+[SUCCESS] 003551.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 472/887
+[DEBUG] Sending image: 002897.jpg, metadata length: 387, base64 size: 928476
+[SUCCESS] 002897.jpg | input: 886, output: 133, total_tokens: 1019
+[INTERMEDIATE] Captioning done on 473/887
+[DEBUG] Sending image: 003237.jpg, metadata length: 388, base64 size: 1009732
+[SUCCESS] 003237.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 474/887
+[DEBUG] Sending image: 001434.jpg, metadata length: 383, base64 size: 1350152
+[SUCCESS] 001434.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 475/887
+[DEBUG] Sending image: 003545.jpg, metadata length: 390, base64 size: 953920
+[SUCCESS] 003545.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 476/887
+[DEBUG] Sending image: 001352.jpg, metadata length: 388, base64 size: 1046120
+[SUCCESS] 001352.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 477/887
+[DEBUG] Sending image: 000064.jpg, metadata length: 381, base64 size: 1206244
+[SUCCESS] 000064.jpg | input: 886, output: 96, total_tokens: 982
+[INTERMEDIATE] Captioning done on 478/887
+[DEBUG] Sending image: 001385.jpg, metadata length: 388, base64 size: 1251104
+[SUCCESS] 001385.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 479/887
+[DEBUG] Sending image: 002840.jpg, metadata length: 386, base64 size: 1087892
+[SUCCESS] 002840.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 480/887
+[DEBUG] Sending image: 000919.jpg, metadata length: 388, base64 size: 1066836
+[SUCCESS] 000919.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 481/887
+[DEBUG] Sending image: 002855.jpg, metadata length: 386, base64 size: 1102652
+[SUCCESS] 002855.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 482/887
+[DEBUG] Sending image: 002100.jpg, metadata length: 386, base64 size: 824092
+[SUCCESS] 002100.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 483/887
+[DEBUG] Sending image: 000071.jpg, metadata length: 390, base64 size: 882484
+[SUCCESS] 000071.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 484/887
+[DEBUG] Sending image: 000065.jpg, metadata length: 383, base64 size: 984124
+[SUCCESS] 000065.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 485/887
+[DEBUG] Sending image: 001353.jpg, metadata length: 388, base64 size: 919196
+[SUCCESS] 001353.jpg | input: 886, output: 93, total_tokens: 979
+[INTERMEDIATE] Captioning done on 486/887
+[DEBUG] Sending image: 003544.jpg, metadata length: 381, base64 size: 914820
+[SUCCESS] 003544.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 487/887
+[DEBUG] Sending image: 001804.jpg, metadata length: 390, base64 size: 935520
+[SUCCESS] 001804.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 488/887
+[DEBUG] Sending image: 003975.jpg, metadata length: 384, base64 size: 1415520
+[SUCCESS] 003975.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 489/887
+[DEBUG] Sending image: 000298.jpg, metadata length: 387, base64 size: 922504
+[SUCCESS] 000298.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 490/887
+[DEBUG] Sending image: 000273.jpg, metadata length: 391, base64 size: 1008600
+[SUCCESS] 000273.jpg | input: 886, output: 135, total_tokens: 1021
+[INTERMEDIATE] Captioning done on 491/887
+[DEBUG] Sending image: 001623.jpg, metadata length: 383, base64 size: 1183388
+[SUCCESS] 001623.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 492/887
+[DEBUG] Sending image: 002289.jpg, metadata length: 386, base64 size: 1670640
+[SUCCESS] 002289.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 493/887
+[DEBUG] Sending image: 003197.jpg, metadata length: 381, base64 size: 1168708
+[SUCCESS] 003197.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 494/887
+[DEBUG] Sending image: 001958.jpg, metadata length: 386, base64 size: 941576
+[SUCCESS] 001958.jpg | input: 886, output: 95, total_tokens: 981
+[INTERMEDIATE] Captioning done on 495/887
+[DEBUG] Sending image: 001780.jpg, metadata length: 387, base64 size: 1141732
+[SUCCESS] 001780.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 496/887
+[DEBUG] Sending image: 002510.jpg, metadata length: 387, base64 size: 745300
+[SUCCESS] 002510.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 497/887
+[DEBUG] Sending image: 001743.jpg, metadata length: 387, base64 size: 876760
+[SUCCESS] 001743.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 498/887
+[DEBUG] Sending image: 000449.jpg, metadata length: 384, base64 size: 713760
+[SUCCESS] 000449.jpg | input: 887, output: 123, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 499/887
+[DEBUG] Sending image: 002538.jpg, metadata length: 385, base64 size: 705044
+[SUCCESS] 002538.jpg | input: 886, output: 133, total_tokens: 1019
+[INTERMEDIATE] Captioning done on 500/887
+[DEBUG] Sending image: 002935.jpg, metadata length: 392, base64 size: 1095800
+[SUCCESS] 002935.jpg | input: 888, output: 117, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 501/887
+[DEBUG] Sending image: 000688.jpg, metadata length: 388, base64 size: 946760
+[SUCCESS] 000688.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 502/887
+[DEBUG] Sending image: 002074.jpg, metadata length: 388, base64 size: 1029916
+[SUCCESS] 002074.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 503/887
+[DEBUG] Sending image: 003356.jpg, metadata length: 386, base64 size: 733068
+[SUCCESS] 003356.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 504/887
+[DEBUG] Sending image: 001227.jpg, metadata length: 391, base64 size: 844216
+[SUCCESS] 001227.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 505/887
+[DEBUG] Sending image: 000885.jpg, metadata length: 390, base64 size: 1066312
+[SUCCESS] 000885.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 506/887
+[DEBUG] Sending image: 001231.jpg, metadata length: 383, base64 size: 746716
+[SUCCESS] 001231.jpg | input: 885, output: 115, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 507/887
+[DEBUG] Sending image: 002738.jpg, metadata length: 384, base64 size: 826524
+[SUCCESS] 002738.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 508/887
+[DEBUG] Sending image: 002710.jpg, metadata length: 384, base64 size: 944648
+[SUCCESS] 002710.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 509/887
+[DEBUG] Sending image: 000113.jpg, metadata length: 389, base64 size: 612800
+[SUCCESS] 000113.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 510/887
+[DEBUG] Sending image: 001580.jpg, metadata length: 385, base64 size: 1102180
+[SUCCESS] 001580.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 511/887
+[DEBUG] Sending image: 000846.jpg, metadata length: 385, base64 size: 899016
+[SUCCESS] 000846.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 512/887
+[DEBUG] Sending image: 003383.jpg, metadata length: 390, base64 size: 914976
+[SUCCESS] 003383.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 513/887
+[DEBUG] Sending image: 001027.jpg, metadata length: 388, base64 size: 821928
+[SUCCESS] 001027.jpg | input: 886, output: 79, total_tokens: 965
+[INTERMEDIATE] Captioning done on 514/887
+[DEBUG] Sending image: 000339.jpg, metadata length: 384, base64 size: 1064524
+[SUCCESS] 000339.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 515/887
+[DEBUG] Sending image: 003630.jpg, metadata length: 381, base64 size: 982872
+[SUCCESS] 003630.jpg | input: 885, output: 108, total_tokens: 993
+[INTERMEDIATE] Captioning done on 516/887
+[DEBUG] Sending image: 001755.jpg, metadata length: 388, base64 size: 1252248
+[SUCCESS] 001755.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 517/887
+[DEBUG] Sending image: 002274.jpg, metadata length: 385, base64 size: 1307388
+[SUCCESS] 002274.jpg | input: 886, output: 135, total_tokens: 1021
+[INTERMEDIATE] Captioning done on 518/887
+[DEBUG] Sending image: 002512.jpg, metadata length: 385, base64 size: 1128364
+[SUCCESS] 002512.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 519/887
+[DEBUG] Sending image: 000305.jpg, metadata length: 386, base64 size: 1085052
+[SUCCESS] 000305.jpg | input: 886, output: 81, total_tokens: 967
+[INTERMEDIATE] Captioning done on 520/887
+[DEBUG] Sending image: 002506.jpg, metadata length: 388, base64 size: 1235772
+[SUCCESS] 002506.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 521/887
+[DEBUG] Sending image: 000477.jpg, metadata length: 382, base64 size: 1041852
+[SUCCESS] 000477.jpg | input: 885, output: 141, total_tokens: 1026
+[INTERMEDIATE] Captioning done on 522/887
+[DEBUG] Sending image: 003195.jpg, metadata length: 390, base64 size: 976508
+[SUCCESS] 003195.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 523/887
+[DEBUG] Sending image: 003181.jpg, metadata length: 388, base64 size: 746388
+[SUCCESS] 003181.jpg | input: 886, output: 125, total_tokens: 1011
+[INTERMEDIATE] Captioning done on 524/887
+[DEBUG] Sending image: 001966.jpg, metadata length: 387, base64 size: 1081260
+[SUCCESS] 001966.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 525/887
+[DEBUG] Sending image: 003817.jpg, metadata length: 388, base64 size: 1189268
+[SUCCESS] 003817.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 526/887
+[DEBUG] Sending image: 003022.jpg, metadata length: 388, base64 size: 1113544
+[SUCCESS] 003022.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 527/887
+[DEBUG] Sending image: 001153.jpg, metadata length: 388, base64 size: 1031464
+[SUCCESS] 001153.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 528/887
+[DEBUG] Sending image: 001147.jpg, metadata length: 390, base64 size: 1015392
+[SUCCESS] 001147.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 529/887
+[DEBUG] Sending image: 002472.jpg, metadata length: 388, base64 size: 846936
+[SUCCESS] 002472.jpg | input: 886, output: 130, total_tokens: 1016
+[INTERMEDIATE] Captioning done on 530/887
+[DEBUG] Sending image: 000503.jpg, metadata length: 386, base64 size: 899356
+[SUCCESS] 000503.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 531/887
+[DEBUG] Sending image: 002658.jpg, metadata length: 388, base64 size: 958264
+[SUCCESS] 002658.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 532/887
+[DEBUG] Sending image: 003552.jpg, metadata length: 386, base64 size: 955788
+[SUCCESS] 003552.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 533/887
+[DEBUG] Sending image: 003208.jpg, metadata length: 388, base64 size: 1424436
+[SUCCESS] 003208.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 534/887
+[DEBUG] Sending image: 001387.jpg, metadata length: 387, base64 size: 948452
+[SUCCESS] 001387.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 535/887
+[DEBUG] Sending image: 002856.jpg, metadata length: 381, base64 size: 1020720
+[SUCCESS] 002856.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 536/887
+[DEBUG] Sending image: 003209.jpg, metadata length: 383, base64 size: 1448860
+[SUCCESS] 003209.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 537/887
+[DEBUG] Sending image: 002117.jpg, metadata length: 388, base64 size: 1050812
+[SUCCESS] 002117.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 538/887
+[DEBUG] Sending image: 000066.jpg, metadata length: 386, base64 size: 1185236
+[SUCCESS] 000066.jpg | input: 886, output: 134, total_tokens: 1020
+[INTERMEDIATE] Captioning done on 539/887
+[DEBUG] Sending image: 000714.jpg, metadata length: 388, base64 size: 1340492
+[SUCCESS] 000714.jpg | input: 886, output: 128, total_tokens: 1014
+[INTERMEDIATE] Captioning done on 540/887
+[DEBUG] Sending image: 001344.jpg, metadata length: 382, base64 size: 1171984
+[SUCCESS] 001344.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 541/887
+[DEBUG] Sending image: 000728.jpg, metadata length: 381, base64 size: 1308504
+[SUCCESS] 000728.jpg | input: 886, output: 138, total_tokens: 1024
+[INTERMEDIATE] Captioning done on 542/887
+[DEBUG] Sending image: 001807.jpg, metadata length: 388, base64 size: 951716
+[SUCCESS] 001807.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 543/887
+[DEBUG] Sending image: 003786.jpg, metadata length: 384, base64 size: 1314080
+[SUCCESS] 003786.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 544/887
+[DEBUG] Sending image: 000264.jpg, metadata length: 389, base64 size: 1385448
+[SUCCESS] 000264.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 545/887
+[DEBUG] Sending image: 001608.jpg, metadata length: 386, base64 size: 596720
+[SUCCESS] 001608.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 546/887
+[DEBUG] Sending image: 003779.jpg, metadata length: 391, base64 size: 883060
+[SUCCESS] 003779.jpg | input: 886, output: 149, total_tokens: 1035
+[INTERMEDIATE] Captioning done on 547/887
+[DEBUG] Sending image: 003751.jpg, metadata length: 388, base64 size: 1192532
+[SUCCESS] 003751.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 548/887
+[DEBUG] Sending image: 002329.jpg, metadata length: 388, base64 size: 1006316
+[SUCCESS] 002329.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 549/887
+[DEBUG] Sending image: 003037.jpg, metadata length: 383, base64 size: 1122472
+[SUCCESS] 003037.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 550/887
+[DEBUG] Sending image: 003619.jpg, metadata length: 383, base64 size: 740832
+[SUCCESS] 003619.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 551/887
+[DEBUG] Sending image: 001032.jpg, metadata length: 390, base64 size: 1053300
+[SUCCESS] 001032.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 552/887
+[DEBUG] Sending image: 001754.jpg, metadata length: 387, base64 size: 1320816
+[SUCCESS] 001754.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 553/887
+[DEBUG] Sending image: 000847.jpg, metadata length: 388, base64 size: 910784
+[SUCCESS] 000847.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 554/887
+[DEBUG] Sending image: 003396.jpg, metadata length: 383, base64 size: 1021612
+[SUCCESS] 003396.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 555/887
+[DEBUG] Sending image: 000674.jpg, metadata length: 383, base64 size: 989280
+[SUCCESS] 000674.jpg | input: 886, output: 72, total_tokens: 958
+[INTERMEDIATE] Captioning done on 556/887
+[DEBUG] Sending image: 000112.jpg, metadata length: 387, base64 size: 912948
+[SUCCESS] 000112.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 557/887
+[DEBUG] Sending image: 000664.jpg, metadata length: 385, base64 size: 967116
+[SUCCESS] 000664.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 558/887
+[DEBUG] Sending image: 000116.jpg, metadata length: 388, base64 size: 906844
+[SUCCESS] 000116.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 559/887
+[DEBUG] Sending image: 000880.jpg, metadata length: 389, base64 size: 929456
+[SUCCESS] 000880.jpg | input: 886, output: 128, total_tokens: 1014
+[INTERMEDIATE] Captioning done on 560/887
+[DEBUG] Sending image: 003351.jpg, metadata length: 384, base64 size: 1026216
+[SUCCESS] 003351.jpg | input: 886, output: 125, total_tokens: 1011
+[INTERMEDIATE] Captioning done on 561/887
+[DEBUG] Sending image: 001220.jpg, metadata length: 381, base64 size: 817344
+[SUCCESS] 001220.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 562/887
+[DEBUG] Sending image: 000894.jpg, metadata length: 388, base64 size: 1111232
+[SUCCESS] 000894.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 563/887
+[DEBUG] Sending image: 000843.jpg, metadata length: 384, base64 size: 819836
+[SUCCESS] 000843.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 564/887
+[DEBUG] Sending image: 002932.jpg, metadata length: 387, base64 size: 1064908
+[SUCCESS] 002932.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 565/887
+[DEBUG] Sending image: 001022.jpg, metadata length: 385, base64 size: 1219080
+[SUCCESS] 001022.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 566/887
+[DEBUG] Sending image: 002259.jpg, metadata length: 384, base64 size: 1120096
+[SUCCESS] 002259.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 567/887
+[DEBUG] Sending image: 003147.jpg, metadata length: 387, base64 size: 1083652
+[SUCCESS] 003147.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 568/887
+[DEBUG] Sending image: 001793.jpg, metadata length: 387, base64 size: 887468
+[SUCCESS] 001793.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 569/887
+[DEBUG] Sending image: 000506.jpg, metadata length: 393, base64 size: 1193712
+[SUCCESS] 000506.jpg | input: 888, output: 126, total_tokens: 1014
+[INTERMEDIATE] Captioning done on 570/887
+[DEBUG] Sending image: 000248.jpg, metadata length: 384, base64 size: 1184652
+[SUCCESS] 000248.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 571/887
+[DEBUG] Sending image: 001630.jpg, metadata length: 387, base64 size: 1083168
+[SUCCESS] 001630.jpg | input: 886, output: 140, total_tokens: 1026
+[INTERMEDIATE] Captioning done on 572/887
+[DEBUG] Sending image: 001624.jpg, metadata length: 382, base64 size: 1052016
+[SUCCESS] 001624.jpg | input: 886, output: 96, total_tokens: 982
+[INTERMEDIATE] Captioning done on 573/887
+[DEBUG] Sending image: 001142.jpg, metadata length: 386, base64 size: 1038348
+[SUCCESS] 001142.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 574/887
+[DEBUG] Sending image: 001817.jpg, metadata length: 392, base64 size: 495844
+[SUCCESS] 001817.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 575/887
+[DEBUG] Sending image: 003219.jpg, metadata length: 381, base64 size: 949852
+[SUCCESS] 003219.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 576/887
+[DEBUG] Sending image: 002675.jpg, metadata length: 388, base64 size: 896144
+[SUCCESS] 002675.jpg | input: 886, output: 128, total_tokens: 1014
+[INTERMEDIATE] Captioning done on 577/887
+[DEBUG] Sending image: 000062.jpg, metadata length: 390, base64 size: 953272
+[SUCCESS] 000062.jpg | input: 886, output: 93, total_tokens: 979
+[INTERMEDIATE] Captioning done on 578/887
+[DEBUG] Sending image: 002885.jpg, metadata length: 387, base64 size: 695100
+[SUCCESS] 002885.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 579/887
+[DEBUG] Sending image: 003557.jpg, metadata length: 384, base64 size: 1084180
+[SUCCESS] 003557.jpg | input: 886, output: 132, total_tokens: 1018
+[INTERMEDIATE] Captioning done on 580/887
+[DEBUG] Sending image: 002649.jpg, metadata length: 384, base64 size: 1050620
+[SUCCESS] 002649.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 581/887
+[DEBUG] Sending image: 003231.jpg, metadata length: 388, base64 size: 1494456
+[SUCCESS] 003231.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 582/887
+[DEBUG] Sending image: 002846.jpg, metadata length: 385, base64 size: 856032
+[SUCCESS] 002846.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 583/887
+[DEBUG] Sending image: 001382.jpg, metadata length: 387, base64 size: 692480
+[SUCCESS] 001382.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 584/887
+[DEBUG] Sending image: 003595.jpg, metadata length: 385, base64 size: 1109816
+[SUCCESS] 003595.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 585/887
+[DEBUG] Sending image: 000936.jpg, metadata length: 388, base64 size: 940036
+[SUCCESS] 000936.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 586/887
+[DEBUG] Sending image: 003581.jpg, metadata length: 385, base64 size: 1115416
+[SUCCESS] 003581.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 587/887
+[DEBUG] Sending image: 000739.jpg, metadata length: 383, base64 size: 1164452
+[SUCCESS] 000739.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 588/887
+[DEBUG] Sending image: 003224.jpg, metadata length: 385, base64 size: 874440
+[SUCCESS] 003224.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 589/887
+[DEBUG] Sending image: 001433.jpg, metadata length: 386, base64 size: 864832
+[SUCCESS] 001433.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 590/887
+[DEBUG] Sending image: 001194.jpg, metadata length: 379, base64 size: 1452628
+[SUCCESS] 001194.jpg | input: 885, output: 105, total_tokens: 990
+[INTERMEDIATE] Captioning done on 591/887
+[DEBUG] Sending image: 003973.jpg, metadata length: 384, base64 size: 696620
+[SUCCESS] 003973.jpg | input: 886, output: 139, total_tokens: 1025
+[INTERMEDIATE] Captioning done on 592/887
+[DEBUG] Sending image: 003032.jpg, metadata length: 385, base64 size: 1112372
+[SUCCESS] 003032.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 593/887
+[DEBUG] Sending image: 003998.jpg, metadata length: 387, base64 size: 1346328
+[SUCCESS] 003998.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 594/887
+[DEBUG] Sending image: 001157.jpg, metadata length: 387, base64 size: 933528
+[SUCCESS] 001157.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 595/887
+[DEBUG] Sending image: 000249.jpg, metadata length: 392, base64 size: 981852
+[SUCCESS] 000249.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 596/887
+[DEBUG] Sending image: 003026.jpg, metadata length: 385, base64 size: 1301460
+[SUCCESS] 003026.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 597/887
+[DEBUG] Sending image: 000275.jpg, metadata length: 390, base64 size: 666752
+[SUCCESS] 000275.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 598/887
+[DEBUG] Sending image: 003191.jpg, metadata length: 383, base64 size: 1215148
+[SUCCESS] 003191.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 599/887
+[DEBUG] Sending image: 001786.jpg, metadata length: 392, base64 size: 1066376
+[SUCCESS] 001786.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 600/887
+[DEBUG] Sending image: 001037.jpg, metadata length: 388, base64 size: 1613604
+[SUCCESS] 001037.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 601/887
+[DEBUG] Sending image: 001023.jpg, metadata length: 385, base64 size: 968204
+[SUCCESS] 001023.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 602/887
+[DEBUG] Sending image: 003608.jpg, metadata length: 386, base64 size: 928960
+[SUCCESS] 003608.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 603/887
+[DEBUG] Sending image: 002927.jpg, metadata length: 386, base64 size: 815200
+[SUCCESS] 002927.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 604/887
+[DEBUG] Sending image: 001590.jpg, metadata length: 396, base64 size: 864188
+[SUCCESS] 001590.jpg | input: 888, output: 116, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 605/887
+[DEBUG] Sending image: 001584.jpg, metadata length: 390, base64 size: 1691448
+[SUCCESS] 001584.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 606/887
+[DEBUG] Sending image: 001209.jpg, metadata length: 387, base64 size: 995956
+[SUCCESS] 001209.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 607/887
+[DEBUG] Sending image: 002702.jpg, metadata length: 384, base64 size: 1049948
+[SUCCESS] 002702.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 608/887
+[DEBUG] Sending image: 000101.jpg, metadata length: 384, base64 size: 1161000
+[SUCCESS] 000101.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 609/887
+[DEBUG] Sending image: 001223.jpg, metadata length: 386, base64 size: 1206996
+[SUCCESS] 001223.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 610/887
+[DEBUG] Sending image: 000868.jpg, metadata length: 388, base64 size: 997144
+[SUCCESS] 000868.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 611/887
+[DEBUG] Sending image: 000854.jpg, metadata length: 387, base64 size: 937848
+[SUCCESS] 000854.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 612/887
+[DEBUG] Sending image: 000840.jpg, metadata length: 385, base64 size: 893980
+[SUCCESS] 000840.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 613/887
+[DEBUG] Sending image: 001586.jpg, metadata length: 385, base64 size: 1115708
+[SUCCESS] 001586.jpg | input: 887, output: 117, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 614/887
+[DEBUG] Sending image: 002500.jpg, metadata length: 386, base64 size: 959644
+[SUCCESS] 002500.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 615/887
+[DEBUG] Sending image: 003178.jpg, metadata length: 385, base64 size: 821696
+[SUCCESS] 003178.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 616/887
+[DEBUG] Sending image: 000303.jpg, metadata length: 387, base64 size: 1171608
+[SUCCESS] 000303.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 617/887
+[DEBUG] Sending image: 001753.jpg, metadata length: 386, base64 size: 1243216
+[SUCCESS] 001753.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 618/887
+[DEBUG] Sending image: 001021.jpg, metadata length: 387, base64 size: 1257308
+[SUCCESS] 001021.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 619/887
+[DEBUG] Sending image: 001960.jpg, metadata length: 385, base64 size: 621300
+[SUCCESS] 001960.jpg | input: 886, output: 131, total_tokens: 1017
+[INTERMEDIATE] Captioning done on 620/887
+[DEBUG] Sending image: 000263.jpg, metadata length: 385, base64 size: 1280972
+[SUCCESS] 000263.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 621/887
+[DEBUG] Sending image: 002474.jpg, metadata length: 390, base64 size: 896736
+[SUCCESS] 002474.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 622/887
+[DEBUG] Sending image: 002306.jpg, metadata length: 389, base64 size: 781580
+[SUCCESS] 002306.jpg | input: 886, output: 88, total_tokens: 974
+[INTERMEDIATE] Captioning done on 623/887
+[DEBUG] Sending image: 001814.jpg, metadata length: 383, base64 size: 607660
+[SUCCESS] 001814.jpg | input: 886, output: 134, total_tokens: 1020
+[INTERMEDIATE] Captioning done on 624/887
+[DEBUG] Sending image: 001419.jpg, metadata length: 385, base64 size: 949216
+[SUCCESS] 001419.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 625/887
+[DEBUG] Sending image: 002110.jpg, metadata length: 385, base64 size: 727788
+[SUCCESS] 002110.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 626/887
+[DEBUG] Sending image: 001425.jpg, metadata length: 383, base64 size: 1071972
+[SUCCESS] 001425.jpg | input: 886, output: 93, total_tokens: 979
+[INTERMEDIATE] Captioning done on 627/887
+[DEBUG] Sending image: 003540.jpg, metadata length: 387, base64 size: 1473444
+[SUCCESS] 003540.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 628/887
+[DEBUG] Sending image: 000908.jpg, metadata length: 385, base64 size: 866120
+[SUCCESS] 000908.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 629/887
+[DEBUG] Sending image: 001380.jpg, metadata length: 385, base64 size: 1063612
+[SUCCESS] 001380.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 630/887
+[DEBUG] Sending image: 001430.jpg, metadata length: 384, base64 size: 995416
+[SUCCESS] 001430.jpg | input: 886, output: 80, total_tokens: 966
+[INTERMEDIATE] Captioning done on 631/887
+[DEBUG] Sending image: 003569.jpg, metadata length: 384, base64 size: 758708
+[SUCCESS] 003569.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 632/887
+[DEBUG] Sending image: 001829.jpg, metadata length: 387, base64 size: 1003184
+[SUCCESS] 001829.jpg | input: 886, output: 89, total_tokens: 975
+[INTERMEDIATE] Captioning done on 633/887
+[DEBUG] Sending image: 003958.jpg, metadata length: 389, base64 size: 760300
+[SUCCESS] 003958.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 634/887
+[DEBUG] Sending image: 001183.jpg, metadata length: 382, base64 size: 1127756
+[SUCCESS] 001183.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 635/887
+[DEBUG] Sending image: 000510.jpg, metadata length: 386, base64 size: 937264
+[SUCCESS] 000510.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 636/887
+[DEBUG] Sending image: 000276.jpg, metadata length: 386, base64 size: 1088736
+[SUCCESS] 000276.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 637/887
+[DEBUG] Sending image: 000504.jpg, metadata length: 385, base64 size: 811176
+[SUCCESS] 000504.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 638/887
+[DEBUG] Sending image: 001791.jpg, metadata length: 387, base64 size: 856376
+[SUCCESS] 001791.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 639/887
+[DEBUG] Sending image: 001961.jpg, metadata length: 386, base64 size: 699372
+[SUCCESS] 001961.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 640/887
+[DEBUG] Sending image: 003810.jpg, metadata length: 382, base64 size: 1116788
+[SUCCESS] 003810.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 641/887
+[DEBUG] Sending image: 000458.jpg, metadata length: 385, base64 size: 1057644
+[SUCCESS] 000458.jpg | input: 886, output: 94, total_tokens: 980
+[INTERMEDIATE] Captioning done on 642/887
+[DEBUG] Sending image: 003151.jpg, metadata length: 386, base64 size: 1173332
+[SUCCESS] 003151.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 643/887
+[DEBUG] Sending image: 001034.jpg, metadata length: 384, base64 size: 578228
+[SUCCESS] 001034.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 644/887
+[DEBUG] Sending image: 003623.jpg, metadata length: 387, base64 size: 971816
+[SUCCESS] 003623.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 645/887
+[DEBUG] Sending image: 003145.jpg, metadata length: 389, base64 size: 936316
+[SUCCESS] 003145.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 646/887
+[DEBUG] Sending image: 002273.jpg, metadata length: 392, base64 size: 1283116
+[SUCCESS] 002273.jpg | input: 888, output: 119, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 647/887
+[DEBUG] Sending image: 000464.jpg, metadata length: 388, base64 size: 1026412
+[SUCCESS] 000464.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 648/887
+[DEBUG] Sending image: 000855.jpg, metadata length: 386, base64 size: 1124116
+[SUCCESS] 000855.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 649/887
+[DEBUG] Sending image: 000882.jpg, metadata length: 386, base64 size: 965620
+[SUCCESS] 000882.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 650/887
+[DEBUG] Sending image: 000896.jpg, metadata length: 389, base64 size: 861548
+[SUCCESS] 000896.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 651/887
+[DEBUG] Sending image: 000666.jpg, metadata length: 383, base64 size: 1232660
+[SUCCESS] 000666.jpg | input: 886, output: 131, total_tokens: 1017
+[INTERMEDIATE] Captioning done on 652/887
+[DEBUG] Sending image: 002071.jpg, metadata length: 388, base64 size: 822620
+[SUCCESS] 002071.jpg | input: 886, output: 96, total_tokens: 982
+[INTERMEDIATE] Captioning done on 653/887
+[DEBUG] Sending image: 000629.jpg, metadata length: 389, base64 size: 738864
+[SUCCESS] 000629.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 654/887
+[DEBUG] Sending image: 002758.jpg, metadata length: 385, base64 size: 1095008
+[SUCCESS] 002758.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 655/887
+[DEBUG] Sending image: 002980.jpg, metadata length: 383, base64 size: 796300
+[SUCCESS] 002980.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 656/887
+[DEBUG] Sending image: 003452.jpg, metadata length: 386, base64 size: 1285956
+[SUCCESS] 003452.jpg | input: 886, output: 99, total_tokens: 985
+[INTERMEDIATE] Captioning done on 657/887
+[DEBUG] Sending image: 003334.jpg, metadata length: 389, base64 size: 1507504
+[SUCCESS] 003334.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 658/887
+[DEBUG] Sending image: 001523.jpg, metadata length: 383, base64 size: 453588
+[SUCCESS] 001523.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 659/887
+[DEBUG] Sending image: 000173.jpg, metadata length: 388, base64 size: 1513972
+[SUCCESS] 000173.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 660/887
+[DEBUG] Sending image: 000601.jpg, metadata length: 386, base64 size: 1061992
+[SUCCESS] 000601.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 661/887
+[DEBUG] Sending image: 002943.jpg, metadata length: 383, base64 size: 1243692
+[SUCCESS] 002943.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 662/887
+[DEBUG] Sending image: 002957.jpg, metadata length: 387, base64 size: 999680
+[SUCCESS] 002957.jpg | input: 886, output: 132, total_tokens: 1018
+[INTERMEDIATE] Captioning done on 663/887
+[DEBUG] Sending image: 000198.jpg, metadata length: 387, base64 size: 1102240
+[SUCCESS] 000198.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 664/887
+[DEBUG] Sending image: 001053.jpg, metadata length: 387, base64 size: 865816
+[SUCCESS] 001053.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 665/887
+[DEBUG] Sending image: 003122.jpg, metadata length: 385, base64 size: 1266728
+[SUCCESS] 003122.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 666/887
+[DEBUG] Sending image: 001735.jpg, metadata length: 394, base64 size: 926556
+[SUCCESS] 001735.jpg | input: 888, output: 3, total_tokens: 891
+[INTERMEDIATE] Captioning done on 667/887
+[DEBUG] Sending image: 003678.jpg, metadata length: 386, base64 size: 859852
+[SUCCESS] 003678.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 668/887
+[DEBUG] Sending image: 002566.jpg, metadata length: 385, base64 size: 703928
+[SUCCESS] 002566.jpg | input: 885, output: 103, total_tokens: 988
+[INTERMEDIATE] Captioning done on 669/887
+[DEBUG] Sending image: 002214.jpg, metadata length: 387, base64 size: 1214124
+[SUCCESS] 002214.jpg | input: 886, output: 134, total_tokens: 1020
+[INTERMEDIATE] Captioning done on 670/887
+[DEBUG] Sending image: 003863.jpg, metadata length: 386, base64 size: 1209560
+[SUCCESS] 003863.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 671/887
+[DEBUG] Sending image: 001127.jpg, metadata length: 385, base64 size: 1031496
+[SUCCESS] 001127.jpg | input: 886, output: 138, total_tokens: 1024
+[INTERMEDIATE] Captioning done on 672/887
+[DEBUG] Sending image: 003724.jpg, metadata length: 385, base64 size: 1099720
+[SUCCESS] 003724.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 673/887
+[DEBUG] Sending image: 001133.jpg, metadata length: 390, base64 size: 942656
+[SUCCESS] 001133.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 674/887
+[DEBUG] Sending image: 003081.jpg, metadata length: 390, base64 size: 1082184
+[SUCCESS] 003081.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 675/887
+[DEBUG] Sending image: 001866.jpg, metadata length: 386, base64 size: 994888
+[SUCCESS] 001866.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 676/887
+[DEBUG] Sending image: 000985.jpg, metadata length: 388, base64 size: 1267408
+[SUCCESS] 000985.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 677/887
+[DEBUG] Sending image: 001443.jpg, metadata length: 382, base64 size: 603504
+[SUCCESS] 001443.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 678/887
+[DEBUG] Sending image: 002638.jpg, metadata length: 389, base64 size: 1169036
+[SUCCESS] 002638.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 679/887
+[DEBUG] Sending image: 003240.jpg, metadata length: 385, base64 size: 1364384
+[SUCCESS] 003240.jpg | input: 886, output: 135, total_tokens: 1021
+[INTERMEDIATE] Captioning done on 680/887
+[DEBUG] Sending image: 000991.jpg, metadata length: 389, base64 size: 1046988
+[SUCCESS] 000991.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 681/887
+[DEBUG] Sending image: 000761.jpg, metadata length: 383, base64 size: 629884
+[SUCCESS] 000761.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 682/887
+[DEBUG] Sending image: 001319.jpg, metadata length: 386, base64 size: 553396
+[SUCCESS] 001319.jpg | input: 886, output: 128, total_tokens: 1014
+[INTERMEDIATE] Captioning done on 683/887
+[DEBUG] Sending image: 000775.jpg, metadata length: 387, base64 size: 1030756
+[SUCCESS] 000775.jpg | input: 886, output: 143, total_tokens: 1029
+[INTERMEDIATE] Captioning done on 684/887
+[DEBUG] Sending image: 001480.jpg, metadata length: 387, base64 size: 977468
+[SUCCESS] 001480.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 685/887
+[DEBUG] Sending image: 002823.jpg, metadata length: 382, base64 size: 854168
+[SUCCESS] 002823.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 686/887
+[DEBUG] Sending image: 003282.jpg, metadata length: 385, base64 size: 952376
+[SUCCESS] 003282.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 687/887
+[DEBUG] Sending image: 002611.jpg, metadata length: 389, base64 size: 1016220
+[SUCCESS] 002611.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 688/887
+[DEBUG] Sending image: 000006.jpg, metadata length: 383, base64 size: 1053756
+[SUCCESS] 000006.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 689/887
+[DEBUG] Sending image: 003241.jpg, metadata length: 390, base64 size: 1395504
+[SUCCESS] 003241.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 690/887
+[DEBUG] Sending image: 001873.jpg, metadata length: 387, base64 size: 878276
+[SUCCESS] 001873.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 691/887
+[DEBUG] Sending image: 003916.jpg, metadata length: 389, base64 size: 1877440
+[SUCCESS] 003916.jpg | input: 887, output: 113, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 692/887
+[DEBUG] Sending image: 001697.jpg, metadata length: 382, base64 size: 812144
+[SUCCESS] 001697.jpg | input: 885, output: 108, total_tokens: 993
+[INTERMEDIATE] Captioning done on 693/887
+[DEBUG] Sending image: 003094.jpg, metadata length: 379, base64 size: 1074472
+[SUCCESS] 003094.jpg | input: 886, output: 130, total_tokens: 1016
+[INTERMEDIATE] Captioning done on 694/887
+[DEBUG] Sending image: 003725.jpg, metadata length: 384, base64 size: 1657612
+[SUCCESS] 003725.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 695/887
+[DEBUG] Sending image: 003731.jpg, metadata length: 386, base64 size: 812144
+[SUCCESS] 003731.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 696/887
+[DEBUG] Sending image: 001640.jpg, metadata length: 386, base64 size: 924420
+[SUCCESS] 001640.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 697/887
+[DEBUG] Sending image: 003692.jpg, metadata length: 385, base64 size: 956412
+[SUCCESS] 003692.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 698/887
+[DEBUG] Sending image: 000402.jpg, metadata length: 391, base64 size: 1271356
+[SUCCESS] 000402.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 699/887
+[DEBUG] Sending image: 000370.jpg, metadata length: 382, base64 size: 777276
+[SUCCESS] 000370.jpg | input: 885, output: 137, total_tokens: 1022
+[INTERMEDIATE] Captioning done on 700/887
+[DEBUG] Sending image: 001708.jpg, metadata length: 387, base64 size: 802496
+[SUCCESS] 001708.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 701/887
+[DEBUG] Sending image: 003645.jpg, metadata length: 383, base64 size: 1020244
+[SUCCESS] 003645.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 702/887
+[DEBUG] Sending image: 003123.jpg, metadata length: 386, base64 size: 1305140
+[SUCCESS] 003123.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 703/887
+[DEBUG] Sending image: 003490.jpg, metadata length: 387, base64 size: 841936
+[SUCCESS] 003490.jpg | input: 886, output: 96, total_tokens: 982
+[INTERMEDIATE] Captioning done on 704/887
+[DEBUG] Sending image: 000827.jpg, metadata length: 382, base64 size: 1085920
+[SUCCESS] 000827.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 705/887
+[DEBUG] Sending image: 002942.jpg, metadata length: 384, base64 size: 848416
+[SUCCESS] 002942.jpg | input: 885, output: 141, total_tokens: 1026
+[INTERMEDIATE] Captioning done on 706/887
+[DEBUG] Sending image: 001293.jpg, metadata length: 383, base64 size: 1258976
+[SUCCESS] 001293.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 707/887
+[DEBUG] Sending image: 001278.jpg, metadata length: 384, base64 size: 1108916
+[SUCCESS] 001278.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 708/887
+[DEBUG] Sending image: 000172.jpg, metadata length: 388, base64 size: 1361376
+[SUCCESS] 000172.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 709/887
+[DEBUG] Sending image: 003453.jpg, metadata length: 385, base64 size: 1070948
+[SUCCESS] 003453.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 710/887
+[DEBUG] Sending image: 002995.jpg, metadata length: 390, base64 size: 1019596
+[SUCCESS] 002995.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 711/887
+[DEBUG] Sending image: 003335.jpg, metadata length: 387, base64 size: 584800
+[SUCCESS] 003335.jpg | input: 886, output: 139, total_tokens: 1025
+[INTERMEDIATE] Captioning done on 712/887
+[DEBUG] Sending image: 000628.jpg, metadata length: 386, base64 size: 1060276
+[SUCCESS] 000628.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 713/887
+[DEBUG] Sending image: 000158.jpg, metadata length: 386, base64 size: 983940
+[SUCCESS] 000158.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 714/887
+[DEBUG] Sending image: 001252.jpg, metadata length: 390, base64 size: 860148
+[SUCCESS] 001252.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 715/887
+[DEBUG] Sending image: 001534.jpg, metadata length: 386, base64 size: 711120
+[SUCCESS] 001534.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 716/887
+[DEBUG] Sending image: 000164.jpg, metadata length: 388, base64 size: 844768
+[SUCCESS] 000164.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 717/887
+[DEBUG] Sending image: 000819.jpg, metadata length: 384, base64 size: 1018312
+[SUCCESS] 000819.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 718/887
+[DEBUG] Sending image: 002968.jpg, metadata length: 386, base64 size: 1000212
+[SUCCESS] 002968.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 719/887
+[DEBUG] Sending image: 000428.jpg, metadata length: 388, base64 size: 722264
+[SUCCESS] 000428.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 720/887
+[DEBUG] Sending image: 001736.jpg, metadata length: 390, base64 size: 890512
+[SUCCESS] 001736.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 721/887
+[DEBUG] Sending image: 000414.jpg, metadata length: 388, base64 size: 907740
+[SUCCESS] 000414.jpg | input: 886, output: 92, total_tokens: 978
+[INTERMEDIATE] Captioning done on 722/887
+[DEBUG] Sending image: 002565.jpg, metadata length: 385, base64 size: 1129180
+[SUCCESS] 002565.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 723/887
+[DEBUG] Sending image: 000372.jpg, metadata length: 388, base64 size: 793920
+[SUCCESS] 000372.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 724/887
+[DEBUG] Sending image: 003848.jpg, metadata length: 384, base64 size: 1232484
+[SUCCESS] 003848.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 725/887
+[DEBUG] Sending image: 003860.jpg, metadata length: 387, base64 size: 1421968
+[SUCCESS] 003860.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 726/887
+[DEBUG] Sending image: 003733.jpg, metadata length: 394, base64 size: 1329704
+[SUCCESS] 003733.jpg | input: 888, output: 113, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 727/887
+[DEBUG] Sending image: 002405.jpg, metadata length: 385, base64 size: 781416
+[SUCCESS] 002405.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 728/887
+[DEBUG] Sending image: 000560.jpg, metadata length: 384, base64 size: 921704
+[SUCCESS] 000560.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 729/887
+[DEBUG] Sending image: 002377.jpg, metadata length: 387, base64 size: 985688
+[SUCCESS] 002377.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 730/887
+[DEBUG] Sending image: 001681.jpg, metadata length: 382, base64 size: 1031308
+[SUCCESS] 001681.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 731/887
+[DEBUG] Sending image: 002388.jpg, metadata length: 396, base64 size: 1153364
+[SUCCESS] 002388.jpg | input: 888, output: 142, total_tokens: 1030
+[INTERMEDIATE] Captioning done on 732/887
+[DEBUG] Sending image: 003096.jpg, metadata length: 391, base64 size: 1069480
+[SUCCESS] 003096.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 733/887
+[DEBUG] Sending image: 001865.jpg, metadata length: 386, base64 size: 825984
+[SUCCESS] 001865.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 734/887
+[DEBUG] Sending image: 003243.jpg, metadata length: 389, base64 size: 1510376
+[SUCCESS] 003243.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 735/887
+[DEBUG] Sending image: 001332.jpg, metadata length: 388, base64 size: 627988
+[SUCCESS] 001332.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 736/887
+[DEBUG] Sending image: 003531.jpg, metadata length: 381, base64 size: 926912
+[SUCCESS] 003531.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 737/887
+[DEBUG] Sending image: 002149.jpg, metadata length: 384, base64 size: 941000
+[SUCCESS] 002149.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 738/887
+[DEBUG] Sending image: 000776.jpg, metadata length: 386, base64 size: 937376
+[SUCCESS] 000776.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 739/887
+[DEBUG] Sending image: 001468.jpg, metadata length: 389, base64 size: 1217848
+[SUCCESS] 001468.jpg | input: 886, output: 93, total_tokens: 979
+[INTERMEDIATE] Captioning done on 740/887
+[DEBUG] Sending image: 000010.jpg, metadata length: 382, base64 size: 1551476
+[SUCCESS] 000010.jpg | input: 885, output: 95, total_tokens: 980
+[INTERMEDIATE] Captioning done on 741/887
+[DEBUG] Sending image: 002175.jpg, metadata length: 382, base64 size: 1287808
+[SUCCESS] 002175.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 742/887
+[DEBUG] Sending image: 003280.jpg, metadata length: 385, base64 size: 643000
+[SUCCESS] 003280.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 743/887
+[DEBUG] Sending image: 001482.jpg, metadata length: 391, base64 size: 1004168
+[SUCCESS] 001482.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 744/887
+[DEBUG] Sending image: 002821.jpg, metadata length: 386, base64 size: 1091916
+[SUCCESS] 002821.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 745/887
+[DEBUG] Sending image: 002174.jpg, metadata length: 385, base64 size: 905168
+[SUCCESS] 002174.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 746/887
+[DEBUG] Sending image: 002160.jpg, metadata length: 387, base64 size: 932440
+[SUCCESS] 002160.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 747/887
+[DEBUG] Sending image: 000777.jpg, metadata length: 385, base64 size: 1056948
+[SUCCESS] 000777.jpg | input: 886, output: 165, total_tokens: 1051
+[INTERMEDIATE] Captioning done on 748/887
+[DEBUG] Sending image: 000987.jpg, metadata length: 385, base64 size: 768336
+[SUCCESS] 000987.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 749/887
+[DEBUG] Sending image: 001455.jpg, metadata length: 393, base64 size: 572428
+[SUCCESS] 001455.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 750/887
+[DEBUG] Sending image: 003901.jpg, metadata length: 385, base64 size: 686060
+[SUCCESS] 003901.jpg | input: 886, output: 96, total_tokens: 982
+[INTERMEDIATE] Captioning done on 751/887
+[DEBUG] Sending image: 000207.jpg, metadata length: 385, base64 size: 1085156
+[SUCCESS] 000207.jpg | input: 886, output: 95, total_tokens: 981
+[INTERMEDIATE] Captioning done on 752/887
+[DEBUG] Sending image: 001125.jpg, metadata length: 391, base64 size: 1251960
+[SUCCESS] 001125.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 753/887
+[DEBUG] Sending image: 002438.jpg, metadata length: 389, base64 size: 709572
+[SUCCESS] 002438.jpg | input: 886, output: 131, total_tokens: 1017
+[INTERMEDIATE] Captioning done on 754/887
+[DEBUG] Sending image: 003040.jpg, metadata length: 389, base64 size: 819972
+[SUCCESS] 003040.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 755/887
+[DEBUG] Sending image: 001086.jpg, metadata length: 383, base64 size: 1234656
+[SUCCESS] 001086.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 756/887
+[DEBUG] Sending image: 002570.jpg, metadata length: 386, base64 size: 929396
+[SUCCESS] 002570.jpg | input: 886, output: 95, total_tokens: 981
+[INTERMEDIATE] Captioning done on 757/887
+[DEBUG] Sending image: 003108.jpg, metadata length: 386, base64 size: 825968
+[SUCCESS] 003108.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 758/887
+[DEBUG] Sending image: 000429.jpg, metadata length: 384, base64 size: 1314784
+[SUCCESS] 000429.jpg | input: 886, output: 91, total_tokens: 977
+[INTERMEDIATE] Captioning done on 759/887
+[DEBUG] Sending image: 002558.jpg, metadata length: 387, base64 size: 1151972
+[SUCCESS] 002558.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 760/887
+[DEBUG] Sending image: 003652.jpg, metadata length: 383, base64 size: 932388
+[SUCCESS] 003652.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 761/887
+[DEBUG] Sending image: 001723.jpg, metadata length: 383, base64 size: 901224
+[SUCCESS] 001723.jpg | input: 886, output: 120, total_tokens: 1006
+[INTERMEDIATE] Captioning done on 762/887
+[DEBUG] Sending image: 000818.jpg, metadata length: 388, base64 size: 968836
+[SUCCESS] 000818.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 763/887
+[DEBUG] Sending image: 002941.jpg, metadata length: 384, base64 size: 1021108
+[SUCCESS] 002941.jpg | input: 886, output: 130, total_tokens: 1016
+[INTERMEDIATE] Captioning done on 764/887
+[DEBUG] Sending image: 001290.jpg, metadata length: 386, base64 size: 916752
+[SUCCESS] 001290.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 765/887
+[DEBUG] Sending image: 000171.jpg, metadata length: 386, base64 size: 1154808
+[SUCCESS] 000171.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 766/887
+[DEBUG] Sending image: 001509.jpg, metadata length: 386, base64 size: 748160
+[SUCCESS] 001509.jpg | input: 886, output: 130, total_tokens: 1016
+[INTERMEDIATE] Captioning done on 767/887
+[DEBUG] Sending image: 002772.jpg, metadata length: 385, base64 size: 1098532
+[SUCCESS] 002772.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 768/887
+[DEBUG] Sending image: 002028.jpg, metadata length: 388, base64 size: 1222208
+[SUCCESS] 002028.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 769/887
+[DEBUG] Sending image: 003468.jpg, metadata length: 391, base64 size: 1048720
+[SUCCESS] 003468.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 770/887
+[DEBUG] Sending image: 000161.jpg, metadata length: 390, base64 size: 1250984
+[SUCCESS] 000161.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 771/887
+[DEBUG] Sending image: 002004.jpg, metadata length: 386, base64 size: 1064712
+[SUCCESS] 002004.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 772/887
+[DEBUG] Sending image: 002038.jpg, metadata length: 392, base64 size: 1093992
+[SUCCESS] 002038.jpg | input: 889, output: 106, total_tokens: 995
+[INTERMEDIATE] Captioning done on 773/887
+[DEBUG] Sending image: 003440.jpg, metadata length: 385, base64 size: 1006204
+[SUCCESS] 003440.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 774/887
+[DEBUG] Sending image: 000808.jpg, metadata length: 388, base64 size: 1030704
+[SUCCESS] 000808.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 775/887
+[DEBUG] Sending image: 002951.jpg, metadata length: 388, base64 size: 1266444
+[SUCCESS] 002951.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 776/887
+[DEBUG] Sending image: 001294.jpg, metadata length: 387, base64 size: 735148
+[SUCCESS] 001294.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 777/887
+[DEBUG] Sending image: 002945.jpg, metadata length: 392, base64 size: 524048
+[SUCCESS] 002945.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 778/887
+[DEBUG] Sending image: 000363.jpg, metadata length: 379, base64 size: 702464
+[SUCCESS] 000363.jpg | input: 885, output: 105, total_tokens: 990
+[INTERMEDIATE] Captioning done on 779/887
+[DEBUG] Sending image: 001069.jpg, metadata length: 384, base64 size: 1096288
+[SUCCESS] 001069.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 780/887
+[DEBUG] Sending image: 000411.jpg, metadata length: 395, base64 size: 995456
+[SUCCESS] 000411.jpg | input: 887, output: 131, total_tokens: 1018
+[INTERMEDIATE] Captioning done on 781/887
+[DEBUG] Sending image: 003871.jpg, metadata length: 387, base64 size: 1434776
+[SUCCESS] 003871.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 782/887
+[DEBUG] Sending image: 000388.jpg, metadata length: 388, base64 size: 856568
+[SUCCESS] 000388.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 783/887
+[DEBUG] Sending image: 002366.jpg, metadata length: 382, base64 size: 1461316
+[SUCCESS] 002366.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 784/887
+[DEBUG] Sending image: 002372.jpg, metadata length: 389, base64 size: 1020816
+[SUCCESS] 002372.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 785/887
+[DEBUG] Sending image: 002428.jpg, metadata length: 382, base64 size: 1003828
+[SUCCESS] 002428.jpg | input: 885, output: 124, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 786/887
+[DEBUG] Sending image: 003911.jpg, metadata length: 384, base64 size: 1261888
+[SUCCESS] 003911.jpg | input: 887, output: 107, total_tokens: 994
+[INTERMEDIATE] Captioning done on 787/887
+[DEBUG] Sending image: 001860.jpg, metadata length: 384, base64 size: 754124
+[SUCCESS] 001860.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 788/887
+[DEBUG] Sending image: 003939.jpg, metadata length: 387, base64 size: 1199960
+[SUCCESS] 003939.jpg | input: 886, output: 143, total_tokens: 1029
+[INTERMEDIATE] Captioning done on 789/887
+[DEBUG] Sending image: 003093.jpg, metadata length: 381, base64 size: 1143308
+[SUCCESS] 003093.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 790/887
+[DEBUG] Sending image: 000001.jpg, metadata length: 386, base64 size: 1521928
+[SUCCESS] 000001.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 791/887
+[DEBUG] Sending image: 002616.jpg, metadata length: 385, base64 size: 890396
+[SUCCESS] 002616.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 792/887
+[DEBUG] Sending image: 001337.jpg, metadata length: 384, base64 size: 1621788
+[SUCCESS] 001337.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 793/887
+[DEBUG] Sending image: 003520.jpg, metadata length: 387, base64 size: 1101708
+[SUCCESS] 003520.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 794/887
+[DEBUG] Sending image: 001451.jpg, metadata length: 388, base64 size: 1008360
+[SUCCESS] 001451.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 795/887
+[DEBUG] Sending image: 000997.jpg, metadata length: 389, base64 size: 1146440
+[SUCCESS] 000997.jpg | input: 886, output: 136, total_tokens: 1022
+[INTERMEDIATE] Captioning done on 796/887
+[DEBUG] Sending image: 003252.jpg, metadata length: 386, base64 size: 1446132
+[SUCCESS] 003252.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 797/887
+[DEBUG] Sending image: 002831.jpg, metadata length: 387, base64 size: 1028416
+[SUCCESS] 002831.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 798/887
+[DEBUG] Sending image: 001487.jpg, metadata length: 389, base64 size: 1233276
+[SUCCESS] 001487.jpg | input: 886, output: 125, total_tokens: 1011
+[INTERMEDIATE] Captioning done on 799/887
+[DEBUG] Sending image: 000955.jpg, metadata length: 389, base64 size: 1060832
+[SUCCESS] 000955.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 800/887
+[DEBUG] Sending image: 000982.jpg, metadata length: 392, base64 size: 1061156
+[SUCCESS] 000982.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 801/887
+[DEBUG] Sending image: 001444.jpg, metadata length: 387, base64 size: 512940
+[SUCCESS] 001444.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 802/887
+[DEBUG] Sending image: 001336.jpg, metadata length: 388, base64 size: 888480
+[SUCCESS] 001336.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 803/887
+[DEBUG] Sending image: 001478.jpg, metadata length: 391, base64 size: 1364564
+[SUCCESS] 001478.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 804/887
+[DEBUG] Sending image: 002617.jpg, metadata length: 387, base64 size: 1169400
+[SUCCESS] 002617.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 805/887
+[DEBUG] Sending image: 003509.jpg, metadata length: 384, base64 size: 553388
+[SUCCESS] 003509.jpg | input: 546, output: 123, total_tokens: 669
+[INTERMEDIATE] Captioning done on 806/887
+[DEBUG] Sending image: 000014.jpg, metadata length: 384, base64 size: 1054908
+[SUCCESS] 000014.jpg | input: 885, output: 107, total_tokens: 992
+[INTERMEDIATE] Captioning done on 807/887
+[DEBUG] Sending image: 002165.jpg, metadata length: 382, base64 size: 657408
+[SUCCESS] 002165.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 808/887
+[DEBUG] Sending image: 001691.jpg, metadata length: 384, base64 size: 1267068
+[SUCCESS] 001691.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 809/887
+[DEBUG] Sending image: 001861.jpg, metadata length: 385, base64 size: 891324
+[SUCCESS] 001861.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 810/887
+[DEBUG] Sending image: 003045.jpg, metadata length: 389, base64 size: 1176668
+[SUCCESS] 003045.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 811/887
+[DEBUG] Sending image: 002415.jpg, metadata length: 385, base64 size: 436104
+[SUCCESS] 002415.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 812/887
+[DEBUG] Sending image: 002373.jpg, metadata length: 383, base64 size: 741132
+[SUCCESS] 002373.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 813/887
+[DEBUG] Sending image: 000564.jpg, metadata length: 385, base64 size: 809924
+[SUCCESS] 000564.jpg | input: 885, output: 138, total_tokens: 1023
+[INTERMEDIATE] Captioning done on 814/887
+[DEBUG] Sending image: 001929.jpg, metadata length: 387, base64 size: 904596
+[SUCCESS] 001929.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 815/887
+[DEBUG] Sending image: 003694.jpg, metadata length: 384, base64 size: 947768
+[SUCCESS] 003694.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 816/887
+[DEBUG] Sending image: 001915.jpg, metadata length: 391, base64 size: 827256
+[SUCCESS] 001915.jpg | input: 886, output: 149, total_tokens: 1035
+[INTERMEDIATE] Captioning done on 817/887
+[DEBUG] Sending image: 003870.jpg, metadata length: 384, base64 size: 908260
+[SUCCESS] 003870.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 818/887
+[DEBUG] Sending image: 001054.jpg, metadata length: 390, base64 size: 735352
+[SUCCESS] 001054.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 819/887
+[DEBUG] Sending image: 001732.jpg, metadata length: 388, base64 size: 1001548
+[SUCCESS] 001732.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 820/887
+[DEBUG] Sending image: 001726.jpg, metadata length: 386, base64 size: 936456
+[SUCCESS] 001726.jpg | input: 886, output: 122, total_tokens: 1008
+[INTERMEDIATE] Captioning done on 821/887
+[DEBUG] Sending image: 000438.jpg, metadata length: 390, base64 size: 1074496
+[SUCCESS] 000438.jpg | input: 886, output: 130, total_tokens: 1016
+[INTERMEDIATE] Captioning done on 822/887
+[DEBUG] Sending image: 000362.jpg, metadata length: 382, base64 size: 903744
+[SUCCESS] 000362.jpg | input: 885, output: 98, total_tokens: 983
+[INTERMEDIATE] Captioning done on 823/887
+[DEBUG] Sending image: 002944.jpg, metadata length: 387, base64 size: 717092
+[SUCCESS] 002944.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 824/887
+[DEBUG] Sending image: 001295.jpg, metadata length: 385, base64 size: 1086828
+[SUCCESS] 001295.jpg | input: 886, output: 132, total_tokens: 1018
+[INTERMEDIATE] Captioning done on 825/887
+[DEBUG] Sending image: 002788.jpg, metadata length: 386, base64 size: 871612
+[SUCCESS] 002788.jpg | input: 886, output: 100, total_tokens: 986
+[INTERMEDIATE] Captioning done on 826/887
+[DEBUG] Sending image: 002039.jpg, metadata length: 387, base64 size: 996668
+[SUCCESS] 002039.jpg | input: 886, output: 98, total_tokens: 984
+[INTERMEDIATE] Captioning done on 827/887
+[DEBUG] Sending image: 002993.jpg, metadata length: 384, base64 size: 1154460
+[SUCCESS] 002993.jpg | input: 886, output: 126, total_tokens: 1012
+[INTERMEDIATE] Captioning done on 828/887
+[DEBUG] Sending image: 003455.jpg, metadata length: 389, base64 size: 1523824
+[SUCCESS] 003455.jpg | input: 886, output: 114, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 829/887
+[DEBUG] Sending image: 000160.jpg, metadata length: 393, base64 size: 1040720
+[SUCCESS] 000160.jpg | input: 887, output: 132, total_tokens: 1019
+[INTERMEDIATE] Captioning done on 830/887
+[DEBUG] Sending image: 003469.jpg, metadata length: 387, base64 size: 1202872
+[SUCCESS] 003469.jpg | input: 886, output: 141, total_tokens: 1027
+[INTERMEDIATE] Captioning done on 831/887
+[DEBUG] Sending image: 000606.jpg, metadata length: 388, base64 size: 1127816
+[SUCCESS] 000606.jpg | input: 886, output: 133, total_tokens: 1019
+[INTERMEDIATE] Captioning done on 832/887
+[DEBUG] Sending image: 002013.jpg, metadata length: 383, base64 size: 929648
+[SUCCESS] 002013.jpg | input: 886, output: 115, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 833/887
+[DEBUG] Sending image: 003443.jpg, metadata length: 385, base64 size: 979892
+[SUCCESS] 003443.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 834/887
+[DEBUG] Sending image: 002749.jpg, metadata length: 381, base64 size: 909644
+[SUCCESS] 002749.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 835/887
+[DEBUG] Sending image: 001297.jpg, metadata length: 385, base64 size: 1014248
+[SUCCESS] 001297.jpg | input: 886, output: 88, total_tokens: 974
+[INTERMEDIATE] Captioning done on 836/887
+[DEBUG] Sending image: 000189.jpg, metadata length: 383, base64 size: 1078816
+[SUCCESS] 000189.jpg | input: 886, output: 135, total_tokens: 1021
+[INTERMEDIATE] Captioning done on 837/887
+[DEBUG] Sending image: 002952.jpg, metadata length: 389, base64 size: 781584
+[SUCCESS] 002952.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 838/887
+[DEBUG] Sending image: 001283.jpg, metadata length: 389, base64 size: 972988
+[SUCCESS] 001283.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 839/887
+[DEBUG] Sending image: 002563.jpg, metadata length: 386, base64 size: 449308
+[SUCCESS] 002563.jpg | input: 886, output: 113, total_tokens: 999
+[INTERMEDIATE] Captioning done on 840/887
+[DEBUG] Sending image: 000374.jpg, metadata length: 395, base64 size: 1187672
+[SUCCESS] 000374.jpg | input: 888, output: 109, total_tokens: 997
+[INTERMEDIATE] Captioning done on 841/887
+[DEBUG] Sending image: 003669.jpg, metadata length: 387, base64 size: 737120
+[SUCCESS] 003669.jpg | input: 886, output: 104, total_tokens: 990
+[INTERMEDIATE] Captioning done on 842/887
+[DEBUG] Sending image: 000406.jpg, metadata length: 386, base64 size: 1447772
+[SUCCESS] 000406.jpg | input: 886, output: 124, total_tokens: 1010
+[INTERMEDIATE] Captioning done on 843/887
+[DEBUG] Sending image: 001730.jpg, metadata length: 390, base64 size: 806204
+[SUCCESS] 001730.jpg | input: 886, output: 121, total_tokens: 1007
+[INTERMEDIATE] Captioning done on 844/887
+[DEBUG] Sending image: 001056.jpg, metadata length: 387, base64 size: 984136
+[SUCCESS] 001056.jpg | input: 886, output: 125, total_tokens: 1011
+[INTERMEDIATE] Captioning done on 845/887
+[DEBUG] Sending image: 003899.jpg, metadata length: 390, base64 size: 808496
+[SUCCESS] 003899.jpg | input: 886, output: 127, total_tokens: 1013
+[INTERMEDIATE] Captioning done on 846/887
+[DEBUG] Sending image: 001903.jpg, metadata length: 390, base64 size: 994472
+[SUCCESS] 001903.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 847/887
+[DEBUG] Sending image: 001095.jpg, metadata length: 388, base64 size: 1118148
+[SUCCESS] 001095.jpg | input: 886, output: 3, total_tokens: 889
+[INTERMEDIATE] Captioning done on 848/887
+[DEBUG] Sending image: 002588.jpg, metadata length: 387, base64 size: 1157164
+[SUCCESS] 002588.jpg | input: 886, output: 136, total_tokens: 1022
+[INTERMEDIATE] Captioning done on 849/887
+[DEBUG] Sending image: 002417.jpg, metadata length: 384, base64 size: 815916
+[SUCCESS] 002417.jpg | input: 886, output: 101, total_tokens: 987
+[INTERMEDIATE] Captioning done on 850/887
+[DEBUG] Sending image: 003709.jpg, metadata length: 384, base64 size: 756832
+[SUCCESS] 003709.jpg | input: 886, output: 116, total_tokens: 1002
+[INTERMEDIATE] Captioning done on 851/887
+[DEBUG] Sending image: 003047.jpg, metadata length: 387, base64 size: 1304880
+[SUCCESS] 003047.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 852/887
+[DEBUG] Sending image: 000599.jpg, metadata length: 386, base64 size: 1221012
+[SUCCESS] 000599.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 853/887
+[DEBUG] Sending image: 000758.jpg, metadata length: 386, base64 size: 778008
+[SUCCESS] 000758.jpg | input: 886, output: 129, total_tokens: 1015
+[INTERMEDIATE] Captioning done on 854/887
+[DEBUG] Sending image: 001446.jpg, metadata length: 387, base64 size: 1080044
+[SUCCESS] 001446.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 855/887
+[DEBUG] Sending image: 001452.jpg, metadata length: 385, base64 size: 718228
+[SUCCESS] 001452.jpg | input: 886, output: 95, total_tokens: 981
+[INTERMEDIATE] Captioning done on 856/887
+[DEBUG] Sending image: 001485.jpg, metadata length: 390, base64 size: 1012228
+[SUCCESS] 001485.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 857/887
+[DEBUG] Sending image: 000956.jpg, metadata length: 388, base64 size: 998980
+[SUCCESS] 000956.jpg | input: 886, output: 110, total_tokens: 996
+[INTERMEDIATE] Captioning done on 858/887
+[DEBUG] Sending image: 000942.jpg, metadata length: 386, base64 size: 854456
+[SUCCESS] 000942.jpg | input: 886, output: 107, total_tokens: 993
+[INTERMEDIATE] Captioning done on 859/887
+[DEBUG] Sending image: 001335.jpg, metadata length: 388, base64 size: 904396
+[SUCCESS] 001335.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 860/887
+[DEBUG] Sending image: 001321.jpg, metadata length: 382, base64 size: 822232
+[SUCCESS] 001321.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 861/887
+[DEBUG] Sending image: 003536.jpg, metadata length: 384, base64 size: 535152
+[SUCCESS] 003536.jpg | input: 886, output: 117, total_tokens: 1003
+[INTERMEDIATE] Captioning done on 862/887
+[DEBUG] Sending image: 001447.jpg, metadata length: 389, base64 size: 964292
+[SUCCESS] 001447.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 863/887
+[DEBUG] Sending image: 002166.jpg, metadata length: 388, base64 size: 884392
+[SUCCESS] 002166.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 864/887
+[DEBUG] Sending image: 001309.jpg, metadata length: 384, base64 size: 1859780
+[SUCCESS] 001309.jpg | input: 886, output: 102, total_tokens: 988
+[INTERMEDIATE] Captioning done on 865/887
+[DEBUG] Sending image: 000003.jpg, metadata length: 386, base64 size: 1319624
+[SUCCESS] 000003.jpg | input: 886, output: 119, total_tokens: 1005
+[INTERMEDIATE] Captioning done on 866/887
+[DEBUG] Sending image: 000765.jpg, metadata length: 387, base64 size: 1006420
+[SUCCESS] 000765.jpg | input: 886, output: 132, total_tokens: 1018
+[INTERMEDIATE] Captioning done on 867/887
+[DEBUG] Sending image: 003913.jpg, metadata length: 379, base64 size: 1029072
+[SUCCESS] 003913.jpg | input: 887, output: 113, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 868/887
+[DEBUG] Sending image: 001137.jpg, metadata length: 386, base64 size: 1046220
+[SUCCESS] 001137.jpg | input: 886, output: 112, total_tokens: 998
+[INTERMEDIATE] Captioning done on 869/887
+[DEBUG] Sending image: 000229.jpg, metadata length: 388, base64 size: 1363832
+[SUCCESS] 000229.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 870/887
+[DEBUG] Sending image: 002364.jpg, metadata length: 389, base64 size: 1040332
+[SUCCESS] 002364.jpg | input: 886, output: 118, total_tokens: 1004
+[INTERMEDIATE] Captioning done on 871/887
+[DEBUG] Sending image: 002370.jpg, metadata length: 381, base64 size: 988860
+[SUCCESS] 002370.jpg | input: 886, output: 97, total_tokens: 983
+[INTERMEDIATE] Captioning done on 872/887
+[DEBUG] Sending image: 001679.jpg, metadata length: 385, base64 size: 1181860
+[SUCCESS] 001679.jpg | input: 886, output: 136, total_tokens: 1022
+[INTERMEDIATE] Captioning done on 873/887
+[DEBUG] Sending image: 000201.jpg, metadata length: 388, base64 size: 1058248
+[SUCCESS] 000201.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 874/887
+[DEBUG] Sending image: 003697.jpg, metadata length: 389, base64 size: 734008
+[SUCCESS] 003697.jpg | input: 886, output: 106, total_tokens: 992
+[INTERMEDIATE] Captioning done on 875/887
+[DEBUG] Sending image: 001916.jpg, metadata length: 387, base64 size: 821184
+[SUCCESS] 001916.jpg | input: 886, output: 108, total_tokens: 994
+[INTERMEDIATE] Captioning done on 876/887
+[DEBUG] Sending image: 003867.jpg, metadata length: 397, base64 size: 925512
+[SUCCESS] 003867.jpg | input: 888, output: 113, total_tokens: 1001
+[INTERMEDIATE] Captioning done on 877/887
+[DEBUG] Sending image: 003654.jpg, metadata length: 383, base64 size: 1427728
+[SUCCESS] 003654.jpg | input: 885, output: 94, total_tokens: 979
+[INTERMEDIATE] Captioning done on 878/887
+[DEBUG] Sending image: 003126.jpg, metadata length: 389, base64 size: 1246428
+[SUCCESS] 003126.jpg | input: 886, output: 105, total_tokens: 991
+[INTERMEDIATE] Captioning done on 879/887
+[DEBUG] Sending image: 003640.jpg, metadata length: 382, base64 size: 562816
+[SUCCESS] 003640.jpg | input: 885, output: 99, total_tokens: 984
+[INTERMEDIATE] Captioning done on 880/887
+[DEBUG] Sending image: 000349.jpg, metadata length: 392, base64 size: 913368
+[SUCCESS] 000349.jpg | input: 886, output: 103, total_tokens: 989
+[INTERMEDIATE] Captioning done on 881/887
+[DEBUG] Sending image: 000413.jpg, metadata length: 386, base64 size: 906480
+[SUCCESS] 000413.jpg | input: 886, output: 123, total_tokens: 1009
+[INTERMEDIATE] Captioning done on 882/887
+[DEBUG] Sending image: 000375.jpg, metadata length: 385, base64 size: 894680
+[SUCCESS] 000375.jpg | input: 886, output: 92, total_tokens: 978
+[INTERMEDIATE] Captioning done on 883/887
+[DEBUG] Sending image: 001527.jpg, metadata length: 385, base64 size: 714684
+[SUCCESS] 001527.jpg | input: 885, output: 115, total_tokens: 1000
+[INTERMEDIATE] Captioning done on 884/887
+[DEBUG] Sending image: 002748.jpg, metadata length: 381, base64 size: 948832
+[SUCCESS] 002748.jpg | input: 886, output: 109, total_tokens: 995
+[INTERMEDIATE] Captioning done on 885/887
+[DEBUG] Sending image: 001255.jpg, metadata length: 384, base64 size: 1447524
+[SUCCESS] 001255.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 886/887
+[DEBUG] Sending image: 000163.jpg, metadata length: 385, base64 size: 920120
+[SUCCESS] 000163.jpg | input: 886, output: 111, total_tokens: 997
+[INTERMEDIATE] Captioning done on 887/887
+[DEBUG] Sending image: 002774.jpg, metadata length: 379, base64 size: 1267560
+[SUCCESS] 002774.jpg | input: 886, output: 112, total_tokens: 998
+[DONE] Captioning done on 887 images.

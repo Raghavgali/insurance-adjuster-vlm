@@ -1,0 +1,110 @@
+# Benchmark config: controlled DDP efficiency on 6 GPUs.
+# Hold effective global batch size constant across the controlled_* runs.
+
+model:
+  model_id: "zai-org/GLM-4.6V-Flash"
+  trust_remote_code: true
+  attn_implementation: "sdpa"
+  device_map: "auto"
+
+precision:
+  torch_dtype: "bfloat16"
+  use_tf32: true
+
+quantization:
+  enabled: true
+  mode: "8bit"
+  compute_dtype: "bfloat16"
+  quant_type: "nf4"
+  double_quant: true
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  target_modules: "all-linear"
+
+data:
+  train_annotation_path: "/workspace/data/insurance_dataset/train.json"
+  test_annotation_path: "/workspace/data/insurance_dataset/test.json"
+  train_image_root: "/workspace/data/insurance_dataset/images/train"
+  test_image_root: "/workspace/data/insurance_dataset/images/test"
+
+optimizer:
+  lr: 2.0e-4
+  weight_decay: 0.01
+
+train:
+  seed: 42
+  epochs: 10
+  max_steps: null
+  per_device_batch_size: 1
+  grad_accum_steps: 1
+  num_workers: 4
+  precision: "bf16"
+  warmup_steps: 50
+  lr_scheduler_type: "cosine"
+  drop_last: true
+  gradient_checkpointing: true
+  use_cache: false
+  max_grad_norm: 1.0
+  log_every: 10
+  save_every: 200
+
+eval:
+  split: "test"
+  per_device_batch_size: 1
+  num_workers: 2
+  precision: "bf16"
+  padding: "longest"
+  truncation: true
+  max_length: 2048
+  max_new_tokens: 256
+  num_beams: 1
+  do_sample: false
+  log_every: 25
+  save_predictions: true
+  predictions_file: "predictions.jsonl"
+
+profiling:
+  enabled: true
+  steps: 50
+  wait: 2
+  warmup: 2
+  active: 50
+  epoch: 0
+
+benchmark:
+  save_json: true
+  benchmark_type: "controlled_efficiency"
+  target_gpu_count: 6
+  effective_global_batch_size: 6
+
+inference:
+  precision: "bf16"
+  max_new_tokens: 256
+  num_beams: 1
+  do_sample: false
+  temperature: null
+  prompt: "You are an insurance adjuster. Analyze the vehicle damage shown in the image and write a concise professional assessment covering the damage type, location, severity, and estimated repair cost."
+
+wandb:
+  enabled: true
+  project: "insurance-adjuster-vlm"
+  entity: null
+  group: "ddp-controlled-efficiency-mar11"
+  name: "controlled_g6_ebs6_acc1_fpbf16"
+  tags:
+    - "glm"
+    - "insurance"
+    - "runpod"
+    - "benchmark"
+    - "controlled-efficiency"
+    - "g6"
+  mode: "online"
+  log_checkpoints: false
+  log_metrics_artifact: true
+  log_profiler_artifact: true

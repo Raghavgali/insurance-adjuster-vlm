@@ -282,6 +282,9 @@ def prepare_model_for_training(model,
     """
     model.train()
 
+    if use_gradient_checkpointing:
+        use_cache = False
+
     if hasattr(model, "config"):
         model.config.use_cache = use_cache
 

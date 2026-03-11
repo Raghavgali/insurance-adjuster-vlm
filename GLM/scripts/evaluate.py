@@ -198,10 +198,11 @@ def build_eval_components(config: dict, runtime: dict) -> dict[str, Any]:
         or paths_cfg.get(f"{split}_json")
     )
     image_root = (
-        eval_cfg.get("image_root")
-        or data_cfg.get(f"{split}_image_root")
-        or data_cfg.get(f"{split}_image_folder")
-        or paths_cfg.get(f"{split}_image_folder")
+    eval_cfg.get("image_root")
+    or data_cfg.get(f"{split}_image_root")
+    or data_cfg.get("image_root")
+    or data_cfg.get(f"{split}_image_folder")
+    or paths_cfg.get(f"{split}_image_folder")
     )
 
     if not annotation_path:

@@ -116,7 +116,7 @@ class LengthBucketBatchSampler(Sampler[list[int]]):
             for i in range(0, len(indices), self.bucket_size)
         ]
 
-        batches = list[list[int]] = []
+        batches: list[list[int]] = []
         for bucket in buckets:
             if self.shuffle:
                 rng.shuffle(bucket)

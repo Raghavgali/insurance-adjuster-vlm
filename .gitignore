@@ -17,6 +17,7 @@ build/
 .venv/**
 venv/
 ENV/
+*_venv/
 
 # IDE
 .claude/
@@ -40,6 +41,7 @@ wandb/
 outputs/
 logs/
 *.log
+/run-*/
 
 # Misc
 google_drive/

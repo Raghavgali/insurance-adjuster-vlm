@@ -12,6 +12,8 @@ torchvision>=0.16.0
 tqdm>=4.66.0
 transformers>=5.0.0rc0
 wandb>=0.18.0
+absl-py
+rouge-score
 
 # Data processing and evaluation
 numpy>=1.26.0

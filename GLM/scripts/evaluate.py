@@ -41,8 +41,12 @@ def parse_args() -> argparse.Namespace:
     
     parser.add_argument("--checkpoint",
                         type=Path,
-                        required=True,
-                        help="Path to model checkpoint (.pt) used for evaluation.")
+                        default=None,
+                        help="Optional path to model checkpoint (.pt) used for evaluation.")
+    parser.add_argument("--model-id",
+                        type=str,
+                        default=None,
+                        help="Optional Hugging Face model id override. Use this for merged Hub models.")
     parser.add_argument("--split",
                         type=str,
                         default="test",
@@ -333,7 +337,7 @@ def build_eval_components(config: dict, runtime: dict) -> dict[str, Any]:
 
 def load_checkpoint_for_eval(
     model: torch.nn.Module,
-    checkpoint_path: str | Path,
+    checkpoint_path: str | Path | None,
     device: torch.device,
 ) -> None:
     """
@@ -343,8 +347,8 @@ def load_checkpoint_for_eval(
     ----------
     model: torch.nn.Module
         Model instance to load weights into.
-    checkpoint_path: str | Path
-        Path to checkpoint file.
+    checkpoint_path: str | Path | None
+        Optional path to checkpoint file.
     device: torch.device
         Device used for map_location when loading checkpoint tensors.
 
@@ -358,7 +362,7 @@ def load_checkpoint_for_eval(
     - Support both plain and DDP-wrapped model objects.
     """
     if checkpoint_path is None:
-        raise ValueError("`checkpoint_path` cannot be None for evaluation")
+        return
 
     ckpt_path = Path(checkpoint_path).expanduser().resolve()
     if not ckpt_path.is_file():
@@ -862,6 +866,8 @@ def main() -> None:
         config.setdefault("eval", config.get("test", {}))
         config.setdefault("data", {})
         config.setdefault("paths", {})
+        config.setdefault("model", {})
+        config.setdefault("lora", {})
         config.setdefault("wandb", {})
         config["output_dir"] = str(args.output_dir)
 
@@ -877,6 +883,11 @@ def main() -> None:
             eval_cfg["log_every"] = args.log_every
         eval_cfg["save_predictions"] = bool(args.save_predictions)
         eval_cfg["predictions_file"] = str(args.predictions_file)
+        if args.model_id is not None:
+            config["model"]["model_id"] = str(args.model_id).strip()
+        if args.checkpoint is None:
+            # Hub-eval path uses the merged model directly and must not reattach fresh LoRA adapters.
+            config["lora"]["enabled"] = False
 
         output_dir = Path(args.output_dir).expanduser().resolve()
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -888,11 +899,12 @@ def main() -> None:
         eval_loader = components["eval_dataloader"]
         eval_state = components["eval_state"]
 
-        load_checkpoint_for_eval(
-            model=model,
-            checkpoint_path=args.checkpoint,
-            device=runtime["device"],
-        )
+        if args.checkpoint is not None:
+            load_checkpoint_for_eval(
+                model=model,
+                checkpoint_path=args.checkpoint,
+                device=runtime["device"],
+            )
 
         raw_metrics = run_evaluation(
             model=model,

@@ -68,6 +68,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Export the merged model locally without uploading to Hugging Face Hub.",
     )
+    parser.add_argument(
+        "--allow-partial-load",
+        action="store_true",
+        help="Allow export to continue even if checkpoint/model keys do not match exactly.",
+    )
 
     args = parser.parse_args()
     if not args.commit_message.strip():
@@ -147,6 +152,41 @@ def load_checkpoint_state(checkpoint_path: Path) -> dict[str, Any]:
     return checkpoint
 
 
+def validate_checkpoint_load(
+    incompatible_keys: Any,
+    *,
+    allow_partial_load: bool,
+) -> dict[str, Any]:
+    """Validate checkpoint loading results before exporting a merged model."""
+    missing_keys = list(getattr(incompatible_keys, "missing_keys", []) or [])
+    unexpected_keys = list(getattr(incompatible_keys, "unexpected_keys", []) or [])
+
+    report = {
+        "missing_key_count": len(missing_keys),
+        "unexpected_key_count": len(unexpected_keys),
+        "missing_key_preview": missing_keys[:20],
+        "unexpected_key_preview": unexpected_keys[:20],
+    }
+
+    print(
+        "[push_to_hub] checkpoint_load "
+        f"missing={report['missing_key_count']} unexpected={report['unexpected_key_count']}"
+    )
+    if report["missing_key_preview"]:
+        print(f"[push_to_hub] missing_key_preview={report['missing_key_preview']}")
+    if report["unexpected_key_preview"]:
+        print(f"[push_to_hub] unexpected_key_preview={report['unexpected_key_preview']}")
+
+    if (missing_keys or unexpected_keys) and not allow_partial_load:
+        raise RuntimeError(
+            "Checkpoint load reported missing or unexpected keys. "
+            "Refusing to export a merged model. Re-run with --allow-partial-load "
+            "only if you have manually inspected the mismatch."
+        )
+
+    return report
+
+
 def save_export_metadata(
     export_dir: Path,
     *,
@@ -155,6 +195,7 @@ def save_export_metadata(
     repo_id: str | None,
     revision: str,
     upload_reference: str | None,
+    checkpoint_load_report: dict[str, Any] | None = None,
 ) -> None:
     """Persist export metadata next to the merged model."""
     payload = {
@@ -163,6 +204,7 @@ def save_export_metadata(
         "repo_id": repo_id,
         "revision": revision,
         "upload_reference": upload_reference,
+        "checkpoint_load_report": checkpoint_load_report,
     }
     metadata_path = export_dir / "export_metadata.json"
     with metadata_path.open("w", encoding="utf-8") as handle:
@@ -208,11 +250,10 @@ def main() -> None:
     checkpoint = load_checkpoint_state(checkpoint_path)
     model_state = checkpoint.get("model", checkpoint.get("model_state_dict"))
     incompatible_keys = model.load_state_dict(model_state, strict=False)
-    if (
-        getattr(incompatible_keys, "missing_keys", None)
-        and len(incompatible_keys.missing_keys) == len(model.state_dict())
-    ):
-        raise RuntimeError("Checkpoint weights did not load into the LoRA model. All keys were reported missing.")
+    checkpoint_load_report = validate_checkpoint_load(
+        incompatible_keys,
+        allow_partial_load=bool(args.allow_partial_load),
+    )
 
     if not hasattr(model, "merge_and_unload"):
         raise RuntimeError("Loaded model does not expose `merge_and_unload()`. Cannot create a merged export.")
@@ -242,6 +283,7 @@ def main() -> None:
         repo_id=repo_id,
         revision=args.revision,
         upload_reference=None,
+        checkpoint_load_report=checkpoint_load_report,
     )
 
     upload_reference = None
@@ -262,6 +304,7 @@ def main() -> None:
         repo_id=repo_id,
         revision=args.revision,
         upload_reference=upload_reference,
+        checkpoint_load_report=checkpoint_load_report,
     )
 
     print(f"[push_to_hub] export_dir={export_dir}")

@@ -180,6 +180,7 @@ def load_processor(model_id: str,
         processor = AutoProcessor.from_pretrained(
             model_id,
             trust_remote_code=trust_remote_code,
+            use_fast=False,
             **kwargs,
         )
     except Exception as exc:

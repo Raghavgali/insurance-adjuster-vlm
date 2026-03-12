@@ -227,8 +227,23 @@ def load_model(model_id: str,
     Any
         Loaded model instance ready for optional training preparation.
     """
+    from transformers import AutoConfig
+
     model_id_lower = model_id.strip().lower()
     is_glm4v_flash = "glm-4.6v-flash" in model_id_lower or "glm4v" in model_id_lower
+
+    try:
+        resolved_config = AutoConfig.from_pretrained(
+            model_id,
+            trust_remote_code=trust_remote_code,
+        )
+    except Exception:
+        resolved_config = None
+
+    if resolved_config is not None:
+        config_model_type = str(getattr(resolved_config, "model_type", "")).lower()
+        config_class_name = type(resolved_config).__name__.lower()
+        is_glm4v_flash = is_glm4v_flash or "glm4v" in config_model_type or "glm4v" in config_class_name
 
     if is_glm4v_flash:
         try:

@@ -968,3 +968,7 @@ def main() -> None:
     finally:
         finish_wandb_run(wandb_run)
         cleanup_distributed(runtime)
+
+
+if __name__ == "__main__":
+    main()

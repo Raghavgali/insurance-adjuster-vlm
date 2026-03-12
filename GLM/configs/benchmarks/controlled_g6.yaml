@@ -39,8 +39,8 @@ optimizer:
 
 train:
   seed: 42
-  epochs: 10
-  max_steps: null
+  epochs: 4
+  max_steps: 50
   per_device_batch_size: 1
   grad_accum_steps: 1
   num_workers: 4
@@ -107,4 +107,4 @@ wandb:
   mode: "online"
   log_checkpoints: false
   log_metrics_artifact: true
-  log_profiler_artifact: true
+  log_profiler_artifact: false

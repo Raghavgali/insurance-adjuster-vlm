@@ -104,4 +104,4 @@ wandb:
   mode: "online"
   log_checkpoints: false
   log_metrics_artifact: true
-  log_profiler_artifact: true
+  log_profiler_artifact: false

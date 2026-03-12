@@ -5,6 +5,7 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "${REPO_ROOT}"
 
 PYTHON_BIN="${PYTHON_BIN:-python3}"
+INSTALLER="${INSTALLER:-pip}"
 CREATE_VENV="${CREATE_VENV:-0}"
 AUTO_DOWNLOAD_DATASET="${AUTO_DOWNLOAD_DATASET:-0}"
 CONFIG_PATH="${CONFIG_PATH:-GLM/configs/runpod.yaml}"
@@ -13,10 +14,25 @@ VENV_DIR="${VENV_DIR:-.venv}"
 
 echo "[setup] repo_root=${REPO_ROOT}"
 echo "[setup] python=${PYTHON_BIN}"
+echo "[setup] installer=${INSTALLER}"
+
+if [[ "${INSTALLER}" != "pip" && "${INSTALLER}" != "uv" ]]; then
+  echo "[setup] error: INSTALLER must be 'pip' or 'uv'"
+  exit 1
+fi
+
+if [[ "${INSTALLER}" == "uv" ]] && ! command -v uv >/dev/null 2>&1; then
+  echo "[setup] uv not found, installing via pip"
+  "${PYTHON_BIN}" -m pip install --upgrade uv
+fi
 
 if [[ "${CREATE_VENV}" == "1" ]]; then
   if [[ ! -d "${VENV_DIR}" ]]; then
-    "${PYTHON_BIN}" -m venv "${VENV_DIR}"
+    if [[ "${INSTALLER}" == "uv" ]]; then
+      uv venv --python "${PYTHON_BIN}" "${VENV_DIR}"
+    else
+      "${PYTHON_BIN}" -m venv "${VENV_DIR}"
+    fi
   fi
   # shellcheck disable=SC1090
   source "${VENV_DIR}/bin/activate"
@@ -30,8 +46,12 @@ else
   echo "[setup] warning: nvidia-smi not found"
 fi
 
-"${PYTHON_BIN}" -m pip install --upgrade pip setuptools wheel
-"${PYTHON_BIN}" -m pip install -r requirements.txt
+if [[ "${INSTALLER}" == "uv" ]]; then
+  uv pip install --python "${PYTHON_BIN}" -r requirements.txt
+else
+  "${PYTHON_BIN}" -m pip install --upgrade pip setuptools wheel
+  "${PYTHON_BIN}" -m pip install -r requirements.txt
+fi
 
 export PYTHONPATH="${REPO_ROOT}:${PYTHONPATH:-}"
 export HF_HOME="${HF_HOME:-/workspace/.cache/huggingface}"

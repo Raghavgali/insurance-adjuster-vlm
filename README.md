@@ -151,6 +151,16 @@ cp .env.example .env
 
 Populate `.env` with the values you actually use.
 
+If you want faster package installation, you can use `uv` instead:
+
+```bash
+python3 -m pip install --upgrade uv
+uv venv .venv
+source .venv/bin/activate
+uv pip install --python python -r requirements.txt
+cp .env.example .env
+```
+
 ## Training Workflow
 
 ### 1. Review the training config
@@ -187,6 +197,13 @@ Bootstrap the environment:
 
 ```bash
 bash GLM/runpod_setup.sh
+```
+
+To use `uv` for dependency installation on Runpod:
+
+```bash
+INSTALLER=uv CREATE_VENV=1 AUTO_DOWNLOAD_DATASET=1 bash GLM/runpod_setup.sh
+source .venv/bin/activate
 ```
 
 If you want dataset auto-download during setup:

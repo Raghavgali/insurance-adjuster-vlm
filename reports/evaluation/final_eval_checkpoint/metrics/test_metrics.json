@@ -1,0 +1,20 @@
+{
+  "eval_loss": 5.606945405135283,
+  "generation": {
+    "bleu": 0.11326108418621052,
+    "exact_match": 0.0,
+    "meteor": 0.4330256529954468,
+    "normalized_exact_match": 0.0,
+    "rouge1": 0.3980921855068373,
+    "rouge2": 0.19864659053736533,
+    "rougeL": 0.28664757294174537,
+    "rougeLsum": 0.28621917582244266
+  },
+  "loss_sum": 414.913959980011,
+  "num_batches": 74.0,
+  "num_examples": 74.0,
+  "num_prediction_records": 74,
+  "token_accuracy": 0.12492929181440654,
+  "token_correct": 9055.0,
+  "token_count": 72481.0
+}

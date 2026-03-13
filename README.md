@@ -1,40 +1,58 @@
 # Insurance Damage Assessment with GLM-4.6V-Flash
 
-An end-to-end vision-language fine-tuning pipeline for generating insurance-style vehicle damage assessments from a single image. The current stack uses `zai-org/GLM-4.6V-Flash`, LoRA, low-bit loading, DDP training, structured evaluation, and Runpod-oriented deployment scripts.
+This project fine-tunes a vision-language model to generate insurance-style vehicle damage assessments from a single image. The final stack is built around `zai-org/GLM-4.6V-Flash`, LoRA fine-tuning, 8-bit loading, PyTorch DDP, Hugging Face dataset/model storage, and Runpod-based GPU execution.
 
-## What This Project Does
+The model takes only an image at inference time and is trained to produce a short professional assessment covering:
 
-Given one vehicle image, the model is fine-tuned to generate a professional assessment covering:
-
-- visible damage type
-- approximate damage location
-- qualitative severity
+- damage type
+- damage location
+- rough severity
 - estimated repair cost range
 
-The deployment target is image-only inference. Metadata is not injected into prompts during training. Annotation-derived metadata is retained for evaluation and error analysis.
+## Final Outcome
 
-## Current Model Stack
+The training pipeline is working end-to-end.
+
+- Training: successful on multi-GPU Runpod
+- DDP benchmarking: completed for 1 GPU and 2 GPU
+- Final model checkpoint: saved and uploaded
+- Final evaluation: completed from checkpoint on the corrected test split
+- Merged-model export: currently unreliable, checkpoint-based inference is the trusted path
+
+## Why This Project Matters
+
+This project was built to do two things:
+
+1. Fine-tune a modern VLM for an insurance-adjuster style task.
+2. Show, with measured evidence, why DDP is useful for this workload.
+
+The main engineering argument for DDP in this project is that the model is large enough that single-GPU scaling by simply increasing batch size is constrained. The training setup already runs at `per_device_batch_size: 1`, so increasing throughput is better handled by scaling horizontally with DDP.
+
+## Model and Training Stack
 
 - Base model: `zai-org/GLM-4.6V-Flash`
 - Fine-tuning method: LoRA via PEFT
-- Quantization: 8-bit BitsAndBytes
-- Training runtime: PyTorch + DDP
+- Quantization during training/inference: 8-bit BitsAndBytes
+- Framework: PyTorch
+- Distributed training: DDP via `torchrun`
 - Tracking: Weights & Biases
-- Dataset storage: Hugging Face dataset repo
-- Target infra: Runpod on 4x L40 GPUs
+- Dataset repo: `Raghav77/cardd_insurance_dataset`
+- Checkpoint repo: `Raghav77/insurance-adjuster-glm46v-checkpoints`
 
-## Project Layout
+## Repository Layout
 
 ```text
-Insurance/
+insurance-adjuster-vlm/
 ├── GLM/
 │   ├── configs/
+│   │   ├── benchmarks/
 │   │   ├── download_dataset.yaml
 │   │   └── runpod.yaml
 │   ├── data/
 │   │   ├── dataset.py
 │   │   ├── dataset_cleanup.py
 │   │   ├── download_dataset.py
+│   │   ├── repair_split_images.py
 │   │   ├── sampler.py
 │   │   ├── train_test_split.py
 │   │   ├── upload_dataset.py
@@ -50,29 +68,24 @@ Insurance/
 │   │   ├── evaluate.py
 │   │   ├── inference.py
 │   │   ├── model_loader.py
+│   │   ├── push_to_hub.py
 │   │   ├── train.py
 │   │   └── utils/
-│   │       ├── hf_utils.py
-│   │       ├── load_config.py
-│   │       ├── logging.py
-│   │       └── wandb.py
 │   ├── runpod_ddp.sh
 │   └── runpod_setup.sh
-├── data_labelling/
-│   └── data/
-│       └── metadata/
 ├── dataset/
 │   ├── cleaned_dataset.json
+│   ├── dataset.json
 │   ├── train.json
 │   ├── test.json
-│   └── <images>
+│   └── images/
 ├── README.md
 └── requirements.txt
 ```
 
-## Data Pipeline
+## Dataset Pipeline
 
-The project uses a cleaned conversational dataset with this structure:
+The dataset is conversational and image-grounded. Each record looks like:
 
 ```json
 {
@@ -91,210 +104,407 @@ The project uses a cleaned conversational dataset with this structure:
 }
 ```
 
-### Why the dataset is cleaned
+### Cleaning rationale
 
-The raw prompts and raw captions contained annotation-derived metadata such as:
+The original data contained metadata-derived leakage inside prompts and targets, including:
 
-- damage category
-- bbox coordinates
-- area
-- segmentation-style cues
+- damage category labels
+- bounding boxes
+- area values
+- annotation artifacts
 
-Those fields create label leakage if the deployment target is image-only inference. The cleaning pass removes that metadata from the user prompt and strips the most direct annotation artifacts from the assistant target while keeping the task semantics intact.
+That leakage is invalid for image-only deployment. The cleaning pass removes those artifacts so the model must learn from the image itself rather than from explicit labels hidden in text.
 
-## Dataset Preparation
+### Dataset preparation sequence
 
-### 1. Clean the raw dataset
+1. Clean the raw dataset:
 
 ```bash
 python3 GLM/data/dataset_cleanup.py dataset/dataset.json dataset/ --dry-run
 python3 GLM/data/dataset_cleanup.py dataset/dataset.json dataset/
 ```
 
-This writes `dataset/cleaned_dataset.json`.
-
-### 2. Create train/test split
+2. Create the train/test split:
 
 ```bash
 python3 GLM/data/train_test_split.py dataset/cleaned_dataset.json dataset/ --dry-run
 python3 GLM/data/train_test_split.py dataset/cleaned_dataset.json dataset/
 ```
 
-### 3. Validate dataset structure
+3. Validate split files:
 
 ```bash
 python3 GLM/data/validate_data.py --input dataset/train.json
 python3 GLM/data/validate_data.py --input dataset/test.json
 ```
 
-### 4. Upload dataset to Hugging Face
+4. Upload the dataset snapshot:
 
 ```bash
 export HF_TOKEN="<your_token>"
 
 python3 GLM/data/upload_dataset.py \
-  --repo-id <your-username>/<your-dataset-repo> \
+  --repo-id Raghav77/cardd_insurance_dataset \
   --dataset-dir dataset \
   --revision main \
-  --private \
   --commit-message "Upload cleaned insurance dataset"
 ```
 
-## Local Setup
+## Local and Runpod Setup
+
+### Local
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env
 ```
 
-Populate `.env` with the values you actually use.
-
-If you want faster package installation, you can use `uv` instead:
+### Faster setup with `uv`
 
 ```bash
 python3 -m pip install --upgrade uv
 uv venv .venv
 source .venv/bin/activate
 uv pip install --python python -r requirements.txt
-cp .env.example .env
 ```
 
-## Training Workflow
-
-### 1. Review the training config
-
-Main config: `GLM/configs/runpod.yaml`
-
-Key fields to verify before launch:
-
-- `model.model_id`
-- `data.train_annotation_path`
-- `data.test_annotation_path`
-- `data.image_root`
-- `wandb.*`
-
-The config is already set up for `GLM-4.6V-Flash` with:
-
-- chat-template based prompting
-- `transformers>=5.0.0rc0`
-- `lora.target_modules: "all-linear"`
-
-### 2. Smoke test locally or on one GPU
-
-```bash
-python3 GLM/scripts/train.py \
-  --config GLM/configs/runpod.yaml \
-  --output-dir outputs/smoke_test \
-  --epochs 1 \
-  --max-steps 5
-```
-
-### 3. Run on Runpod
-
-Bootstrap the environment:
-
-```bash
-bash GLM/runpod_setup.sh
-```
-
-To use `uv` for dependency installation on Runpod:
+### Runpod bootstrap
 
 ```bash
 INSTALLER=uv CREATE_VENV=1 AUTO_DOWNLOAD_DATASET=1 bash GLM/runpod_setup.sh
 source .venv/bin/activate
 ```
 
-If you want dataset auto-download during setup:
-
-```bash
-AUTO_DOWNLOAD_DATASET=1 bash GLM/runpod_setup.sh
-```
-
-Launch DDP training:
+### DDP launch
 
 ```bash
 bash GLM/runpod_ddp.sh
 ```
 
-## Evaluation
+The DDP launcher now prefetches the model snapshot before `torchrun` starts. This was added after repeated failures where several ranks tried to initialize the 20.6GB model simultaneously and one rank saw an incomplete local cache.
+
+## Training Configuration
+
+Main config: `GLM/configs/runpod.yaml`
+
+Important runtime paths:
+
+- train annotations: `/workspace/data/insurance_dataset/train.json`
+- test annotations: `/workspace/data/insurance_dataset/test.json`
+- train images: `/workspace/data/insurance_dataset/images/train`
+- test images: `/workspace/data/insurance_dataset/images/test`
+
+The training script reads `train.json` directly. It does not train from `dataset.json` or `cleaned_dataset.json` directly. Those files are upstream artifacts used to produce the split files.
+
+## DDP Benchmarking
+
+Two benchmark styles were used:
+
+### 1. Real training speedup
+
+Keep the practical training config fixed and increase GPU count. This changes effective global batch size and shows operational throughput gain.
+
+### 2. Controlled scaling efficiency
+
+Keep effective global batch size approximately constant while increasing GPU count. This isolates DDP efficiency more cleanly.
+
+### Measured results
+
+The strongest completed comparisons are the 1-GPU vs 2-GPU runs.
+
+#### Controlled benchmark
+
+- 1 GPU samples/sec: `0.3822`
+- 2 GPU samples/sec: `0.7081`
+- Speedup: `1.85x`
+- Scaling efficiency: `92.6%`
+- Loss stayed effectively unchanged: `8.5580` vs `8.5264`
+
+This is the cleanest evidence that DDP helped in a controlled setting.
+
+#### Real benchmark
+
+- 1 GPU samples/sec: `0.3860`
+- 2 GPU samples/sec: `0.6757`
+- Speedup: `1.75x`
+- Scaling efficiency: `87.5%`
+
+This demonstrates practical throughput improvement, but because the effective global batch size changes with GPU count, it should be presented as operational speedup rather than pure controlled efficiency.
+
+### Why the 6-GPU benchmark was dropped
+
+The 6x A40 Runpod environment repeatedly showed NCCL instability:
+
+- one unhealthy pod had a broken GPU handle
+- another healthy-looking pod still timed out on early NCCL collectives
+- even after conservative settings like `NCCL_P2P_DISABLE=1` and `NCCL_IB_DISABLE=1`, the 6-GPU run was not stable enough to treat as reliable benchmark evidence
+
+Final decision:
+
+- keep the 1-GPU and 2-GPU benchmark results
+- drop the 6-GPU benchmark from the final evidence set
+- document the 6-GPU instability as an infrastructure limitation, not a model result
+
+## Final Training Run
+
+The final training checkpoint used for evaluation was produced successfully and preserved separately from the merged-model export.
+
+Observed training behavior:
+
+- early loss decreased quickly
+- later epochs plateaued around the mid-`5.x` range
+- checkpoint-based inference from `last.pt` produced coherent insurance-style outputs
+
+This is important: the checkpoint itself is valid.
+
+## Final Evaluation
+
+The trustworthy final evaluation path is checkpoint-based evaluation, not merged-model evaluation.
+
+Final evaluation command:
 
 ```bash
-python3 GLM/scripts/evaluate.py \
+CUDA_VISIBLE_DEVICES=0 python3 -m GLM.scripts.evaluate \
   --config GLM/configs/runpod.yaml \
-  --checkpoint outputs/run_name/last.pt \
+  --checkpoint /workspace/outputs/checkpoints/last.pt \
   --split test \
-  --output-dir outputs/eval
+  --output-dir /workspace/outputs/final_eval_checkpoint \
+  --num-workers 0 \
+  --log-every 1 \
+  --save-predictions
 ```
 
-Implemented evaluation components:
+### Final checkpoint-based test metrics
 
-- loss and token accuracy
-- generation metrics: BLEU, ROUGE, METEOR, exact match
-- regression metrics when numeric cost extraction succeeds
-- classification metrics when predicted/reference labels are available
-- rank-wise prediction dumping and merged reporting
+```json
+{
+  "eval_loss": 5.606945405135283,
+  "generation": {
+    "bleu": 0.11326108418621052,
+    "exact_match": 0.0,
+    "meteor": 0.4330256529954468,
+    "normalized_exact_match": 0.0,
+    "rouge1": 0.3980921855068373,
+    "rouge2": 0.19864659053736533,
+    "rougeL": 0.28664757294174537,
+    "rougeLsum": 0.28621917582244266
+  },
+  "loss_sum": 414.913959980011,
+  "num_batches": 74.0,
+  "num_examples": 74.0,
+  "num_prediction_records": 74,
+  "token_accuracy": 0.12492929181440654,
+  "token_correct": 9055.0,
+  "token_count": 72481.0
+}
+```
 
-## Inference
+### Qualitative behavior
+
+The final checkpoint produces coherent, insurance-style free-form assessments. Typical outputs correctly identify:
+
+- front or rear damage location
+- dent/scratch/body-panel issues
+- plausible repair-cost ranges
+
+The main remaining quality issues are:
+
+- occasional over-generation
+- repeated phrasing
+- stray reasoning tags like `<think></think>`
+- some damage-category drift, especially between scratches and dents
+- some cost overestimation on harder cases
+
+## Critical Bottlenecks and How They Were Resolved
+
+This project hit several real engineering problems during development and execution.
+
+### 1. Dataset leakage
+
+Problem:
+
+- metadata such as labels, bbox values, and area values were leaking into prompts/targets
+
+Fix:
+
+- `GLM/data/dataset_cleanup.py` was added and refined to remove direct leakage from prompts and obvious annotation artifacts from targets
+
+### 2. Split pathing errors on Runpod
+
+Problem:
+
+- train/test images were stored under split-specific directories
+- training/evaluation initially used the wrong shared image-root logic
+
+Fix:
+
+- `GLM/configs/runpod.yaml` was updated to use `train_image_root` and `test_image_root`
+- `GLM/scripts/train.py` and `GLM/scripts/evaluate.py` were patched to prefer split-specific roots
+
+### 3. `max_steps` ignored during smoke tests
+
+Problem:
+
+- `--max-steps 5` still ran a full epoch
+
+Fix:
+
+- `GLM/scripts/train.py` now enforces `max_steps` immediately after optimizer-step increments, not only after the epoch ends
+
+### 4. GradScaler deprecation
+
+Problem:
+
+- `torch.cuda.amp.GradScaler(...)` deprecation warning
+
+Fix:
+
+- moved to `torch.amp.GradScaler("cuda", ...)`
+
+### 5. `use_cache` and gradient checkpointing warning
+
+Problem:
+
+- runtime warning about `use_cache=True` being incompatible with checkpointing
+
+Fix:
+
+- `GLM/scripts/model_loader.py` now explicitly forces `use_cache=False` when gradient checkpointing is enabled
+
+### 6. Runpod repo noise from installed libraries
+
+Problem:
+
+- local environment directories on the pod polluted `git status`
+
+Fix:
+
+- `.gitignore` was updated to ignore venv and run artifacts appropriately
+
+### 7. Dataset split mismatch
+
+Problem:
+
+- `train.json` and `test.json` did not match the images inside `images/train` and `images/test`
+- this silently caused train and test samples to be dropped
+
+Fix:
+
+- `GLM/data/repair_split_images.py` was added
+- split directories were repaired and then cleaned so they contained only the images referenced by their corresponding JSON files
+
+### 8. Missing evaluation entrypoint
+
+Problem:
+
+- `python -m GLM.scripts.evaluate ...` exited immediately with no output
+
+Fix:
+
+- `evaluate.py` was missing `if __name__ == "__main__": main()`
+- this was added
+
+### 9. Missing metric dependencies during evaluation
+
+Problem:
+
+- ROUGE evaluation failed because `absl-py` and `rouge-score` were not installed
+
+Fix:
+
+- added the missing dependencies to `requirements.txt`
+
+### 10. Broken merged-model inference
+
+Problem:
+
+- checkpoint-based inference produced coherent outputs
+- merged-model inference produced multilingual/code-like garbage
+
+What this means:
+
+- the training checkpoint is valid
+- the merged export path is currently not trustworthy
+
+Mitigation:
+
+- preserve and use the checkpoint as the canonical artifact
+- store it separately in a checkpoint repo
+- validate export locally before ever pushing a merged model again
+
+### 11. DDP model-download race
+
+Problem:
+
+- multiple ranks tried to initialize `GLM-4.6V-Flash` simultaneously from Hugging Face
+- one rank observed an incomplete local snapshot and failed
+
+Fix:
+
+- `GLM/runpod_ddp.sh` now prefetches the model snapshot once before launching `torchrun`
+
+## Current Artifact Strategy
+
+### Trusted artifact
+
+- Checkpoint repo: `Raghav77/insurance-adjuster-glm46v-checkpoints`
+
+This repo contains:
+
+- `last.pt`
+- `runpod.yaml`
+
+This is the reliable recovery and evaluation artifact.
+
+### Untrusted artifact
+
+- Merged model repo: `Raghav77/insurance-adjuster-glm46v-lora-merged`
+
+This merged export currently loads but produces garbage outputs. It should not be treated as the final model artifact until the merge/export path is fixed.
+
+## Tracked Reports
+
+The repository now keeps the project outputs that are safe and useful to version:
+
+- evaluation metrics: `reports/evaluation/final_eval_checkpoint/metrics/test_metrics.json`
+- evaluation predictions: `reports/evaluation/final_eval_checkpoint/predictions.jsonl`
+- per-rank raw prediction dump: `reports/evaluation/final_eval_checkpoint/predictions/test_rank_0.jsonl`
+- W&B benchmark exports: `reports/benchmarks/wandb_exports/`
+
+Local W&B run files, `.wandb` binaries, and debug logs are intentionally not committed.
+
+## Recommended Usage Going Forward
+
+### Training
 
 ```bash
-python3 GLM/scripts/inference.py \
-  --config GLM/configs/runpod.yaml \
-  --image path/to/car.jpg \
-  --checkpoint outputs/run_name/last.pt
+CUDA_VISIBLE_DEVICES=0,1,2,3 \
+CONFIG_PATH=GLM/configs/runpod.yaml \
+OUTPUT_DIR=/workspace/outputs/final_train_g4 \
+NPROC_PER_NODE=4 \
+bash GLM/runpod_ddp.sh
 ```
 
-Optional JSON output:
+### Single-image checkpoint inference
 
 ```bash
-python3 GLM/scripts/inference.py \
+CUDA_VISIBLE_DEVICES=0 python3 -m GLM.scripts.inference \
   --config GLM/configs/runpod.yaml \
-  --image path/to/car.jpg \
-  --checkpoint outputs/run_name/last.pt \
-  --output outputs/inference/result.json
+  --checkpoint /workspace/outputs/checkpoints/last.pt \
+  --image /workspace/data/insurance_dataset/images/test/003619.jpg \
+  --prompt "You are an Insurance Adjuster. Evaluate the car damage shown in the image."
 ```
 
-## Runpod Notes
+### Final evaluation from checkpoint
 
-This repository is structured so the `GLM/` directory can be cloned directly onto the GPU instance and used with minimal setup friction.
-
-Recommended operational flow:
-
-1. upload the cleaned dataset to a Hugging Face dataset repo
-2. clone the project on Runpod
-3. run `GLM/runpod_setup.sh`
-4. confirm paths/configs
-5. launch `GLM/runpod_ddp.sh`
-
-## Metrics and Analysis
-
-The evaluation stack is intentionally modular:
-
-- `GLM/evaluation/prediction_schema.py`: normalized record format
-- `GLM/evaluation/io.py`: rank-wise persistence and merging
-- `GLM/evaluation/generation_metrics.py`: text-generation metrics
-- `GLM/evaluation/regression_metrics.py`: cost-estimation metrics
-- `GLM/evaluation/classification_metrics.py`: label metrics when available
-
-This lets you keep training/eval orchestration thin while adding metrics without turning `evaluate.py` into a monolith.
-
-## Current Status
-
-The GLM pipeline now includes:
-
-- dataset cleanup and split utilities
-- Hugging Face dataset upload/download flow
-- model loading for `GLM-4.6V-Flash`
-- GLM chat-template based collator
-- DDP-capable training loop with optional profiling
-- evaluation and inference entrypoints
-- WandB integration
-- Runpod setup and launch scripts
-
-## Remaining Practical Work Before a Full Run
-
-- verify final dataset paths on the Runpod workspace
-- run a 1-GPU smoke test end-to-end
-- confirm memory behavior for your exact batch size / grad accumulation settings
-- inspect training outputs and eval predictions before committing to a long run
+```bash
+CUDA_VISIBLE_DEVICES=0 python3 -m GLM.scripts.evaluate \
+  --config GLM/configs/runpod.yaml \
+  --checkpoint /workspace/outputs/checkpoints/last.pt \
+  --split test \
+  --output-dir /workspace/outputs/final_eval_checkpoint \
+  --num-workers 0 \
+  --log-every 1 \
+  --save-predictions
+```

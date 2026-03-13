@@ -232,6 +232,14 @@ This is the cleanest evidence that DDP helped in a controlled setting.
 
 This demonstrates practical throughput improvement, but because the effective global batch size changes with GPU count, it should be presented as operational speedup rather than pure controlled efficiency.
 
+### Benchmark figures
+
+![DDP throughput comparison](reports/benchmarks/plots/throughput_comparison.svg)
+
+![2-GPU scaling efficiency](reports/benchmarks/plots/scaling_efficiency.svg)
+
+These figures are generated from the committed W&B CSV exports in `reports/benchmarks/wandb_exports/` using `reports/benchmarks/plots/generate_benchmark_plots.py`.
+
 ### Why the 6-GPU benchmark was dropped
 
 The 6x A40 Runpod environment repeatedly showed NCCL instability:
@@ -471,6 +479,7 @@ The repository now keeps the project outputs that are safe and useful to version
 - evaluation predictions: `reports/evaluation/final_eval_checkpoint/predictions.jsonl`
 - per-rank raw prediction dump: `reports/evaluation/final_eval_checkpoint/predictions/test_rank_0.jsonl`
 - W&B benchmark exports: `reports/benchmarks/wandb_exports/`
+- benchmark plot generator and rendered figures: `reports/benchmarks/plots/`
 
 Local W&B run files, `.wandb` binaries, and debug logs are intentionally not committed.
 

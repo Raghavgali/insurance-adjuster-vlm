@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="540" viewBox="0 0 980 540" role="img">
+<style>
+text { font-family: Helvetica, Arial, sans-serif; fill: #14213d; }
+.title { font-size: 20px; font-weight: 700; }
+.subtitle { font-size: 12px; fill: #52607a; }
+.axis { font-size: 12px; }
+.label { font-size: 12px; font-weight: 700; }
+.value { font-size: 12px; font-weight: 700; }
+.small { font-size: 11px; fill: #52607a; }
+</style>
+<rect width="100%" height="100%" fill="#fffdf6"/>
+<text x="90" y="38" class="title">2-GPU Scaling Efficiency</text>
+<text x="90" y="60" class="subtitle">Efficiency = actual speedup / ideal 2x speedup. Controlled run is the stronger DDP claim.</text>
+<line x1="90" y1="450" x2="940" y2="450" stroke="#8d99ae" stroke-width="1.5"/>
+<line x1="90" y1="90" x2="90" y2="450" stroke="#8d99ae" stroke-width="1.5"/>
+<line x1="90" y1="450.0" x2="940" y2="450.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="454.0" text-anchor="end" class="axis">0%</text>
+<line x1="90" y1="378.0" x2="940" y2="378.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="382.0" text-anchor="end" class="axis">20%</text>
+<line x1="90" y1="306.0" x2="940" y2="306.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="310.0" text-anchor="end" class="axis">40%</text>
+<line x1="90" y1="234.0" x2="940" y2="234.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="238.0" text-anchor="end" class="axis">60%</text>
+<line x1="90" y1="162.0" x2="940" y2="162.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="166.0" text-anchor="end" class="axis">80%</text>
+<line x1="90" y1="90.0" x2="940" y2="90.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="94.0" text-anchor="end" class="axis">100%</text>
+<line x1="90" y1="90.0" x2="940" y2="90.0" stroke="#d62828" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="936" y="82.0" text-anchor="end" class="small">Ideal linear scaling (100%)</text>
+<rect x="300.5" y="116.5" width="140" height="333.5" rx="12" fill="#3a5a40"/>
+<text x="370.5" y="104.5" text-anchor="middle" class="value">92.6%</text>
+<text x="370.5" y="474.0" text-anchor="middle" class="label">Controlled</text>
+<text x="370.5" y="494.0" text-anchor="middle" class="small">speedup 1.85x</text>
+<rect x="598.0" y="134.9" width="140" height="315.1" rx="12" fill="#6d597a"/>
+<text x="668.0" y="122.9" text-anchor="middle" class="value">87.5%</text>
+<text x="668.0" y="474.0" text-anchor="middle" class="label">Real</text>
+<text x="668.0" y="494.0" text-anchor="middle" class="small">speedup 1.75x</text>
+</svg>
